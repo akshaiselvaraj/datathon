@@ -1,0 +1,10 @@
+{
+  "name": "alerts",
+  "version": "1.0.0",
+  "description": "Agentic anomaly cron detection engine for KAVERI",
+  "main": "index.js",
+  "dependencies": {
+    "node-fetch": "^2.6.9",
+    "dotenv": "^16.0.3"
+  }
+}

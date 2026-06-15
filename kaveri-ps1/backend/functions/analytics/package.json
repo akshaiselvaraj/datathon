@@ -1,0 +1,9 @@
+{
+  "name": "analytics",
+  "version": "1.0.0",
+  "description": "Crime trend aggregates and hotspots for KAVERI dashboard",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  }
+}

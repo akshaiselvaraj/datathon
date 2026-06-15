@@ -1,0 +1,1501 @@
+victim_id,name,age,gender,address,district,socio_economic_status
+VIC-2024-KA-0001,Janani Kaur,40,Male,"19/70, Savant, Eluru-428846",Belagavi,Middle Class
+VIC-2024-KA-0002,Jagvi Ganesan,42,Male,"40/70, Bansal, Kurnool-828503",Bengaluru Rural,Upper Middle Class
+VIC-2024-KA-0003,Faras Venkataraman,63,Male,"H.No. 873, Batra, Sikar-632699",Kalaburagi,Middle Class
+VIC-2024-KA-0004,Wazir Talwar,59,Other,"52/88, Srinivas Road, Bikaner-691551",Davangere,Lower Class
+VIC-2024-KA-0005,Amara Mitter,42,Other,"84, Nori, Tinsukia-370033",Bengaluru Rural,Upper Middle Class
+VIC-2024-KA-0006,Charan Ratta,19,Female,"72/53, Babu Zila, Bahraich 671090",Tumakuru,Middle Class
+VIC-2024-KA-0007,Agastya Gade,80,Female,"270, Shanker Zila, Bhalswa Jahangir Pur 743547",Davangere,Lower Class
+VIC-2024-KA-0008,Siya Chaudry,64,Other,"91, Dubey Marg, Kozhikode 990999",Hassan,Upper Middle Class
+VIC-2024-KA-0009,Gaurang Tak,30,Male,"93/664, Tank Road, Korba-230886",Kalaburagi,Upper Middle Class
+VIC-2024-KA-0010,Gautami Balan,21,Female,"39, Char Nagar, Berhampur 843913",Kalaburagi,Middle Class
+VIC-2024-KA-0011,Robert Prabhakar,61,Other,"78, Shetty Road, Nizamabad 826522",Vijayapura,Lower Class
+VIC-2024-KA-0012,Dipta Bawa,9,Other,"984, Butala Nagar, Anantapuram 081614",Mangaluru,Lower Class
+VIC-2024-KA-0013,Krish Loyal,16,Female,"337, Dey Marg, Bangalore-767917",Tumakuru,Middle Class
+VIC-2024-KA-0014,Wahab Karnik,14,Female,"311, Palla Street, Bhiwani 473260",Belagavi,Middle Class
+VIC-2024-KA-0015,Jeevika Koshy,66,Other,"95, More Path, Bidar 485410",Mysuru,Lower Class
+VIC-2024-KA-0016,Gaurav Chacko,17,Male,"40, Venkataraman Street, Dibrugarh 482665",Vijayapura,Upper Middle Class
+VIC-2024-KA-0017,Ranveer Kulkarni,25,Female,"03/29, Kale Circle, Bidhannagar-683968",Hassan,Middle Class
+VIC-2024-KA-0018,Hritik Madan,84,Female,"H.No. 765, Kannan Marg, Hindupur 016346",Mangaluru,Upper Middle Class
+VIC-2024-KA-0019,Agastya Dalal,27,Female,"43/295, Parmer Street, Udupi 749477",Belagavi,Lower Class
+VIC-2024-KA-0020,Yagnesh Cherian,41,Male,"42/86, Pathak Nagar, Ramagundam-998335",Bengaluru Rural,Upper Middle Class
+VIC-2024-KA-0021,Aditya Ray,85,Female,"38, Sama Zila, Amravati 888687",Davangere,Upper Middle Class
+VIC-2024-KA-0022,Raghav Raj,37,Female,"18, Choudhary Road, Hyderabad 761243",Ballari,Middle Class
+VIC-2024-KA-0023,Chandani Dar,69,Female,"H.No. 22, Tak Chowk, Hospet 874500",Mysuru,Upper Middle Class
+VIC-2024-KA-0024,Abhiram Morar,32,Other,"91, Swamy Zila, Srinagar 139910",Hassan,Upper Middle Class
+VIC-2024-KA-0025,Gagan Sundaram,23,Male,"37, Acharya Street, Panipat 340730",Hassan,Middle Class
+VIC-2024-KA-0026,Ethan Ratti,78,Male,"H.No. 75, Chad Ganj, Gulbarga 574044",Ballari,Upper Middle Class
+VIC-2024-KA-0027,Chatresh Goel,13,Male,"56/614, Mohanty Ganj, Pallavaram-143844",Bengaluru Rural,Middle Class
+VIC-2024-KA-0028,Jackson Gera,36,Male,"H.No. 22, Chadha, Phusro-330154",Hubballi-Dharwad,Lower Class
+VIC-2024-KA-0029,Jasmit Bera,37,Male,"73/165, Issac Road, Farrukhabad-061436",Bengaluru Rural,Middle Class
+VIC-2024-KA-0030,Devansh Kari,83,Female,"H.No. 540, Chaudry Marg, Meerut-606959",Shivamogga,Upper Middle Class
+VIC-2024-KA-0031,Frado Zachariah,68,Female,"33/869, Shukla, Kottayam-322285",Mangaluru,Middle Class
+VIC-2024-KA-0032,Devansh Agate,66,Male,"25, Sule, Raipur-163045",Belagavi,Lower Class
+VIC-2024-KA-0033,Bhavna Walia,7,Female,"H.No. 317, Virk Street, Aurangabad 321236",Bengaluru Urban,Lower Class
+VIC-2024-KA-0034,Charita Bhakta,54,Other,"89/985, Nayak Street, Buxar-918788",Vijayapura,Lower Class
+VIC-2024-KA-0035,Andrew Narang,80,Female,"23, Borra Path, Surendranagar Dudhrej-644604",Mysuru,Lower Class
+VIC-2024-KA-0036,Arin Chander,72,Other,"H.No. 27, Shankar, Amravati 052763",Vijayapura,Lower Class
+VIC-2024-KA-0037,Xiti Bail,11,Male,"37/314, Chauhan Street, Saharsa 623452",Ballari,Lower Class
+VIC-2024-KA-0038,Nidra Naik,5,Other,"47/951, Pandit Ganj, Sambalpur 546146",Bengaluru Urban,Lower Class
+VIC-2024-KA-0039,Unnati Venkataraman,79,Female,"50/46, Kashyap Nagar, Parbhani 927261",Hubballi-Dharwad,Upper Middle Class
+VIC-2024-KA-0040,Unnati Baria,36,Female,"91/05, Subramaniam Path, Surendranagar Dudhrej-365060",Hubballi-Dharwad,Middle Class
+VIC-2024-KA-0041,Leela Iyer,77,Female,"H.No. 684, Chandra Circle, Thane 984024",Tumakuru,Middle Class
+VIC-2024-KA-0042,Charita Walia,63,Female,"35/030, Lanka Street, Bulandshahr 941082",Chikkamagaluru,Lower Class
+VIC-2024-KA-0043,Harshil Pandya,31,Female,"H.No. 395, Sodhi Street, Dehri-958538",Mysuru,Middle Class
+VIC-2024-KA-0044,Gauri Kala,10,Other,"73, Shan Nagar, Serampore-362237",Belagavi,Middle Class
+VIC-2024-KA-0045,Girik Lal,68,Male,"H.No. 08, Sahota Zila, Bettiah 932536",Ballari,Upper Middle Class
+VIC-2024-KA-0046,Lila Kota,31,Male,"71, Goswami, Gorakhpur 806097",Mangaluru,Middle Class
+VIC-2024-KA-0047,Kashvi Viswanathan,39,Other,"H.No. 645, Krishnan Path, Begusarai-666162",Bengaluru Rural,Upper Middle Class
+VIC-2024-KA-0048,Anusha Buch,65,Male,"44/67, Samra Marg, Bareilly-657777",Belagavi,Middle Class
+VIC-2024-KA-0049,Agastya Chaudhuri,57,Other,"63, Sodhi Street, Burhanpur 493509",Shivamogga,Lower Class
+VIC-2024-KA-0050,Kiaan Krishnamurthy,57,Male,"898, Prabhu Chowk, Mirzapur-495428",Belagavi,Upper Middle Class
+VIC-2024-KA-0051,Kashvi Pradhan,46,Female,"27/052, Ramachandran Street, Varanasi-530920",Davangere,Lower Class
+VIC-2024-KA-0052,Chanchal Shukla,65,Male,"H.No. 40, Suresh Ganj, Navi Mumbai-844200",Hubballi-Dharwad,Upper Middle Class
+VIC-2024-KA-0053,Lila Shroff,32,Male,"494, Dani Nagar, South Dumdum 258404",Chikkamagaluru,Middle Class
+VIC-2024-KA-0054,Teerth Dua,22,Female,"H.No. 791, Rattan Road, Surat 171753",Shivamogga,Lower Class
+VIC-2024-KA-0055,Yochana Mutti,77,Other,"H.No. 376, Palan Circle, Rajpur Sonarpur 687573",Mangaluru,Middle Class
+VIC-2024-KA-0056,Vamakshi Kakar,5,Other,"22, Dugar Path, Madurai-468680",Mangaluru,Upper Middle Class
+VIC-2024-KA-0057,Harshil Bal,6,Female,"59, Devan Ganj, Giridih 910217",Chikkamagaluru,Upper Middle Class
+VIC-2024-KA-0058,Frederick Bhatnagar,57,Other,"52/88, Lad Street, Ramgarh 682724",Vijayapura,Middle Class
+VIC-2024-KA-0059,Zashil Kale,11,Female,"H.No. 67, Bala Road, Bahraich 589224",Shivamogga,Upper Middle Class
+VIC-2024-KA-0060,Jeremiah Pingle,72,Other,"818, Gola Road, Gudivada 074874",Vijayapura,Middle Class
+VIC-2024-KA-0061,Madhavi Gulati,35,Other,"18/996, Sandhu, Pallavaram 669783",Ballari,Upper Middle Class
+VIC-2024-KA-0062,Nirja Nori,20,Female,"H.No. 723, Butala Path, Kochi 565821",Davangere,Upper Middle Class
+VIC-2024-KA-0063,Yatin Halder,38,Male,"92/906, Arya Path, Tirupati-010873",Belagavi,Upper Middle Class
+VIC-2024-KA-0064,Saksham Dhar,55,Male,"H.No. 08, Sule Zila, Gurgaon-132439",Vijayapura,Upper Middle Class
+VIC-2024-KA-0065,Mekhala Bajaj,80,Other,"31, Kapoor Path, Bangalore 251830",Mysuru,Middle Class
+VIC-2024-KA-0066,Ira Desai,12,Other,"H.No. 92, Ramesh Marg, Asansol-545333",Bengaluru Urban,Middle Class
+VIC-2024-KA-0067,Vaishnavi More,69,Male,"H.No. 13, Pant Road, Bihar Sharif 445030",Vijayapura,Middle Class
+VIC-2024-KA-0068,Charan Sha,47,Male,"62/21, Chahal Nagar, Jamnagar 459558",Kalaburagi,Upper Middle Class
+VIC-2024-KA-0069,Pushti Narain,24,Other,"66, Solanki Zila, Deoghar 093478",Mysuru,Upper Middle Class
+VIC-2024-KA-0070,Vasana Khurana,67,Male,"72, Ganguly Road, Bhimavaram-691906",Bengaluru Rural,Middle Class
+VIC-2024-KA-0071,Wridesh Desai,82,Other,"H.No. 28, Aggarwal Street, Navi Mumbai-737108",Bengaluru Rural,Lower Class
+VIC-2024-KA-0072,Yoshita Oza,15,Female,"10, Nair Path, Tumkur 663993",Shivamogga,Lower Class
+VIC-2024-KA-0073,Saumya Rege,55,Other,"H.No. 932, Balasubramanian Nagar, Etawah-111807",Ballari,Middle Class
+VIC-2024-KA-0074,Zayan Radhakrishnan,40,Male,"H.No. 18, Varma Chowk, Allahabad-465803",Mangaluru,Upper Middle Class
+VIC-2024-KA-0075,Yug Sachdeva,5,Female,"03/19, Virk Circle, Bhilwara 537735",Kalaburagi,Middle Class
+VIC-2024-KA-0076,Anamika Minhas,22,Female,"H.No. 84, Chatterjee Zila, Anantapur-390771",Shivamogga,Middle Class
+VIC-2024-KA-0077,Gunbir Ravel,61,Male,"42/41, Comar Chowk, Rohtak-272139",Tumakuru,Upper Middle Class
+VIC-2024-KA-0078,Sachi Savant,85,Other,"35/218, Sangha Road, Jalna 624194",Shivamogga,Upper Middle Class
+VIC-2024-KA-0079,Netra Zachariah,77,Female,"99/69, Loyal Road, Satara 501313",Chikkamagaluru,Upper Middle Class
+VIC-2024-KA-0080,Harinakshi Solanki,82,Female,"H.No. 90, Chaudhari Marg, Vadodara 653489",Belagavi,Upper Middle Class
+VIC-2024-KA-0081,Krishna Roy,80,Female,"26/59, Sarin Marg, Bharatpur-333107",Chikkamagaluru,Lower Class
+VIC-2024-KA-0082,Sathvik Basak,39,Male,"H.No. 23, Jha Road, Baranagar-179935",Shivamogga,Middle Class
+VIC-2024-KA-0083,Chandresh Luthra,43,Male,"89/027, Naidu Road, Hosur-759595",Vijayapura,Middle Class
+VIC-2024-KA-0084,Kamala Kant,36,Other,"H.No. 278, Mittal Ganj, Gandhidham-491338",Shivamogga,Lower Class
+VIC-2024-KA-0085,Nilima Wable,39,Male,"52/896, Nagar Road, Bidhannagar-341634",Belagavi,Middle Class
+VIC-2024-KA-0086,Ojas Nagarajan,52,Male,"H.No. 75, Bhatt Road, Bareilly 276110",Vijayapura,Upper Middle Class
+VIC-2024-KA-0087,Dhruv Iyengar,39,Female,"36/273, Morar Chowk, Ichalkaranji 215614",Tumakuru,Lower Class
+VIC-2024-KA-0088,Yadavi Kari,67,Male,"73, Merchant Ganj, Dewas 075482",Hubballi-Dharwad,Upper Middle Class
+VIC-2024-KA-0089,Onkar Sarma,72,Male,"18/196, Ravi Chowk, Sirsa 834966",Ballari,Upper Middle Class
+VIC-2024-KA-0090,Praneel Wali,57,Male,"07/93, Varughese Circle, Siwan-648981",Bengaluru Rural,Lower Class
+VIC-2024-KA-0091,Omkaar Vohra,45,Other,"925, Mander Zila, Danapur-744847",Vijayapura,Upper Middle Class
+VIC-2024-KA-0092,Qasim Banik,58,Male,"529, Shroff Chowk, Burhanpur-862697",Mysuru,Middle Class
+VIC-2024-KA-0093,Deepa Morar,33,Female,"H.No. 93, Venkataraman Ganj, Jhansi 405516",Bengaluru Urban,Lower Class
+VIC-2024-KA-0094,Bhavya Narayanan,70,Other,"92/391, Aggarwal Nagar, Alwar-453104",Davangere,Middle Class
+VIC-2024-KA-0095,Janya Char,53,Male,"H.No. 307, Dasgupta Nagar, Kharagpur 582009",Vijayapura,Lower Class
+VIC-2024-KA-0096,Samesh Hari,79,Other,"H.No. 318, Rattan Circle, Hajipur 668122",Davangere,Middle Class
+VIC-2024-KA-0097,Bimala Behl,35,Other,"H.No. 40, Sodhi Chowk, Chapra-789387",Kalaburagi,Middle Class
+VIC-2024-KA-0098,Kavya Krishnan,74,Female,"75/99, Kakar, Jabalpur 265574",Mangaluru,Middle Class
+VIC-2024-KA-0099,Nidhi Chauhan,20,Other,"H.No. 599, Guha Chowk, Karimnagar-519044",Mysuru,Upper Middle Class
+VIC-2024-KA-0100,Raghav Samra,53,Other,"95/002, Kapoor Ganj, Kishanganj 428602",Shivamogga,Middle Class
+VIC-2024-KA-0101,Wakeeta Koshy,70,Male,"91, Lal Road, Ongole-139957",Ballari,Upper Middle Class
+VIC-2024-KA-0102,Jhalak Gaba,53,Male,"77/93, Subramanian Ganj, Pudukkottai 762093",Bengaluru Urban,Lower Class
+VIC-2024-KA-0103,Warinder Oommen,49,Male,"H.No. 659, Ghosh Zila, Udupi-147073",Vijayapura,Upper Middle Class
+VIC-2024-KA-0104,Caleb Panchal,71,Other,"H.No. 396, Yadav Ganj, Ongole-141430",Tumakuru,Lower Class
+VIC-2024-KA-0105,Xavier Suresh,77,Female,"H.No. 96, Tripathi Marg, Siliguri-815206",Kalaburagi,Lower Class
+VIC-2024-KA-0106,Meghana Mody,8,Male,"H.No. 549, Bassi Nagar, Bathinda 480261",Shivamogga,Upper Middle Class
+VIC-2024-KA-0107,Yashasvi Verma,14,Female,"H.No. 275, Bora Ganj, Ambattur 433486",Tumakuru,Middle Class
+VIC-2024-KA-0108,Ati Ghosh,55,Female,"978, Goyal Street, Adoni 428035",Vijayapura,Middle Class
+VIC-2024-KA-0109,Kamya Ganesh,25,Male,"H.No. 297, Chahal Ganj, Agartala-192824",Davangere,Lower Class
+VIC-2024-KA-0110,Rachana Lalla,44,Other,"H.No. 689, Sant Chowk, Ajmer 411836",Vijayapura,Middle Class
+VIC-2024-KA-0111,Parth Cherian,54,Female,"202, Vohra Road, Kalyan-Dombivli 210638",Bengaluru Rural,Upper Middle Class
+VIC-2024-KA-0112,Manan Basak,28,Other,"368, Aggarwal Chowk, Avadi 558990",Davangere,Middle Class
+VIC-2024-KA-0113,Jonathan Wable,44,Other,"88, Bhavsar Path, Jalgaon-510508",Kalaburagi,Middle Class
+VIC-2024-KA-0114,Sarthak Bhatti,13,Other,"288, Patil Zila, Davanagere-023152",Davangere,Lower Class
+VIC-2024-KA-0115,Devika Munshi,33,Male,"35/975, Nayar Zila, Jalgaon 917503",Mangaluru,Lower Class
+VIC-2024-KA-0116,Balveer Kunda,24,Male,"H.No. 803, Gandhi Road, Sasaram-413483",Kalaburagi,Upper Middle Class
+VIC-2024-KA-0117,Anjali Talwar,76,Female,"88/835, Tailor, Siliguri 241020",Bengaluru Rural,Middle Class
+VIC-2024-KA-0118,Ayushman Issac,8,Female,"966, Manda Road, Jamnagar 700248",Belagavi,Middle Class
+VIC-2024-KA-0119,Divya Rout,70,Female,"74/835, Chakrabarti Chowk, Orai 100657",Mangaluru,Upper Middle Class
+VIC-2024-KA-0120,Chaman Nayak,84,Male,"65/71, Mohan Path, New Delhi-571227",Hubballi-Dharwad,Upper Middle Class
+VIC-2024-KA-0121,Yug Sahota,18,Female,"15/969, Deep, Machilipatnam-614554",Shivamogga,Middle Class
+VIC-2024-KA-0122,Sai Madan,83,Male,"H.No. 05, Singh Circle, Dehri-065562",Mysuru,Upper Middle Class
+VIC-2024-KA-0123,Indrajit Sarna,55,Female,"74/141, Gade Nagar, Ozhukarai 849931",Mysuru,Lower Class
+VIC-2024-KA-0124,Devika Nayak,77,Male,"H.No. 32, Majumdar Nagar, Hapur-144055",Kalaburagi,Lower Class
+VIC-2024-KA-0125,Aradhana Gaba,62,Male,"80/588, Munshi Chowk, Saharsa-958127",Tumakuru,Middle Class
+VIC-2024-KA-0126,Hemal Kara,79,Other,"H.No. 88, Bhargava Marg, Haldia 874041",Shivamogga,Lower Class
+VIC-2024-KA-0127,Bahadurjit Kade,66,Female,"47/94, Majumdar Marg, Fatehpur-888273",Chikkamagaluru,Middle Class
+VIC-2024-KA-0128,Fariq Sridhar,37,Other,"55, Bath Marg, Ambarnath 172163",Mangaluru,Middle Class
+VIC-2024-KA-0129,Chatura Bhatia,49,Male,"62, Shan Marg, New Delhi 313670",Mangaluru,Middle Class
+VIC-2024-KA-0130,Chandani Balay,45,Female,"67/00, Bhattacharyya Marg, Jaipur 553330",Hubballi-Dharwad,Middle Class
+VIC-2024-KA-0131,Viraj Balay,50,Female,"62/359, Prashad Nagar, Jabalpur-084185",Davangere,Upper Middle Class
+VIC-2024-KA-0132,Pooja Lata,19,Male,"H.No. 17, Nazareth Road, Faridabad 372650",Vijayapura,Upper Middle Class
+VIC-2024-KA-0133,Ganga Andra,73,Male,"H.No. 32, Hans Marg, Pondicherry-194506",Hassan,Upper Middle Class
+VIC-2024-KA-0134,Charles Agrawal,16,Male,"H.No. 17, Gokhale Zila, Tadipatri-721956",Kalaburagi,Lower Class
+VIC-2024-KA-0135,Upma Natt,78,Male,"89/37, Ratta Circle, Kozhikode 836955",Kalaburagi,Lower Class
+VIC-2024-KA-0136,Falguni Uppal,16,Male,"H.No. 087, Madan Zila, Begusarai 555673",Kalaburagi,Upper Middle Class
+VIC-2024-KA-0137,Urvashi Tata,70,Female,"H.No. 12, Tak Chowk, Munger-787780",Ballari,Middle Class
+VIC-2024-KA-0138,Hemani Johal,72,Other,"H.No. 82, Kale Chowk, Sri Ganganagar 326264",Ballari,Lower Class
+VIC-2024-KA-0139,Gaurangi Minhas,68,Female,"70, Shanker Zila, Raebareli 999196",Mangaluru,Lower Class
+VIC-2024-KA-0140,Aayush Ramaswamy,66,Male,"89/23, Mani Zila, Navi Mumbai-599271",Hassan,Lower Class
+VIC-2024-KA-0141,Hardik Wagle,84,Female,"H.No. 29, Sahota Circle, Karnal 248351",Hubballi-Dharwad,Lower Class
+VIC-2024-KA-0142,Meghana Karnik,37,Other,"H.No. 83, Shan Nagar, Chandigarh 899992",Hassan,Middle Class
+VIC-2024-KA-0143,Bhavna Subramanian,21,Female,"03/200, Sanghvi Ganj, Malegaon-309223",Ballari,Upper Middle Class
+VIC-2024-KA-0144,Rohan Bali,27,Female,"H.No. 51, Kanda Road, Kumbakonam-394787",Hassan,Upper Middle Class
+VIC-2024-KA-0145,Abha Madan,45,Female,"170, Varughese Zila, North Dumdum 703484",Hassan,Lower Class
+VIC-2024-KA-0146,Mugdha Swaminathan,73,Other,"H.No. 715, Muni Marg, Ambattur 434274",Davangere,Lower Class
+VIC-2024-KA-0147,Bhanumati Wason,24,Male,"H.No. 842, Yohannan Ganj, Nagpur 905096",Shivamogga,Upper Middle Class
+VIC-2024-KA-0148,Xavier Krishnamurthy,68,Other,"99, Sule Street, Chennai 264744",Mangaluru,Lower Class
+VIC-2024-KA-0149,Ganga Handa,45,Male,"24/070, Bhargava Zila, Yamunanagar 620613",Mangaluru,Upper Middle Class
+VIC-2024-KA-0150,Yashoda Tailor,56,Male,"H.No. 335, Mann Zila, Panihati-843984",Bengaluru Urban,Middle Class
+VIC-2024-KA-0151,Janya Tella,39,Female,"44/97, Contractor Nagar, Nagercoil-236083",Hubballi-Dharwad,Upper Middle Class
+VIC-2024-KA-0152,Vasana Devan,67,Male,"H.No. 379, Sama Path, Rewa 121265",Davangere,Upper Middle Class
+VIC-2024-KA-0153,Laksh Grover,51,Male,"86/273, Krishnan Circle, Sultan Pur Majra 710921",Bengaluru Rural,Lower Class
+VIC-2024-KA-0154,Gauri Dugar,15,Female,"38, Raj Marg, Jaunpur 350329",Bengaluru Urban,Upper Middle Class
+VIC-2024-KA-0155,Advay Nagar,59,Male,"01/904, Sant Road, Bhimavaram 380777",Mangaluru,Upper Middle Class
+VIC-2024-KA-0156,Alka Mahal,58,Female,"64/385, Swaminathan Marg, Gurgaon-953443",Davangere,Upper Middle Class
+VIC-2024-KA-0157,Saanvi Gill,82,Other,"404, Sharaf Street, Uluberia 414877",Belagavi,Upper Middle Class
+VIC-2024-KA-0158,Faris Sur,16,Other,"31/86, Jaggi Zila, Berhampore 198337",Chikkamagaluru,Upper Middle Class
+VIC-2024-KA-0159,Warinder Bobal,21,Other,"53/93, Bhattacharyya Ganj, Dehri 221714",Shivamogga,Middle Class
+VIC-2024-KA-0160,Xavier Dutta,67,Male,"08/38, Swamy Path, Chittoor 017142",Mysuru,Middle Class
+VIC-2024-KA-0161,Pushti Buch,43,Other,"59/75, Krishnamurthy Nagar, Ajmer-150642",Kalaburagi,Lower Class
+VIC-2024-KA-0162,Max Sura,49,Other,"H.No. 68, Kar Street, Navi Mumbai-435110",Hubballi-Dharwad,Lower Class
+VIC-2024-KA-0163,Yatin Parmar,26,Female,"99/48, Prashad Nagar, Kumbakonam 702288",Ballari,Upper Middle Class
+VIC-2024-KA-0164,Ekantika Dora,76,Other,"48, Rout Road, Nashik-012967",Mangaluru,Middle Class
+VIC-2024-KA-0165,Jyoti Pandya,13,Male,"595, Upadhyay Chowk, Dindigul-829995",Bengaluru Rural,Lower Class
+VIC-2024-KA-0166,Abeer Mallick,61,Male,"69, Dey Path, Bokaro 144274",Tumakuru,Middle Class
+VIC-2024-KA-0167,Teerth Deshmukh,82,Male,"H.No. 27, Chana Marg, Kochi 080750",Chikkamagaluru,Middle Class
+VIC-2024-KA-0168,Ekaraj Nayar,65,Female,"29, Mishra Road, Bhavnagar-311049",Tumakuru,Middle Class
+VIC-2024-KA-0169,Aryan Lanka,6,Other,"52/62, Char Nagar, Anand 271508",Tumakuru,Middle Class
+VIC-2024-KA-0170,Indali Kade,27,Female,"H.No. 902, Sankar Circle, Jorhat-609689",Tumakuru,Upper Middle Class
+VIC-2024-KA-0171,Megha Vasa,44,Male,"031, Prakash Street, Uluberia-047412",Ballari,Lower Class
+VIC-2024-KA-0172,Mohammed Deshmukh,43,Female,"70/790, Kapadia Nagar, Raichur 469241",Davangere,Upper Middle Class
+VIC-2024-KA-0173,Daksh Narayan,66,Female,"H.No. 05, Raja Circle, Adoni-874658",Ballari,Upper Middle Class
+VIC-2024-KA-0174,Wishi Handa,22,Female,"78/963, Mukhopadhyay Marg, Mau 105014",Tumakuru,Lower Class
+VIC-2024-KA-0175,Om Dey,16,Female,"H.No. 16, Rao Chowk, Burhanpur 068281",Vijayapura,Lower Class
+VIC-2024-KA-0176,Nihal Palan,42,Male,"10/13, Mane Zila, Hazaribagh 763263",Vijayapura,Middle Class
+VIC-2024-KA-0177,Zashil Kunda,55,Other,"31/038, Brar Path, Ambala 903040",Belagavi,Lower Class
+VIC-2024-KA-0178,Peter Parmar,75,Male,"890, Yogi Nagar, Rajahmundry-339081",Bengaluru Rural,Middle Class
+VIC-2024-KA-0179,Tara Sem,15,Other,"H.No. 896, Pai Ganj, Kolkata-674885",Kalaburagi,Lower Class
+VIC-2024-KA-0180,Niharika Modi,80,Female,"49/984, Rajan, Machilipatnam-882493",Vijayapura,Lower Class
+VIC-2024-KA-0181,Jeet Jhaveri,53,Female,"77, Agarwal Street, Tiruppur 930579",Bengaluru Rural,Middle Class
+VIC-2024-KA-0182,Nirja Jaggi,36,Female,"H.No. 24, Ramakrishnan Street, Vasai-Virar 532923",Ballari,Upper Middle Class
+VIC-2024-KA-0183,Vyanjana Lad,60,Other,"978, Narayan Nagar, Bidhannagar 353776",Mysuru,Upper Middle Class
+VIC-2024-KA-0184,Dhruv Mandal,55,Other,"24/571, Ranganathan Ganj, Miryalaguda 904731",Ballari,Lower Class
+VIC-2024-KA-0185,Hemani Sunder,12,Female,"18/607, Majumdar Nagar, Tumkur-258521",Tumakuru,Upper Middle Class
+VIC-2024-KA-0186,Chaitanya Bhakta,49,Female,"H.No. 81, Narayan Marg, Jalgaon-999537",Davangere,Middle Class
+VIC-2024-KA-0187,Qarin Bala,28,Female,"H.No. 337, Thaman Zila, Madhyamgram-485349",Ballari,Upper Middle Class
+VIC-2024-KA-0188,Advik Bali,73,Female,"43/10, Bose Marg, Hazaribagh 745978",Davangere,Upper Middle Class
+VIC-2024-KA-0189,Bhavna Sekhon,81,Male,"H.No. 475, Sarna Chowk, Kharagpur 314039",Bengaluru Rural,Lower Class
+VIC-2024-KA-0190,Om Srivastava,72,Female,"H.No. 31, Nagy Path, Jalna-097585",Vijayapura,Upper Middle Class
+VIC-2024-KA-0191,Wahab Dar,84,Other,"545, Rout Marg, Bareilly-060252",Tumakuru,Middle Class
+VIC-2024-KA-0192,Oviya Mane,46,Female,"23/782, Mani Nagar, Dhule-318754",Kalaburagi,Upper Middle Class
+VIC-2024-KA-0193,Chaitaly Chawla,43,Other,"420, Mand Zila, Jabalpur-204989",Bengaluru Rural,Middle Class
+VIC-2024-KA-0194,Urvashi Tak,50,Male,"40/110, Ratti Path, Jalandhar-202410",Hubballi-Dharwad,Lower Class
+VIC-2024-KA-0195,Hredhaan Kunda,41,Male,"H.No. 20, Hegde Road, Kavali 351720",Kalaburagi,Lower Class
+VIC-2024-KA-0196,Chakradev Arora,49,Other,"H.No. 04, Dada Street, Ratlam 257441",Davangere,Middle Class
+VIC-2024-KA-0197,Samaksh Garde,39,Other,"01/498, Chaudhary Marg, Junagadh 010694",Hubballi-Dharwad,Middle Class
+VIC-2024-KA-0198,Fitan Sarin,58,Female,"H.No. 85, Pau Zila, Adoni-989036",Mangaluru,Upper Middle Class
+VIC-2024-KA-0199,Eshana Wason,85,Female,"H.No. 341, Baria Nagar, Bongaigaon-032686",Belagavi,Upper Middle Class
+VIC-2024-KA-0200,Forum Raj,58,Other,"957, Chatterjee Chowk, Ludhiana-365449",Bengaluru Urban,Lower Class
+VIC-2024-KA-0201,Tripti Pathak,82,Female,"95/892, Borde Zila, Jehanabad-585891",Hassan,Lower Class
+VIC-2024-KA-0202,Aadhya Mukherjee,54,Other,"H.No. 26, Dass Circle, Jehanabad-089776",Mangaluru,Middle Class
+VIC-2024-KA-0203,Utkarsh Dugal,41,Male,"69/78, Patla, Amritsar 046787",Davangere,Upper Middle Class
+VIC-2024-KA-0204,Hemang Datta,62,Male,"12/33, Balasubramanian, Nagercoil-663813",Shivamogga,Middle Class
+VIC-2024-KA-0205,Rajata Sachdeva,16,Female,"90/99, Choudhary Chowk, Maheshtala 613389",Bengaluru Urban,Lower Class
+VIC-2024-KA-0206,Yamini Dutta,78,Female,"H.No. 546, Shroff Zila, Berhampore 214038",Shivamogga,Upper Middle Class
+VIC-2024-KA-0207,Pranav Nigam,32,Female,"85/12, Parekh Chowk, Mango 512182",Vijayapura,Middle Class
+VIC-2024-KA-0208,Maya Bahri,33,Female,"H.No. 106, Pau Road, Bhimavaram-222662",Mangaluru,Upper Middle Class
+VIC-2024-KA-0209,Jeevika Goel,42,Other,"503, De Nagar, Fatehpur-221523",Mangaluru,Upper Middle Class
+VIC-2024-KA-0210,Gabriel Mammen,43,Female,"46/94, Toor Zila, Chinsurah 762011",Vijayapura,Upper Middle Class
+VIC-2024-KA-0211,Garima Zachariah,9,Female,"852, Sethi Circle, Dehradun 159458",Davangere,Upper Middle Class
+VIC-2024-KA-0212,Adweta Mani,73,Male,"H.No. 929, Ratti Chowk, Ulhasnagar 578603",Davangere,Upper Middle Class
+VIC-2024-KA-0213,Pranav Ganesan,64,Male,"H.No. 182, Keer Road, Ahmednagar 795490",Bengaluru Rural,Middle Class
+VIC-2024-KA-0214,Kamya Bhagat,39,Other,"H.No. 791, Bhatnagar Path, Adoni 399916",Shivamogga,Middle Class
+VIC-2024-KA-0215,Sarthak Bhatti,44,Female,"31/13, Amble Street, Deoghar-414151",Kalaburagi,Upper Middle Class
+VIC-2024-KA-0216,Reyansh Ratti,21,Other,"25, Chana Circle, Gandhidham-140484",Vijayapura,Middle Class
+VIC-2024-KA-0217,Amara Ramachandran,18,Other,"H.No. 51, Om Nagar, Singrauli-980504",Tumakuru,Middle Class
+VIC-2024-KA-0218,Wridesh Agate,55,Male,"H.No. 35, Sane Street, Ballia 461405",Hassan,Lower Class
+VIC-2024-KA-0219,Isha Dugar,25,Other,"H.No. 030, Aurora Chowk, Aurangabad-046563",Hassan,Middle Class
+VIC-2024-KA-0220,Pushti Bal,36,Male,"H.No. 884, Rege Circle, Nizamabad-307161",Chikkamagaluru,Upper Middle Class
+VIC-2024-KA-0221,Lucky Natt,74,Male,"05/563, Buch Ganj, Vasai-Virar-395908",Tumakuru,Upper Middle Class
+VIC-2024-KA-0222,Utkarsh Sharma,5,Male,"17/523, Patel, Amritsar 957241",Shivamogga,Middle Class
+VIC-2024-KA-0223,Eesha Barad,9,Other,"63/840, Dey Ganj, Bhiwandi 315334",Hubballi-Dharwad,Middle Class
+VIC-2024-KA-0224,Ranbir Dhar,82,Female,"51, Narasimhan Road, Surendranagar Dudhrej 552215",Hubballi-Dharwad,Lower Class
+VIC-2024-KA-0225,Harish Kata,11,Male,"75/333, Sha Marg, Hyderabad-639273",Chikkamagaluru,Lower Class
+VIC-2024-KA-0226,Bhavika Bumb,65,Female,"H.No. 33, Atwal Street, Rampur 697171",Hassan,Middle Class
+VIC-2024-KA-0227,Vasatika Rajagopalan,18,Female,"796, Choudhry Ganj, Warangal-816675",Vijayapura,Upper Middle Class
+VIC-2024-KA-0228,David Amble,67,Male,"44/04, Kapoor Nagar, Burhanpur-803261",Mangaluru,Upper Middle Class
+VIC-2024-KA-0229,Lajita Sibal,71,Male,"74/93, Khare Chowk, Anand 070017",Mangaluru,Lower Class
+VIC-2024-KA-0230,Qushi Bhardwaj,29,Male,"H.No. 94, Sur Circle, Junagadh 218159",Shivamogga,Upper Middle Class
+VIC-2024-KA-0231,Alka Basak,24,Other,"H.No. 38, Pal Marg, Bellary-459075",Bengaluru Rural,Lower Class
+VIC-2024-KA-0232,Pranit Ganesh,57,Female,"H.No. 38, Pandey Circle, Panipat-872588",Davangere,Upper Middle Class
+VIC-2024-KA-0233,Ryan Kibe,35,Male,"H.No. 683, Chatterjee Zila, Siwan-301515",Hassan,Middle Class
+VIC-2024-KA-0234,Anvi Rattan,16,Female,"27, Pal Road, Belgaum 705431",Hassan,Upper Middle Class
+VIC-2024-KA-0235,Neel Buch,77,Female,"H.No. 870, Garg Circle, Proddatur-558047",Ballari,Lower Class
+VIC-2024-KA-0236,Garima Mall,25,Other,"67/553, Boase Street, Aizawl 386436",Bengaluru Urban,Upper Middle Class
+VIC-2024-KA-0237,Azaan Mander,60,Female,"82, Saraf Path, Warangal 963741",Mysuru,Lower Class
+VIC-2024-KA-0238,Chaman Varghese,7,Other,"711, Gaba Path, Erode 534366",Davangere,Lower Class
+VIC-2024-KA-0239,Harita Nagar,48,Female,"420, Lal Chowk, Chennai 648284",Hassan,Upper Middle Class
+VIC-2024-KA-0240,Nicholas Balasubramanian,7,Male,"92/045, Salvi Zila, Mango-287523",Hubballi-Dharwad,Middle Class
+VIC-2024-KA-0241,Zashil Sem,59,Other,"H.No. 53, Modi Circle, Faridabad 784625",Mysuru,Upper Middle Class
+VIC-2024-KA-0242,Patrick Sarraf,42,Female,"15/06, Butala Chowk, Agra 362018",Mangaluru,Middle Class
+VIC-2024-KA-0243,Ekapad Saha,15,Other,"208, Bir Marg, Thanjavur 234977",Vijayapura,Upper Middle Class
+VIC-2024-KA-0244,Lavanya Rattan,81,Other,"91/138, Butala Circle, Panvel-872007",Davangere,Upper Middle Class
+VIC-2024-KA-0245,Anthony Naik,13,Male,"H.No. 797, Tailor Circle, Gangtok 332618",Hubballi-Dharwad,Upper Middle Class
+VIC-2024-KA-0246,Lekha Madan,44,Male,"554, Wadhwa Chowk, Jamnagar 949674",Mysuru,Lower Class
+VIC-2024-KA-0247,Darpan Mangal,60,Other,"55/66, Subramaniam, Avadi 276371",Davangere,Lower Class
+VIC-2024-KA-0248,Laban Deshmukh,21,Male,"26/688, More Chowk, Sagar-070986",Bengaluru Urban,Lower Class
+VIC-2024-KA-0249,Zinal Choudhury,82,Male,"56, Madan Zila, Mathura-546776",Chikkamagaluru,Lower Class
+VIC-2024-KA-0250,Amruta Pant,74,Other,"482, Dhar Circle, Sri Ganganagar-214762",Chikkamagaluru,Lower Class
+VIC-2024-KA-0251,Panini Wali,51,Male,"H.No. 91, Bath Road, Jaipur 199317",Chikkamagaluru,Lower Class
+VIC-2024-KA-0252,Bhanumati Ghose,63,Other,"H.No. 90, Kannan Zila, Asansol-897741",Shivamogga,Upper Middle Class
+VIC-2024-KA-0253,Anjali Parikh,66,Female,"96, Mani Street, Gandhinagar-001501",Ballari,Upper Middle Class
+VIC-2024-KA-0254,Advika Balasubramanian,20,Female,"H.No. 02, Subramaniam Zila, Bardhaman 576842",Vijayapura,Upper Middle Class
+VIC-2024-KA-0255,Ranbir Bir,25,Male,"H.No. 992, Deshmukh Road, Ranchi-338307",Hubballi-Dharwad,Lower Class
+VIC-2024-KA-0256,Adya Ganesan,9,Other,"H.No. 01, Anand Zila, Bidhannagar-349243",Davangere,Upper Middle Class
+VIC-2024-KA-0257,Vivaan Baria,67,Other,"83/661, Bajwa Street, Vijayawada-133676",Chikkamagaluru,Lower Class
+VIC-2024-KA-0258,Gayathri Parsa,47,Female,"H.No. 36, Brar Ganj, Junagadh 876277",Mangaluru,Lower Class
+VIC-2024-KA-0259,Pratyush Karpe,71,Other,"21, Ranganathan Chowk, Kollam-399203",Belagavi,Lower Class
+VIC-2024-KA-0260,Wriddhish Ahuja,15,Female,"H.No. 370, Agarwal, Gwalior-837217",Davangere,Upper Middle Class
+VIC-2024-KA-0261,Kamala Gandhi,40,Male,"H.No. 91, Dugar Chowk, Jammu 852489",Vijayapura,Middle Class
+VIC-2024-KA-0262,Jeevika Lad,23,Female,"H.No. 56, Hans Ganj, Imphal-904710",Mangaluru,Middle Class
+VIC-2024-KA-0263,Dhriti Chander,27,Other,"232, Kari Path, Allahabad 023010",Chikkamagaluru,Middle Class
+VIC-2024-KA-0264,Faqid Mannan,72,Male,"H.No. 588, Raman Road, Mirzapur-342652",Bengaluru Rural,Lower Class
+VIC-2024-KA-0265,Anay Kadakia,78,Male,"65, Om Marg, Tezpur 716752",Mysuru,Lower Class
+VIC-2024-KA-0266,Siddharth Ram,29,Male,"H.No. 653, Prabhakar Road, Korba-070917",Mangaluru,Lower Class
+VIC-2024-KA-0267,Samesh Borra,64,Male,"52/73, Badal, Vasai-Virar-039198",Davangere,Middle Class
+VIC-2024-KA-0268,Chaaya Bava,84,Male,"H.No. 128, Oak Street, Chandrapur 259583",Kalaburagi,Upper Middle Class
+VIC-2024-KA-0269,Udarsh Verma,45,Male,"354, More Circle, Amaravati-061059",Shivamogga,Lower Class
+VIC-2024-KA-0270,Laksh Jain,31,Female,"15/94, Madan, Firozabad 355565",Hubballi-Dharwad,Lower Class
+VIC-2024-KA-0271,Chaman Walia,20,Male,"H.No. 73, Kumar Zila, Shimla 932728",Tumakuru,Lower Class
+VIC-2024-KA-0272,Yadavi Sachar,50,Other,"98/903, Guha Street, Agra-012157",Tumakuru,Lower Class
+VIC-2024-KA-0273,Gaurang Dave,40,Other,"69, Rama Ganj, Saharanpur-211331",Ballari,Upper Middle Class
+VIC-2024-KA-0274,Sai Dugar,17,Female,"953, Solanki Nagar, Vasai-Virar 366189",Bengaluru Urban,Upper Middle Class
+VIC-2024-KA-0275,Arin Memon,22,Other,"471, Arya Nagar, Ujjain 313902",Hassan,Middle Class
+VIC-2024-KA-0276,Daksh Banik,27,Female,"22/02, Shah, Kalyan-Dombivli 502548",Bengaluru Rural,Middle Class
+VIC-2024-KA-0277,Netra Bhatti,61,Female,"84/071, Goswami Street, Avadi 204778",Hassan,Upper Middle Class
+VIC-2024-KA-0278,Nathan Dass,22,Other,"H.No. 72, Toor, Jabalpur-104644",Bengaluru Urban,Upper Middle Class
+VIC-2024-KA-0279,Bhavya Ghosh,61,Male,"H.No. 037, Hegde Path, Bijapur 323540",Hassan,Upper Middle Class
+VIC-2024-KA-0280,Bahadurjit Srinivasan,12,Female,"01, Kala Path, Firozabad-159127",Mangaluru,Middle Class
+VIC-2024-KA-0281,Urmi Thakur,45,Female,"000, Goyal Circle, Morena-475889",Belagavi,Middle Class
+VIC-2024-KA-0282,Zayan D’Alia,22,Male,"H.No. 43, Mannan Ganj, Raipur 439821",Tumakuru,Middle Class
+VIC-2024-KA-0283,Vasatika Ramesh,48,Male,"794, Sant Path, Avadi-535047",Chikkamagaluru,Lower Class
+VIC-2024-KA-0284,Janaki Tiwari,33,Female,"449, Wadhwa Path, Gaya 792472",Mangaluru,Middle Class
+VIC-2024-KA-0285,Kritika Dhar,41,Male,"H.No. 257, Chaudhuri Circle, Kottayam 128593",Kalaburagi,Upper Middle Class
+VIC-2024-KA-0286,Rushil Bhatia,19,Male,"H.No. 37, Mutti Marg, Medininagar-471528",Tumakuru,Middle Class
+VIC-2024-KA-0287,Adweta Natarajan,62,Other,"221, Bhat Marg, Orai-743783",Hubballi-Dharwad,Upper Middle Class
+VIC-2024-KA-0288,Omkaar Iyer,82,Male,"741, Panchal Street, Lucknow 502018",Tumakuru,Middle Class
+VIC-2024-KA-0289,Aashi Dave,61,Other,"24/778, Menon, Bangalore 210290",Davangere,Middle Class
+VIC-2024-KA-0290,Manan Deep,54,Other,"H.No. 806, Hari Street, Burhanpur-993231",Hubballi-Dharwad,Lower Class
+VIC-2024-KA-0291,Charan Kala,21,Male,"H.No. 12, Brahmbhatt Path, Bareilly 367558",Mysuru,Upper Middle Class
+VIC-2024-KA-0292,Vrishti Gaba,44,Male,"H.No. 95, Kannan Nagar, Nashik 574866",Vijayapura,Lower Class
+VIC-2024-KA-0293,Yamini Kade,19,Other,"917, Chhabra Road, Kamarhati-574563",Bengaluru Urban,Middle Class
+VIC-2024-KA-0294,Michael Vig,7,Female,"H.No. 155, Handa Circle, Danapur-776142",Bengaluru Rural,Middle Class
+VIC-2024-KA-0295,Azaan Zacharia,60,Other,"H.No. 515, Misra Path, Varanasi-934715",Bengaluru Rural,Upper Middle Class
+VIC-2024-KA-0296,Nidhi Tak,7,Male,"04/70, Chacko Street, Tirupati 322159",Chikkamagaluru,Upper Middle Class
+VIC-2024-KA-0297,Arunima Nazareth,54,Male,"052, Chaudhari Zila, Bhilwara-623912",Hassan,Upper Middle Class
+VIC-2024-KA-0298,Manya Chaudhari,20,Other,"H.No. 69, Divan Circle, Bikaner-667294",Tumakuru,Middle Class
+VIC-2024-KA-0299,Yash Munshi,5,Female,"70/778, Parmar Road, Rohtak-342960",Ballari,Middle Class
+VIC-2024-KA-0300,Advaith Palla,75,Other,"61, Mand Circle, Srinagar-683909",Belagavi,Upper Middle Class
+VIC-2024-KA-0301,Aachal Sibal,16,Female,"07/449, Misra Ganj, Rajpur Sonarpur-103093",Shivamogga,Middle Class
+VIC-2024-KA-0302,Frado Kurian,42,Male,"H.No. 89, Golla Path, Navi Mumbai 611179",Tumakuru,Lower Class
+VIC-2024-KA-0303,Tarak Mallick,14,Female,"H.No. 63, Choudhry Nagar, Saharsa-623964",Chikkamagaluru,Middle Class
+VIC-2024-KA-0304,Chavvi Patla,20,Male,"H.No. 866, Oommen, Proddatur 746832",Mangaluru,Upper Middle Class
+VIC-2024-KA-0305,Maanas Bhat,37,Male,"22/22, Krishnan Street, Ahmednagar-102431",Mysuru,Lower Class
+VIC-2024-KA-0306,Niharika Raja,28,Male,"17/38, Hayer Chowk, Jalandhar-300333",Bengaluru Rural,Upper Middle Class
+VIC-2024-KA-0307,Charles Gopal,38,Other,"73, Murthy Chowk, Jamshedpur 454001",Hassan,Lower Class
+VIC-2024-KA-0308,Waida Barad,63,Male,"H.No. 32, Baria Circle, Etawah-204470",Vijayapura,Middle Class
+VIC-2024-KA-0309,Isaiah Sarin,47,Male,"824, Palla Marg, Jehanabad 162268",Mangaluru,Lower Class
+VIC-2024-KA-0310,Nakul Banik,41,Other,"27/083, Choudhry Ganj, Dindigul 438899",Bengaluru Rural,Lower Class
+VIC-2024-KA-0311,Faras Narayan,77,Other,"78/25, Mukherjee, Mysore 638563",Mysuru,Upper Middle Class
+VIC-2024-KA-0312,Xavier Sathe,18,Male,"786, Rege Circle, Secunderabad 980113",Bengaluru Urban,Middle Class
+VIC-2024-KA-0313,Farhan Borde,27,Female,"H.No. 67, Nazareth Nagar, Sri Ganganagar-637121",Davangere,Middle Class
+VIC-2024-KA-0314,Samesh Kunda,52,Female,"487, Dar Street, Vellore 628764",Hubballi-Dharwad,Lower Class
+VIC-2024-KA-0315,Harinakshi Parmer,12,Other,"82, Lalla Zila, Sonipat-063610",Tumakuru,Middle Class
+VIC-2024-KA-0316,Hardik Divan,45,Male,"H.No. 463, Shanker Nagar, Hubli–Dharwad 927308",Belagavi,Upper Middle Class
+VIC-2024-KA-0317,Saksham Brahmbhatt,79,Male,"H.No. 617, Narayan Chowk, Kollam-504554",Hassan,Upper Middle Class
+VIC-2024-KA-0318,Watika Kannan,61,Other,"H.No. 604, Devi Road, Mangalore-453637",Belagavi,Middle Class
+VIC-2024-KA-0319,Hredhaan Sagar,50,Female,"H.No. 43, Rao Marg, Aizawl-933975",Shivamogga,Upper Middle Class
+VIC-2024-KA-0320,Robert Natt,83,Male,"923, Kade Marg, Panipat 704155",Tumakuru,Middle Class
+VIC-2024-KA-0321,Victor Uppal,56,Other,"49/95, Nayar Road, Malegaon 471697",Ballari,Lower Class
+VIC-2024-KA-0322,Dayamai Bali,56,Other,"34/852, Setty Zila, Morbi-259027",Vijayapura,Lower Class
+VIC-2024-KA-0323,Ridhi Tiwari,20,Female,"H.No. 353, Ramanathan Nagar, Bareilly 939329",Bengaluru Rural,Upper Middle Class
+VIC-2024-KA-0324,Sanya Pillai,5,Male,"01/700, Mittal Nagar, Secunderabad 153529",Davangere,Middle Class
+VIC-2024-KA-0325,Aadi D’Alia,11,Female,"26, Ray Chowk, Ujjain-798599",Vijayapura,Middle Class
+VIC-2024-KA-0326,Anika Batra,57,Other,"948, Mannan Street, Kolhapur-558519",Mysuru,Lower Class
+VIC-2024-KA-0327,Barkha Magar,74,Other,"589, Sha Zila, Bhimavaram 859127",Kalaburagi,Upper Middle Class
+VIC-2024-KA-0328,Warjas Srinivas,11,Female,"H.No. 87, Deol Chowk, Orai 990609",Vijayapura,Lower Class
+VIC-2024-KA-0329,Janani Shetty,28,Male,"899, Dey Ganj, Sagar 702133",Ballari,Upper Middle Class
+VIC-2024-KA-0330,Jai Dewan,74,Other,"50, Dutt Path, Ramgarh 393065",Hassan,Middle Class
+VIC-2024-KA-0331,Daniel Kari,77,Female,"062, Mammen Chowk, Chandrapur-295106",Mangaluru,Middle Class
+VIC-2024-KA-0332,Akshay Ghosh,78,Female,"H.No. 29, Lalla Chowk, Hospet 524547",Davangere,Upper Middle Class
+VIC-2024-KA-0333,Balhaar Uppal,37,Other,"39/65, Chandra, Pune-647622",Hassan,Lower Class
+VIC-2024-KA-0334,Nilima Dewan,83,Male,"39/12, Bali Zila, Pune-890846",Vijayapura,Lower Class
+VIC-2024-KA-0335,Hiral Patel,7,Other,"143, Sehgal Road, Narasaraopet-882124",Kalaburagi,Upper Middle Class
+VIC-2024-KA-0336,Mason Yogi,46,Other,"H.No. 21, Sahota Chowk, Kanpur-550980",Kalaburagi,Middle Class
+VIC-2024-KA-0337,Laban Sankaran,61,Female,"13, Sheth Ganj, Mangalore-210450",Ballari,Lower Class
+VIC-2024-KA-0338,Viraj Nanda,48,Male,"79, Pal Marg, Machilipatnam-270401",Bengaluru Rural,Lower Class
+VIC-2024-KA-0339,Umang Sani,80,Female,"04/512, Ratti Path, Delhi 995362",Vijayapura,Upper Middle Class
+VIC-2024-KA-0340,Yadavi Ben,48,Other,"94, Srinivasan Nagar, Deoghar 772607",Kalaburagi,Upper Middle Class
+VIC-2024-KA-0341,Anya Vohra,50,Male,"H.No. 230, Madan Street, Ambala-710794",Mysuru,Lower Class
+VIC-2024-KA-0342,Sai Manda,46,Female,"28/06, Subramaniam Path, Rewa-423843",Mysuru,Lower Class
+VIC-2024-KA-0343,Rachana Wali,12,Male,"279, Munshi Chowk, Raipur 282199",Hassan,Lower Class
+VIC-2024-KA-0344,Yashoda Ganguly,31,Female,"28, Baral Marg, Gangtok-703875",Davangere,Upper Middle Class
+VIC-2024-KA-0345,Anmol Master,14,Other,"79, Ghosh Marg, Madanapalle 935705",Vijayapura,Lower Class
+VIC-2024-KA-0346,Ranbir Chander,20,Other,"195, Saxena Ganj, Hajipur 108962",Bengaluru Urban,Upper Middle Class
+VIC-2024-KA-0347,Bahadurjit Handa,50,Male,"79/327, Ravi, Jodhpur-012157",Belagavi,Lower Class
+VIC-2024-KA-0348,Alexander Sen,37,Other,"555, Chakraborty Circle, Deoghar-616420",Shivamogga,Lower Class
+VIC-2024-KA-0349,Abha Raman,37,Female,"35/44, Doshi Marg, Chennai 587657",Ballari,Lower Class
+VIC-2024-KA-0350,Lohit Vora,22,Male,"H.No. 49, Mani Road, Muzaffarpur-551579",Ballari,Upper Middle Class
+VIC-2024-KA-0351,Finn Sanghvi,46,Female,"18/15, Halder, Ramagundam-811921",Hubballi-Dharwad,Upper Middle Class
+VIC-2024-KA-0352,Ishwar Sura,77,Female,"74, Mahajan Nagar, Dharmavaram-141351",Tumakuru,Middle Class
+VIC-2024-KA-0353,Chakradhar Mand,8,Other,"00/791, Chatterjee Chowk, Tadipatri-214179",Hassan,Lower Class
+VIC-2024-KA-0354,Zinal Seshadri,30,Male,"31/41, Sethi Ganj, Sambalpur-276344",Chikkamagaluru,Upper Middle Class
+VIC-2024-KA-0355,Nirja Loyal,44,Female,"84, Nigam Chowk, Sikar 027985",Tumakuru,Upper Middle Class
+VIC-2024-KA-0356,Aahana Pradhan,12,Female,"32/746, Mishra Road, Agra-490290",Belagavi,Middle Class
+VIC-2024-KA-0357,Chavvi Dhawan,6,Other,"964, Dora Road, Thane 352298",Hubballi-Dharwad,Middle Class
+VIC-2024-KA-0358,Kamya Sant,27,Other,"70/417, Sawhney Zila, Belgaum 555738",Belagavi,Lower Class
+VIC-2024-KA-0359,Udarsh Bora,6,Other,"H.No. 49, Bail Path, Jorhat 003853",Bengaluru Urban,Lower Class
+VIC-2024-KA-0360,Devansh Rege,59,Other,"698, Pant Zila, Kavali 891661",Kalaburagi,Middle Class
+VIC-2024-KA-0361,Ishita Desai,53,Male,"28, Majumdar Street, Sirsa 484750",Hubballi-Dharwad,Upper Middle Class
+VIC-2024-KA-0362,Amol Bumb,10,Male,"80/697, Hora Zila, Udupi 753869",Hubballi-Dharwad,Upper Middle Class
+VIC-2024-KA-0363,Viraj Sura,7,Female,"H.No. 44, Boase Zila, Pali 299613",Mangaluru,Middle Class
+VIC-2024-KA-0364,Upkaar Soman,10,Female,"77/259, Deep Ganj, Anantapur-869079",Mangaluru,Lower Class
+VIC-2024-KA-0365,Osha Mand,81,Other,"80, Trivedi Circle, Raichur 520418",Davangere,Middle Class
+VIC-2024-KA-0366,Mahika Kala,47,Female,"46, Nagi Marg, Kharagpur-130659",Belagavi,Lower Class
+VIC-2024-KA-0367,Aarush Choudhary,10,Other,"H.No. 26, Rao Street, Berhampore-528042",Shivamogga,Lower Class
+VIC-2024-KA-0368,Garima Biswas,51,Male,"71/14, Saraf Path, Rajpur Sonarpur-520208",Hassan,Middle Class
+VIC-2024-KA-0369,Vamakshi Bajwa,15,Other,"07, Amble Marg, Motihari-884411",Mangaluru,Middle Class
+VIC-2024-KA-0370,Ekapad Din,38,Other,"90/27, Swaminathan Road, Bareilly 959594",Hassan,Upper Middle Class
+VIC-2024-KA-0371,Anirudh Sen,70,Other,"081, Wali Ganj, Bettiah-743956",Bengaluru Urban,Upper Middle Class
+VIC-2024-KA-0372,Zaitra Brahmbhatt,43,Female,"26, Sharma Road, Kottayam-683513",Ballari,Lower Class
+VIC-2024-KA-0373,Udant Padmanabhan,67,Other,"801, Chaudhry Zila, Durgapur-618331",Kalaburagi,Upper Middle Class
+VIC-2024-KA-0374,Yashica Rajan,6,Other,"978, Sane Road, New Delhi-345807",Ballari,Upper Middle Class
+VIC-2024-KA-0375,Kevin Brar,75,Male,"99/72, Thakur Street, Gaya-251963",Mysuru,Upper Middle Class
+VIC-2024-KA-0376,Wriddhish Atwal,11,Male,"H.No. 366, Madan Path, Satna 421182",Mysuru,Upper Middle Class
+VIC-2024-KA-0377,Warhi Mann,33,Female,"H.No. 62, Palla Chowk, Bokaro-652080",Shivamogga,Lower Class
+VIC-2024-KA-0378,Baghyawati Sama,65,Female,"H.No. 739, Mani Path, Jalna 035957",Hassan,Middle Class
+VIC-2024-KA-0379,Chanchal Dhaliwal,40,Other,"H.No. 67, Mand Street, Ranchi-749901",Ballari,Upper Middle Class
+VIC-2024-KA-0380,Nilima Johal,19,Female,"86, Deol Marg, Silchar 436187",Hubballi-Dharwad,Lower Class
+VIC-2024-KA-0381,Yadavi Gola,18,Female,"72/117, Choudhry Zila, Secunderabad-230112",Belagavi,Upper Middle Class
+VIC-2024-KA-0382,Charita Dhar,12,Male,"H.No. 803, Roy Circle, Ichalkaranji 404139",Belagavi,Upper Middle Class
+VIC-2024-KA-0383,Urishilla Behl,23,Other,"825, Malhotra Street, Tiruchirappalli 801378",Davangere,Upper Middle Class
+VIC-2024-KA-0384,Samesh Pall,51,Female,"H.No. 245, Gandhi, Dhule 936547",Bengaluru Urban,Lower Class
+VIC-2024-KA-0385,Baljiwan Sandhu,31,Female,"74, Golla Marg, North Dumdum-363387",Shivamogga,Upper Middle Class
+VIC-2024-KA-0386,Elijah Vasa,79,Female,"902, Ratti Zila, Gudivada-587017",Vijayapura,Middle Class
+VIC-2024-KA-0387,Hardik Nagy,21,Male,"02/303, Dixit Circle, Thane 358294",Ballari,Lower Class
+VIC-2024-KA-0388,Aarav Shukla,7,Other,"87/31, Ghosh Zila, Ozhukarai-854229",Hassan,Middle Class
+VIC-2024-KA-0389,Nikita Dutt,42,Female,"H.No. 29, Cherian, Katni-297841",Hassan,Upper Middle Class
+VIC-2024-KA-0390,Lopa Borra,7,Male,"86/178, Gulati Circle, Thoothukudi 969943",Kalaburagi,Middle Class
+VIC-2024-KA-0391,Frederick Solanki,74,Male,"37/47, Kumer, Tiruchirappalli 045427",Bengaluru Urban,Lower Class
+VIC-2024-KA-0392,Theodore Hayer,43,Other,"58, Tank Zila, Ahmedabad-120589",Ballari,Lower Class
+VIC-2024-KA-0393,Nidhi Raju,26,Female,"874, Bala Street, Tumkur-479753",Shivamogga,Middle Class
+VIC-2024-KA-0394,Forum Kala,36,Male,"H.No. 62, Shenoy Marg, Bharatpur 156237",Belagavi,Upper Middle Class
+VIC-2024-KA-0395,Ikbal Mohan,61,Other,"48, Deep Chowk, Dhule-516625",Bengaluru Rural,Middle Class
+VIC-2024-KA-0396,Finn Wali,17,Other,"68/893, Bhakta Ganj, Jorhat-572385",Vijayapura,Upper Middle Class
+VIC-2024-KA-0397,Aashi Nagy,63,Male,"45/33, Ramanathan Marg, Bhiwani 524967",Mangaluru,Middle Class
+VIC-2024-KA-0398,Rayaan Jani,81,Female,"398, Sagar Zila, Kulti-504039",Hubballi-Dharwad,Middle Class
+VIC-2024-KA-0399,Sneha Grover,20,Male,"H.No. 20, Mittal Marg, Ghaziabad-439771",Mangaluru,Lower Class
+VIC-2024-KA-0400,Harsh Sekhon,68,Male,"30/451, Sangha Zila, Jaunpur-032208",Hubballi-Dharwad,Middle Class
+VIC-2024-KA-0401,Nachiket Brahmbhatt,42,Female,"35/66, Deol Street, South Dumdum 077444",Mangaluru,Upper Middle Class
+VIC-2024-KA-0402,Orinder Chokshi,80,Other,"H.No. 05, Tandon, Shivpuri-882108",Belagavi,Middle Class
+VIC-2024-KA-0403,Samaksh Pillay,33,Male,"903, Viswanathan Ganj, Etawah-619155",Hassan,Upper Middle Class
+VIC-2024-KA-0404,Ekavir Ramachandran,81,Female,"930, Sankar Zila, Siwan-542661",Ballari,Lower Class
+VIC-2024-KA-0405,Varenya Luthra,11,Male,"16, Chander Circle, Avadi-400554",Bengaluru Urban,Middle Class
+VIC-2024-KA-0406,Ayush Kari,58,Male,"31/27, Karan Circle, Sangli-Miraj & Kupwad-604451",Bengaluru Rural,Lower Class
+VIC-2024-KA-0407,Balveer Raghavan,37,Female,"22/01, Sawhney Ganj, Tumkur-336800",Mysuru,Middle Class
+VIC-2024-KA-0408,Odika Ganguly,47,Other,"26/74, Tripathi Marg, New Delhi-635290",Hassan,Upper Middle Class
+VIC-2024-KA-0409,Diya Dayal,75,Other,"87, Banerjee Path, South Dumdum-029176",Shivamogga,Lower Class
+VIC-2024-KA-0410,Reyansh Sarkar,85,Male,"27/040, Tank Ganj, Ghaziabad-339460",Mangaluru,Upper Middle Class
+VIC-2024-KA-0411,Michael Pathak,28,Other,"933, Mander Road, Navi Mumbai 515441",Tumakuru,Upper Middle Class
+VIC-2024-KA-0412,Udant Parekh,54,Male,"41/92, Gara Street, Haridwar 471989",Tumakuru,Upper Middle Class
+VIC-2024-KA-0413,Siddharth Sibal,63,Male,"H.No. 01, Kari Ganj, Ghaziabad-618229",Hubballi-Dharwad,Lower Class
+VIC-2024-KA-0414,Veer Nath,29,Female,"H.No. 05, Din Chowk, Singrauli-253568",Hassan,Lower Class
+VIC-2024-KA-0415,Vrishti Kurian,5,Female,"H.No. 723, Keer Ganj, Jalgaon 919719",Tumakuru,Upper Middle Class
+VIC-2024-KA-0416,Owen Char,56,Other,"48/590, Raju Ganj, Sasaram-673622",Mangaluru,Upper Middle Class
+VIC-2024-KA-0417,Pranit Mistry,77,Female,"29/139, Kulkarni Zila, Bathinda-768444",Kalaburagi,Middle Class
+VIC-2024-KA-0418,Diya Luthra,16,Female,"03/524, Walla Chowk, Bhubaneswar-177954",Belagavi,Lower Class
+VIC-2024-KA-0419,Onkar Mitter,78,Other,"93, Rastogi Chowk, Surat 446805",Kalaburagi,Lower Class
+VIC-2024-KA-0420,Frederick Ahuja,17,Male,"H.No. 40, Varghese Path, Rourkela 864972",Belagavi,Upper Middle Class
+VIC-2024-KA-0421,Kevin Tata,18,Male,"H.No. 797, Panchal Path, Rajkot-983754",Ballari,Middle Class
+VIC-2024-KA-0422,Udyati Sankar,81,Female,"H.No. 294, Sundaram Road, Hazaribagh-251464",Hubballi-Dharwad,Upper Middle Class
+VIC-2024-KA-0423,Aditya Johal,60,Other,"92, Samra Road, Delhi-693993",Shivamogga,Upper Middle Class
+VIC-2024-KA-0424,Amruta Bala,55,Female,"332, Kulkarni Circle, Pudukkottai-801534",Bengaluru Rural,Upper Middle Class
+VIC-2024-KA-0425,Saumya Ghosh,17,Male,"61, Arora Nagar, Aligarh 886883",Kalaburagi,Upper Middle Class
+VIC-2024-KA-0426,Yadavi Sanghvi,62,Female,"98/235, Ray, Jorhat 969776",Bengaluru Urban,Upper Middle Class
+VIC-2024-KA-0427,Kashish Panchal,33,Male,"64/81, Goyal Nagar, Karimnagar-094776",Vijayapura,Middle Class
+VIC-2024-KA-0428,Ucchal Raja,68,Male,"H.No. 06, Dhillon Marg, Machilipatnam 585517",Hassan,Middle Class
+VIC-2024-KA-0429,Jagrati Nagy,50,Other,"26, Korpal Zila, Phusro 156500",Tumakuru,Lower Class
+VIC-2024-KA-0430,Vyanjana Mahal,85,Female,"58, Virk Nagar, Bhatpara 966113",Tumakuru,Lower Class
+VIC-2024-KA-0431,Girik Dhaliwal,68,Female,"H.No. 666, Loyal Circle, Ajmer 275406",Davangere,Lower Class
+VIC-2024-KA-0432,Hritik Wable,14,Female,"79, Wable Nagar, Korba-409148",Bengaluru Rural,Lower Class
+VIC-2024-KA-0433,Ekbal Patel,61,Male,"03/480, Sandal Path, Kumbakonam-861648",Bengaluru Rural,Middle Class
+VIC-2024-KA-0434,Bhavna Sanghvi,57,Female,"575, Gaba Nagar, Parbhani-485567",Hassan,Middle Class
+VIC-2024-KA-0435,Prisha Mani,28,Female,"78/84, Sane Zila, Ramgarh-563163",Davangere,Middle Class
+VIC-2024-KA-0436,Ronith Sule,48,Other,"528, Lata, Aurangabad-155922",Tumakuru,Lower Class
+VIC-2024-KA-0437,Pahal Cherian,14,Female,"H.No. 187, Viswanathan Ganj, Vijayawada 364649",Shivamogga,Middle Class
+VIC-2024-KA-0438,Gautam Wali,20,Male,"82/79, Minhas Marg, Junagadh-029695",Ballari,Middle Class
+VIC-2024-KA-0439,Ekansh Gour,56,Other,"38/334, Dass Nagar, Kamarhati 547784",Tumakuru,Upper Middle Class
+VIC-2024-KA-0440,Girish Maharaj,25,Other,"H.No. 101, Sarkar Path, Siliguri-225666",Bengaluru Urban,Upper Middle Class
+VIC-2024-KA-0441,Dev Contractor,83,Male,"H.No. 49, Rout Chowk, Bhalswa Jahangir Pur 366334",Hassan,Upper Middle Class
+VIC-2024-KA-0442,Vinaya Muni,45,Other,"37/64, Wable Circle, Giridih-285290",Hubballi-Dharwad,Upper Middle Class
+VIC-2024-KA-0443,Daksh Dasgupta,37,Male,"28, Dara Chowk, Dehradun-485309",Ballari,Upper Middle Class
+VIC-2024-KA-0444,Faqid Choudhury,56,Female,"H.No. 763, Dara Circle, Ambala 680854",Shivamogga,Upper Middle Class
+VIC-2024-KA-0445,Varenya Parmar,13,Male,"H.No. 55, Parmar, Tiruchirappalli 369925",Mangaluru,Upper Middle Class
+VIC-2024-KA-0446,Arunima Singh,48,Male,"82, Mann Zila, Danapur 806398",Mysuru,Lower Class
+VIC-2024-KA-0447,Yashawini Shah,79,Female,"70/60, Sule Road, Jalgaon 514833",Chikkamagaluru,Middle Class
+VIC-2024-KA-0448,Turvi Varma,33,Female,"H.No. 87, Chakrabarti Path, Meerut-177479",Shivamogga,Lower Class
+VIC-2024-KA-0449,Gauri Sane,36,Other,"84/427, Sem Nagar, Bareilly 339670",Bengaluru Rural,Middle Class
+VIC-2024-KA-0450,Chatresh Sangha,63,Other,"557, Bora Nagar, Latur 363330",Chikkamagaluru,Middle Class
+VIC-2024-KA-0451,Isaac Borah,29,Other,"016, Jha Street, Motihari 144915",Tumakuru,Lower Class
+VIC-2024-KA-0452,Upkaar Chana,28,Male,"901, Ramaswamy Marg, Kurnool-633085",Tumakuru,Middle Class
+VIC-2024-KA-0453,Sathvik Mukherjee,74,Male,"413, Kapadia Road, Kamarhati 347235",Davangere,Upper Middle Class
+VIC-2024-KA-0454,Faris Shan,23,Other,"59, Nagi Street, Tadepalligudem-104495",Tumakuru,Lower Class
+VIC-2024-KA-0455,Faraj Gola,76,Other,"H.No. 838, Sunder Path, Madhyamgram-456290",Hubballi-Dharwad,Lower Class
+VIC-2024-KA-0456,Advik Khalsa,14,Female,"H.No. 36, Nayar Ganj, Nadiad-079468",Shivamogga,Middle Class
+VIC-2024-KA-0457,Bishakha Bera,8,Male,"H.No. 94, Reddy Ganj, Pudukkottai-097118",Bengaluru Rural,Upper Middle Class
+VIC-2024-KA-0458,Jackson Rau,15,Other,"38, Wason Zila, Nellore-493280",Bengaluru Urban,Upper Middle Class
+VIC-2024-KA-0459,Bhavya Agate,13,Other,"24/04, Doctor, Raebareli-240688",Mysuru,Upper Middle Class
+VIC-2024-KA-0460,Harsh Gole,83,Other,"H.No. 39, Randhawa Chowk, Mirzapur 093501",Vijayapura,Middle Class
+VIC-2024-KA-0461,Frado Chanda,80,Other,"66/19, Dash Circle, Kurnool 016562",Shivamogga,Middle Class
+VIC-2024-KA-0462,Kamya Mitra,39,Female,"H.No. 884, Parsa Marg, Kozhikode-888790",Tumakuru,Middle Class
+VIC-2024-KA-0463,Faras Kuruvilla,12,Other,"99/06, Parikh Path, Junagadh-501640",Shivamogga,Middle Class
+VIC-2024-KA-0464,Ekansh Sen,11,Female,"H.No. 600, Bassi Circle, Bilaspur-633697",Tumakuru,Middle Class
+VIC-2024-KA-0465,Yashawini Bera,81,Male,"36/591, Mitra, Narasaraopet 163637",Tumakuru,Lower Class
+VIC-2024-KA-0466,Sudiksha Divan,52,Other,"69, Bhandari Street, Ballia-574363",Kalaburagi,Upper Middle Class
+VIC-2024-KA-0467,Gaurika Tank,57,Other,"H.No. 695, Kakar Circle, Machilipatnam 396253",Hassan,Middle Class
+VIC-2024-KA-0468,Urishilla Dugar,61,Male,"H.No. 01, Khatri, Surendranagar Dudhrej 249717",Bengaluru Urban,Middle Class
+VIC-2024-KA-0469,Upasna Garg,62,Male,"96/28, Wali, Jaipur-691481",Mysuru,Upper Middle Class
+VIC-2024-KA-0470,Upasna Wali,32,Male,"21, D’Alia Road, Yamunanagar-498127",Shivamogga,Middle Class
+VIC-2024-KA-0471,Avni Kunda,60,Female,"00/38, Sani Chowk, Ghaziabad 418326",Bengaluru Urban,Middle Class
+VIC-2024-KA-0472,Balveer Ramachandran,45,Female,"H.No. 23, Savant Path, Ratlam-754656",Vijayapura,Lower Class
+VIC-2024-KA-0473,Vrishti Mall,37,Other,"775, Saraf Ganj, Shivpuri-534969",Bengaluru Rural,Lower Class
+VIC-2024-KA-0474,Madhav Chakrabarti,34,Other,"77/106, Sodhi Road, Nizamabad 022491",Bengaluru Urban,Lower Class
+VIC-2024-KA-0475,Lohit Kaul,73,Other,"H.No. 84, Magar Road, Srikakulam 796319",Hubballi-Dharwad,Upper Middle Class
+VIC-2024-KA-0476,Tanvi Boase,55,Female,"01, Solanki Ganj, Nadiad-718819",Ballari,Upper Middle Class
+VIC-2024-KA-0477,Chandani Parsa,81,Other,"H.No. 67, Prasad Nagar, Tezpur 601678",Kalaburagi,Upper Middle Class
+VIC-2024-KA-0478,Raksha Toor,30,Other,"336, Bose Ganj, Tirunelveli-844878",Hubballi-Dharwad,Upper Middle Class
+VIC-2024-KA-0479,Ishwar Dara,80,Female,"25/31, Rege Zila, Bhalswa Jahangir Pur-763316",Belagavi,Middle Class
+VIC-2024-KA-0480,Charan Gupta,78,Other,"03/744, Bakshi Street, Nellore-472643",Kalaburagi,Middle Class
+VIC-2024-KA-0481,Lohit Munshi,42,Male,"85/07, Gandhi Nagar, Ichalkaranji-014627",Hubballi-Dharwad,Lower Class
+VIC-2024-KA-0482,Daksha Jhaveri,67,Female,"04/752, Prasad Nagar, Serampore 883998",Bengaluru Rural,Upper Middle Class
+VIC-2024-KA-0483,Abhiram Pillay,41,Female,"86/838, Sangha Zila, Kolhapur-918918",Hubballi-Dharwad,Lower Class
+VIC-2024-KA-0484,Ekani Ganesh,46,Male,"H.No. 398, Dar Nagar, Malda-662945",Bengaluru Urban,Middle Class
+VIC-2024-KA-0485,Lajita Som,81,Female,"88/481, Deshpande Chowk, Karnal 472378",Belagavi,Upper Middle Class
+VIC-2024-KA-0486,Girindra Choudhary,13,Male,"21/71, Balan Circle, Dharmavaram 034138",Shivamogga,Upper Middle Class
+VIC-2024-KA-0487,Lakshit Cherian,82,Other,"44/013, Sharma Street, Patna 691489",Shivamogga,Upper Middle Class
+VIC-2024-KA-0488,Samuel Mangat,53,Female,"43/414, Sarma, Bhiwani-016057",Tumakuru,Upper Middle Class
+VIC-2024-KA-0489,Rohan Singh,56,Other,"H.No. 649, Merchant Zila, Rewa-987270",Vijayapura,Lower Class
+VIC-2024-KA-0490,Anay Raj,45,Female,"853, Nayar Street, Jalgaon-307462",Hassan,Upper Middle Class
+VIC-2024-KA-0491,Ubika Bhatnagar,59,Male,"46/625, Boase Ganj, Chandrapur 237224",Mysuru,Middle Class
+VIC-2024-KA-0492,Pooja Iyer,73,Female,"210, Tank Street, Mumbai-301674",Hubballi-Dharwad,Middle Class
+VIC-2024-KA-0493,Libni Basu,59,Male,"H.No. 12, Kannan Zila, Sirsa-635448",Mangaluru,Upper Middle Class
+VIC-2024-KA-0494,Yadavi Yohannan,36,Male,"690, Murty Ganj, Bulandshahr 123048",Ballari,Lower Class
+VIC-2024-KA-0495,Matthew Rege,77,Female,"H.No. 377, Ahuja Road, Motihari 330474",Davangere,Lower Class
+VIC-2024-KA-0496,Ishanvi Nayar,5,Other,"H.No. 39, D’Alia Zila, Howrah-647337",Davangere,Upper Middle Class
+VIC-2024-KA-0497,Frado Tandon,58,Female,"26/332, Mody, Sambalpur-651050",Kalaburagi,Middle Class
+VIC-2024-KA-0498,Veer Ray,85,Other,"H.No. 220, Kuruvilla Street, Sirsa-240819",Chikkamagaluru,Upper Middle Class
+VIC-2024-KA-0499,Madhav Jain,77,Female,"H.No. 55, Ranganathan Circle, Guntakal 209010",Mangaluru,Lower Class
+VIC-2024-KA-0500,Prisha Oommen,79,Male,"66/368, Doctor Chowk, Belgaum 245273",Tumakuru,Middle Class
+VIC-2024-KA-0501,Eshana Munshi,31,Other,"84/73, Kale Street, Ambala-571359",Bengaluru Urban,Middle Class
+VIC-2024-KA-0502,Sanaya Chaudhry,79,Female,"63/76, Lala Path, Gandhidham-784081",Bengaluru Urban,Lower Class
+VIC-2024-KA-0503,Sanya Sunder,20,Male,"H.No. 743, Pillai Nagar, Panipat-223849",Chikkamagaluru,Upper Middle Class
+VIC-2024-KA-0504,Amaira Nagy,79,Other,"H.No. 841, Walia Nagar, Sambalpur 692723",Belagavi,Middle Class
+VIC-2024-KA-0505,Vedhika Chaudhary,25,Male,"086, Bhavsar Street, Bokaro 831558",Kalaburagi,Lower Class
+VIC-2024-KA-0506,Manya Batta,56,Female,"408, Varkey Chowk, Kota-089539",Chikkamagaluru,Upper Middle Class
+VIC-2024-KA-0507,Jagrati Ratta,64,Male,"10/69, Karnik Path, Jabalpur-097056",Bengaluru Urban,Lower Class
+VIC-2024-KA-0508,Orinder Wali,37,Female,"H.No. 54, Bhasin, Chittoor-638253",Davangere,Upper Middle Class
+VIC-2024-KA-0509,Ishwar Pandit,48,Other,"H.No. 97, Divan Ganj, Salem 074695",Bengaluru Urban,Lower Class
+VIC-2024-KA-0510,Bishakha Yohannan,25,Other,"H.No. 05, Shukla Chowk, Satna 235877",Mangaluru,Middle Class
+VIC-2024-KA-0511,Aarav Karan,19,Male,"21/43, Chakrabarti Road, Nashik-923681",Mangaluru,Middle Class
+VIC-2024-KA-0512,Onkar Seth,22,Male,"50, Dayal Street, Pallavaram 162658",Vijayapura,Upper Middle Class
+VIC-2024-KA-0513,Michael Kothari,42,Male,"143, Ghose, Asansol-626408",Bengaluru Urban,Middle Class
+VIC-2024-KA-0514,Ubika Behl,66,Male,"39/099, Pingle Marg, Tinsukia-758537",Ballari,Lower Class
+VIC-2024-KA-0515,Kashish Palla,69,Other,"38, Kumar Circle, Machilipatnam-002455",Ballari,Upper Middle Class
+VIC-2024-KA-0516,Ekani Sagar,42,Female,"924, Pandit Street, Nanded 833344",Bengaluru Rural,Lower Class
+VIC-2024-KA-0517,Pranit Sarraf,33,Male,"H.No. 24, Majumdar, Katni 845103",Hubballi-Dharwad,Lower Class
+VIC-2024-KA-0518,Gopal Sheth,38,Female,"02/881, Jain Circle, Mumbai 327195",Davangere,Upper Middle Class
+VIC-2024-KA-0519,Indira Pall,63,Other,"98/130, Rai Marg, South Dumdum-506665",Mysuru,Upper Middle Class
+VIC-2024-KA-0520,Warinder Banik,18,Male,"H.No. 769, Prashad Street, Narasaraopet 423004",Hassan,Middle Class
+VIC-2024-KA-0521,Raksha Prakash,81,Other,"17/559, Panchal Street, Jammu-942782",Vijayapura,Upper Middle Class
+VIC-2024-KA-0522,Krish Balasubramanian,36,Female,"534, Boase Marg, Pallavaram-583444",Chikkamagaluru,Middle Class
+VIC-2024-KA-0523,Harinakshi Mittal,23,Female,"H.No. 74, Dugal, Korba 248885",Kalaburagi,Upper Middle Class
+VIC-2024-KA-0524,Samar Cherian,7,Other,"41/887, Bahri Road, Saharsa-420826",Shivamogga,Upper Middle Class
+VIC-2024-KA-0525,George Gala,36,Other,"44/04, Agate Nagar, Davanagere-307195",Shivamogga,Lower Class
+VIC-2024-KA-0526,Aradhana Narayan,51,Male,"07/834, Rau Nagar, Bidar-066809",Chikkamagaluru,Middle Class
+VIC-2024-KA-0527,Indrajit Saxena,21,Female,"47/47, Devan Zila, Gangtok-224386",Chikkamagaluru,Middle Class
+VIC-2024-KA-0528,Saumya Magar,70,Male,"H.No. 675, Kulkarni Marg, Sagar-767469",Tumakuru,Lower Class
+VIC-2024-KA-0529,Qarin Banik,30,Other,"H.No. 49, Ratti Path, Aurangabad-991288",Tumakuru,Upper Middle Class
+VIC-2024-KA-0530,Warjas Samra,8,Male,"H.No. 855, Manne Path, Pimpri-Chinchwad 678016",Hubballi-Dharwad,Upper Middle Class
+VIC-2024-KA-0531,Zehaan Bava,77,Male,"H.No. 22, Sundaram Zila, Secunderabad-447264",Mysuru,Middle Class
+VIC-2024-KA-0532,Isaiah Dayal,64,Female,"465, Sane Street, Latur-228938",Tumakuru,Upper Middle Class
+VIC-2024-KA-0533,George Rastogi,42,Other,"255, Basu Zila, Kalyan-Dombivli-188323",Davangere,Middle Class
+VIC-2024-KA-0534,Joshua Chauhan,47,Female,"94/58, Soni Zila, Aurangabad-144137",Kalaburagi,Middle Class
+VIC-2024-KA-0535,Chandresh Johal,8,Male,"767, Ganesan Zila, Tumkur 843839",Davangere,Upper Middle Class
+VIC-2024-KA-0536,Triveni Agrawal,35,Female,"66/368, Cheema Street, Khammam 843915",Chikkamagaluru,Upper Middle Class
+VIC-2024-KA-0537,Gabriel Viswanathan,57,Female,"387, Brahmbhatt Street, Bhubaneswar-354692",Belagavi,Middle Class
+VIC-2024-KA-0538,Devika Ganesh,21,Female,"H.No. 28, Wadhwa Street, Kharagpur 532562",Mysuru,Upper Middle Class
+VIC-2024-KA-0539,Yagnesh Vig,75,Female,"44, Rama Chowk, Bhind 752740",Davangere,Middle Class
+VIC-2024-KA-0540,Matthew Das,7,Female,"H.No. 593, Sood Circle, Dharmavaram-096039",Ballari,Lower Class
+VIC-2024-KA-0541,Kamya Vig,71,Female,"31/52, Narang, Kota 110710",Hassan,Middle Class
+VIC-2024-KA-0542,Tanay Chandran,31,Female,"H.No. 585, Karpe, Chennai-419288",Hubballi-Dharwad,Upper Middle Class
+VIC-2024-KA-0543,Advika Bhardwaj,51,Other,"H.No. 73, Goel Chowk, Surat-645429",Hassan,Lower Class
+VIC-2024-KA-0544,Devika Prabhakar,14,Female,"308, Menon Circle, Hapur-634782",Mysuru,Middle Class
+VIC-2024-KA-0545,Abhiram Sahni,6,Female,"43/23, Soman Zila, Anantapuram 601127",Mangaluru,Middle Class
+VIC-2024-KA-0546,Arunima Kar,54,Female,"63, Bail Circle, Jamalpur-745617",Davangere,Lower Class
+VIC-2024-KA-0547,Hemangini Ghose,27,Other,"056, Chakrabarti Zila, Bareilly 078261",Bengaluru Rural,Middle Class
+VIC-2024-KA-0548,Kabir Rajagopal,56,Male,"01/46, Varma Path, Serampore 640604",Tumakuru,Lower Class
+VIC-2024-KA-0549,Matthew Rao,15,Other,"38/27, Bali Street, Coimbatore 815307",Bengaluru Rural,Upper Middle Class
+VIC-2024-KA-0550,Henry Nadkarni,69,Female,"515, Patla Road, Siliguri-010851",Mysuru,Upper Middle Class
+VIC-2024-KA-0551,Agastya Sem,36,Other,"90/833, Parsa Street, Orai 744792",Davangere,Lower Class
+VIC-2024-KA-0552,Niharika Sachdeva,14,Female,"24/93, Biswas Street, Singrauli 868703",Chikkamagaluru,Upper Middle Class
+VIC-2024-KA-0553,Radhika Subramaniam,59,Female,"H.No. 667, Tank Street, Haldia-833794",Tumakuru,Upper Middle Class
+VIC-2024-KA-0554,Falan Pingle,56,Female,"53/53, Patla Path, Bhimavaram 251555",Mysuru,Middle Class
+VIC-2024-KA-0555,Damini Bhardwaj,40,Female,"93/906, Borde Zila, Panipat-403966",Bengaluru Urban,Upper Middle Class
+VIC-2024-KA-0556,David Dey,51,Other,"80, Venkataraman Circle, Bhavnagar-130217",Hubballi-Dharwad,Lower Class
+VIC-2024-KA-0557,Leena Wali,28,Male,"74/29, Aurora Chowk, Tiruppur 174004",Vijayapura,Middle Class
+VIC-2024-KA-0558,Henry Banik,70,Other,"H.No. 99, Sachar Road, Bhimavaram-016992",Shivamogga,Lower Class
+VIC-2024-KA-0559,Ayushman Amble,14,Female,"84, Toor Marg, Jalandhar-209633",Tumakuru,Upper Middle Class
+VIC-2024-KA-0560,David Bansal,30,Other,"31/85, Deol, Tiruppur-681409",Chikkamagaluru,Lower Class
+VIC-2024-KA-0561,Yoshita Aggarwal,14,Female,"30/520, Bail Marg, Jodhpur 641933",Davangere,Upper Middle Class
+VIC-2024-KA-0562,Jeremiah Palan,35,Male,"686, Rama Nagar, Bongaigaon 580327",Vijayapura,Middle Class
+VIC-2024-KA-0563,Sarthak Ramakrishnan,9,Female,"46, Kota, Asansol 173863",Mangaluru,Middle Class
+VIC-2024-KA-0564,Lila Rai,70,Other,"250, Kar Street, Hajipur 030893",Shivamogga,Lower Class
+VIC-2024-KA-0565,Kala Parmer,27,Male,"95/31, Aggarwal Street, Agartala 523492",Mangaluru,Upper Middle Class
+VIC-2024-KA-0566,Ansh Babu,31,Male,"272, Mitter, Bhilai 963448",Hubballi-Dharwad,Upper Middle Class
+VIC-2024-KA-0567,Megha Anand,19,Other,"04, Gour Zila, Salem-637044",Hubballi-Dharwad,Lower Class
+VIC-2024-KA-0568,Dakshesh Lanka,68,Male,"76/00, Atwal Road, Jehanabad 297937",Davangere,Middle Class
+VIC-2024-KA-0569,Pranit Johal,85,Other,"H.No. 45, Randhawa Circle, Hazaribagh-717489",Shivamogga,Middle Class
+VIC-2024-KA-0570,William Sur,59,Male,"26/85, Wali Circle, Tezpur 352542",Mysuru,Middle Class
+VIC-2024-KA-0571,Chatura Prashad,39,Male,"28/12, Seth Chowk, Jaipur 716548",Bengaluru Urban,Lower Class
+VIC-2024-KA-0572,Yagnesh Dhillon,77,Other,"H.No. 06, Lad Circle, Thoothukudi 540874",Shivamogga,Lower Class
+VIC-2024-KA-0573,Bhanumati Manne,36,Male,"49, Tripathi Marg, Imphal-549096",Hassan,Lower Class
+VIC-2024-KA-0574,Jackson Sachar,71,Other,"21, Deol, Proddatur 635203",Tumakuru,Middle Class
+VIC-2024-KA-0575,Chakradhar Naidu,13,Female,"94/989, Agate Street, Bally 323402",Belagavi,Lower Class
+VIC-2024-KA-0576,Dominic Shan,63,Male,"16, Brahmbhatt Nagar, Ambattur-032403",Vijayapura,Middle Class
+VIC-2024-KA-0577,Upma Sethi,74,Male,"767, Badal Nagar, Bihar Sharif 646711",Davangere,Middle Class
+VIC-2024-KA-0578,Indali Bhakta,38,Other,"H.No. 23, Dutt, Karaikudi 292291",Bengaluru Urban,Lower Class
+VIC-2024-KA-0579,Hemang Patil,56,Female,"06/492, Swaminathan Path, Anantapur 446570",Hassan,Lower Class
+VIC-2024-KA-0580,Nachiket Vig,55,Other,"946, Krish Path, Satara-922765",Mangaluru,Middle Class
+VIC-2024-KA-0581,Odika Srinivas,63,Male,"869, Sani Ganj, Pune-969354",Tumakuru,Lower Class
+VIC-2024-KA-0582,Anusha Luthra,11,Other,"97/35, Bose Zila, Saharanpur-002189",Bengaluru Urban,Middle Class
+VIC-2024-KA-0583,Jasmit Kara,63,Male,"069, Chowdhury, Tadepalligudem-903133",Tumakuru,Upper Middle Class
+VIC-2024-KA-0584,Ojasvi Srinivas,31,Male,"23/976, Merchant Circle, Nizamabad 611227",Kalaburagi,Middle Class
+VIC-2024-KA-0585,Sneha Varughese,34,Male,"99/73, Sachdev Nagar, Kirari Suleman Nagar 881657",Mangaluru,Upper Middle Class
+VIC-2024-KA-0586,Maanas Sethi,17,Other,"114, Sastry, Bardhaman-171544",Ballari,Lower Class
+VIC-2024-KA-0587,Ronith Cheema,54,Male,"36, Bhat Chowk, Narasaraopet 177490",Chikkamagaluru,Middle Class
+VIC-2024-KA-0588,Megha Sekhon,36,Female,"93, Kalita, Thiruvananthapuram-969768",Hassan,Upper Middle Class
+VIC-2024-KA-0589,Bimala Chadha,81,Male,"H.No. 324, Sabharwal, Bhind-043924",Shivamogga,Upper Middle Class
+VIC-2024-KA-0590,Unni Kurian,72,Other,"91/19, Acharya Ganj, Bhavnagar-091290",Ballari,Upper Middle Class
+VIC-2024-KA-0591,Logan Hari,8,Female,"68, Peri Marg, Sikar-749570",Mangaluru,Lower Class
+VIC-2024-KA-0592,Kashvi Mishra,80,Other,"676, Mishra Marg, Pondicherry-618294",Chikkamagaluru,Upper Middle Class
+VIC-2024-KA-0593,Hitesh Karnik,19,Male,"526, Khurana Path, Durg-070352",Ballari,Middle Class
+VIC-2024-KA-0594,Onveer Kakar,13,Male,"059, Chanda Zila, Vadodara 984220",Mysuru,Middle Class
+VIC-2024-KA-0595,David Rastogi,31,Male,"218, Lalla Path, Moradabad-377963",Bengaluru Urban,Lower Class
+VIC-2024-KA-0596,Megha Sharma,52,Female,"H.No. 946, Dada Zila, Morena 462776",Tumakuru,Lower Class
+VIC-2024-KA-0597,Upadhriti Bhakta,49,Female,"56/84, Parekh Ganj, Patna-621142",Mangaluru,Upper Middle Class
+VIC-2024-KA-0598,Benjamin Jayaraman,28,Other,"93/004, Sridhar Street, Panihati 783505",Hassan,Lower Class
+VIC-2024-KA-0599,Anya Patil,69,Male,"35/050, Grover Chowk, Dibrugarh 757505",Tumakuru,Lower Class
+VIC-2024-KA-0600,Zaitra Banik,62,Male,"779, Sem Road, Thiruvananthapuram 092767",Ballari,Middle Class
+VIC-2024-KA-0601,Gunbir Hayre,79,Female,"02/47, Prasad Road, Unnao 086807",Bengaluru Urban,Lower Class
+VIC-2024-KA-0602,Ekapad Bains,69,Female,"29, Agrawal Ganj, Akola-765096",Shivamogga,Middle Class
+VIC-2024-KA-0603,Pavani Jain,70,Other,"H.No. 884, Oak, Eluru 052111",Bengaluru Rural,Lower Class
+VIC-2024-KA-0604,Harita Dhar,39,Male,"77/52, Randhawa, Panvel 372879",Bengaluru Urban,Upper Middle Class
+VIC-2024-KA-0605,Vrishti Mane,37,Other,"763, Ray Zila, Cuttack 061565",Hassan,Upper Middle Class
+VIC-2024-KA-0606,Jacob Soman,9,Other,"07/16, Sachar Path, Bhusawal-489089",Mysuru,Lower Class
+VIC-2024-KA-0607,Girish Apte,41,Other,"67, Ramanathan Chowk, Surat-146707",Kalaburagi,Middle Class
+VIC-2024-KA-0608,Falan Raval,80,Female,"H.No. 96, Batta Nagar, Shivpuri-721669",Ballari,Upper Middle Class
+VIC-2024-KA-0609,Mitali Desai,23,Male,"89, Mahal Chowk, Bally 166896",Vijayapura,Upper Middle Class
+VIC-2024-KA-0610,Ronith Pillai,68,Male,"640, Pandey Path, Ulhasnagar 687802",Tumakuru,Lower Class
+VIC-2024-KA-0611,Neel Sehgal,61,Female,"34/96, Manda Chowk, Karawal Nagar 977324",Davangere,Middle Class
+VIC-2024-KA-0612,Qarin Suri,24,Other,"90/514, Chaudhari, Ratlam 914353",Kalaburagi,Upper Middle Class
+VIC-2024-KA-0613,Brijesh Thakur,53,Male,"74/07, Narang Marg, Chapra 937669",Hassan,Lower Class
+VIC-2024-KA-0614,Januja Hora,24,Female,"84/13, Chacko Path, Dhanbad-952760",Chikkamagaluru,Middle Class
+VIC-2024-KA-0615,Sai Zachariah,14,Other,"86, Chaudhry Circle, Surendranagar Dudhrej-764268",Kalaburagi,Lower Class
+VIC-2024-KA-0616,Aryan Choudhary,11,Other,"H.No. 180, Shanker Chowk, Bihar Sharif-153894",Ballari,Lower Class
+VIC-2024-KA-0617,Anjali Chatterjee,45,Other,"H.No. 13, Mukherjee Street, Proddatur 773105",Davangere,Lower Class
+VIC-2024-KA-0618,Unnati Ramesh,60,Female,"H.No. 92, Pai Circle, Shimoga-063705",Hubballi-Dharwad,Middle Class
+VIC-2024-KA-0619,Nisha Dhawan,73,Other,"073, Deep Circle, Ujjain-053865",Ballari,Lower Class
+VIC-2024-KA-0620,Vasana Reddy,39,Male,"694, Gill Circle, Gulbarga 041105",Hassan,Lower Class
+VIC-2024-KA-0621,Kritika Sarkar,5,Other,"851, Tailor Marg, Ichalkaranji 990386",Bengaluru Rural,Lower Class
+VIC-2024-KA-0622,Upma Salvi,23,Other,"19, Sharaf, Khammam 962303",Davangere,Lower Class
+VIC-2024-KA-0623,Tristan Peri,85,Other,"09/46, Iyengar Marg, Siliguri-374573",Tumakuru,Middle Class
+VIC-2024-KA-0624,Aishani Modi,72,Male,"83/49, Ramachandran Path, Durg-103021",Davangere,Middle Class
+VIC-2024-KA-0625,Simon Chaudhari,43,Male,"22/232, Panchal, Darbhanga 177806",Kalaburagi,Lower Class
+VIC-2024-KA-0626,Chandran Buch,12,Male,"H.No. 750, Agate Circle, Jammu-897673",Belagavi,Lower Class
+VIC-2024-KA-0627,Dayamai Saxena,22,Male,"57/011, Manda Path, Gopalpur 103703",Mangaluru,Middle Class
+VIC-2024-KA-0628,Nitara Rama,34,Female,"33/707, Hari, Jamalpur 979826",Bengaluru Rural,Upper Middle Class
+VIC-2024-KA-0629,Ishani Doctor,15,Male,"40/78, Sinha Nagar, Mango 857655",Mangaluru,Middle Class
+VIC-2024-KA-0630,Kavya Borde,64,Female,"95/47, Chanda Path, Jalna 788004",Davangere,Middle Class
+VIC-2024-KA-0631,Yahvi Raj,65,Other,"H.No. 62, Karan Road, Jorhat-495997",Tumakuru,Middle Class
+VIC-2024-KA-0632,Mitali Ahuja,75,Male,"H.No. 66, Mitra Chowk, Hospet 171001",Vijayapura,Middle Class
+VIC-2024-KA-0633,Rajeshri Sarin,60,Other,"H.No. 60, Palla Road, Rewa-129615",Chikkamagaluru,Upper Middle Class
+VIC-2024-KA-0634,Chatura More,72,Other,"26, Basu Road, Tinsukia-966357",Vijayapura,Middle Class
+VIC-2024-KA-0635,Charita Oommen,15,Female,"158, Saini Nagar, Hapur 208752",Hubballi-Dharwad,Lower Class
+VIC-2024-KA-0636,Pranit Patla,21,Other,"85, Rajagopal, Agartala-208858",Vijayapura,Lower Class
+VIC-2024-KA-0637,Thomas Atwal,68,Female,"88/30, Kota Road, Rajahmundry-958016",Bengaluru Rural,Upper Middle Class
+VIC-2024-KA-0638,Yachana Mander,58,Male,"35/069, Narasimhan Ganj, Karawal Nagar 199530",Bengaluru Urban,Upper Middle Class
+VIC-2024-KA-0639,Lohit Bhattacharyya,33,Female,"H.No. 646, Lata Marg, Kozhikode-099776",Hassan,Upper Middle Class
+VIC-2024-KA-0640,Onkar Ramachandran,83,Other,"47, Ram Zila, Miryalaguda-295425",Bengaluru Urban,Middle Class
+VIC-2024-KA-0641,Tristan Prashad,35,Male,"424, Arya Path, Nagaon-638896",Tumakuru,Middle Class
+VIC-2024-KA-0642,Christopher Arya,84,Female,"53/72, Murthy Path, Ongole-779274",Chikkamagaluru,Upper Middle Class
+VIC-2024-KA-0643,Megha Balay,50,Other,"H.No. 52, Tella, Bhimavaram-293725",Mysuru,Middle Class
+VIC-2024-KA-0644,Aarush Deshmukh,77,Female,"30/76, Walia Zila, Moradabad-102956",Vijayapura,Upper Middle Class
+VIC-2024-KA-0645,Madhavi Vyas,57,Male,"11/63, Nayak Zila, Hubli–Dharwad-545236",Kalaburagi,Middle Class
+VIC-2024-KA-0646,Kritika Chander,62,Male,"83, Gara Nagar, Nadiad-647690",Shivamogga,Upper Middle Class
+VIC-2024-KA-0647,Samesh Lall,66,Male,"H.No. 51, Bhalla Chowk, Serampore-506455",Belagavi,Middle Class
+VIC-2024-KA-0648,Kalpit Dugar,7,Other,"H.No. 98, Dutt Street, Vadodara-905925",Vijayapura,Middle Class
+VIC-2024-KA-0649,Siya Char,49,Male,"63, Setty Circle, Ahmednagar 376809",Davangere,Lower Class
+VIC-2024-KA-0650,Aradhana Sridhar,22,Other,"86, Wali Zila, Mahbubnagar 649063",Kalaburagi,Lower Class
+VIC-2024-KA-0651,Charan Chaudhuri,24,Male,"444, Dar Chowk, Karimnagar 501233",Mangaluru,Middle Class
+VIC-2024-KA-0652,Zansi Bassi,69,Male,"H.No. 649, Bhasin Zila, Muzaffarnagar 155407",Hubballi-Dharwad,Middle Class
+VIC-2024-KA-0653,Chatresh Bhattacharyya,76,Other,"H.No. 60, Baral Street, Mirzapur-752513",Ballari,Lower Class
+VIC-2024-KA-0654,Warjas Venkataraman,29,Female,"69/769, Dey Nagar, Sri Ganganagar-861131",Chikkamagaluru,Middle Class
+VIC-2024-KA-0655,Abha Behl,83,Other,"715, Bhattacharyya Ganj, Tenali-448305",Ballari,Upper Middle Class
+VIC-2024-KA-0656,Charan Choudhry,26,Female,"377, Barad Chowk, Kochi 761692",Davangere,Lower Class
+VIC-2024-KA-0657,Madhavi Dube,42,Other,"129, Rajagopalan Street, Bulandshahr-676311",Davangere,Lower Class
+VIC-2024-KA-0658,Jackson Keer,57,Female,"135, Sidhu Path, Ramagundam 943727",Belagavi,Lower Class
+VIC-2024-KA-0659,Atharv Suresh,19,Other,"94, Malhotra Zila, Malda-848158",Mangaluru,Middle Class
+VIC-2024-KA-0660,Tara Dutta,17,Female,"75/881, Kari Road, Tadipatri-859687",Shivamogga,Upper Middle Class
+VIC-2024-KA-0661,Suhani Reddy,12,Female,"H.No. 020, Dube Street, Madanapalle-883964",Bengaluru Urban,Lower Class
+VIC-2024-KA-0662,Alka Bhatia,69,Other,"H.No. 142, Goda Circle, Serampore 102548",Davangere,Lower Class
+VIC-2024-KA-0663,Jagdish Raja,58,Female,"H.No. 23, Sahni Chowk, Dewas-466328",Ballari,Upper Middle Class
+VIC-2024-KA-0664,Ojasvi Kale,46,Female,"36, Shah Ganj, Gorakhpur-104015",Chikkamagaluru,Lower Class
+VIC-2024-KA-0665,Vamakshi Kapadia,64,Other,"62/56, Vasa Nagar, Mira-Bhayandar 884636",Ballari,Upper Middle Class
+VIC-2024-KA-0666,Chaaya Gara,17,Female,"H.No. 04, Sanghvi Marg, Anand-315016",Davangere,Middle Class
+VIC-2024-KA-0667,Nikita Sura,21,Male,"H.No. 42, Prabhu Path, Morena-037427",Hubballi-Dharwad,Lower Class
+VIC-2024-KA-0668,Priya Kala,16,Female,"07/12, Sarin Path, Ludhiana-316294",Mangaluru,Lower Class
+VIC-2024-KA-0669,Kavya Shroff,70,Other,"H.No. 058, Varghese Marg, Burhanpur-912717",Tumakuru,Lower Class
+VIC-2024-KA-0670,Chandani Kaur,77,Other,"02/815, Parmar Path, Lucknow-793319",Shivamogga,Middle Class
+VIC-2024-KA-0671,Chandresh Soni,47,Male,"H.No. 233, Biswas Path, Thrissur 563121",Hassan,Upper Middle Class
+VIC-2024-KA-0672,Tarak Dar,62,Other,"57/283, Bhargava Chowk, Bettiah-569624",Belagavi,Middle Class
+VIC-2024-KA-0673,Vrishti Chaudhari,26,Female,"95, Sankar Ganj, Darbhanga-781504",Bengaluru Rural,Upper Middle Class
+VIC-2024-KA-0674,Osha Badami,57,Other,"42/14, Basak Road, Aurangabad-221206",Kalaburagi,Upper Middle Class
+VIC-2024-KA-0675,Yash Mall,6,Male,"H.No. 32, Ravi Zila, Avadi 049354",Mangaluru,Lower Class
+VIC-2024-KA-0676,Bina Thaker,10,Female,"66/274, Comar Ganj, Pudukkottai-650778",Hassan,Middle Class
+VIC-2024-KA-0677,Dhruv Gola,31,Male,"01/43, Behl Zila, Tirupati 467686",Davangere,Upper Middle Class
+VIC-2024-KA-0678,Zarna Sha,40,Male,"H.No. 187, Raval Zila, Muzaffarnagar-826092",Chikkamagaluru,Lower Class
+VIC-2024-KA-0679,Daniel Rastogi,6,Female,"H.No. 004, Goel Ganj, Thanjavur-175801",Bengaluru Urban,Upper Middle Class
+VIC-2024-KA-0680,Mohammed Khare,58,Female,"30, Ravi Marg, Unnao 667239",Ballari,Upper Middle Class
+VIC-2024-KA-0681,Advay Bhattacharyya,26,Male,"H.No. 84, Mandal Road, Buxar-485647",Shivamogga,Lower Class
+VIC-2024-KA-0682,Lakshmi Bandi,83,Female,"50/58, Yohannan, Morbi-872955",Belagavi,Upper Middle Class
+VIC-2024-KA-0683,Dayita Padmanabhan,56,Female,"H.No. 15, Gaba Marg, North Dumdum 691867",Davangere,Middle Class
+VIC-2024-KA-0684,Sanaya Som,13,Other,"91/232, Sampath Nagar, Davanagere 936623",Bengaluru Urban,Lower Class
+VIC-2024-KA-0685,Sanya Chaudhuri,62,Other,"H.No. 29, Sama Circle, Davanagere 920477",Mangaluru,Lower Class
+VIC-2024-KA-0686,Waida Rana,20,Male,"37, Deshpande Marg, Madurai 630936",Belagavi,Lower Class
+VIC-2024-KA-0687,Neelima Sahni,69,Female,"21, Puri Circle, Kirari Suleman Nagar-317074",Bengaluru Rural,Middle Class
+VIC-2024-KA-0688,Yachana Lad,30,Male,"H.No. 527, Sabharwal Road, Rewa-845750",Mysuru,Middle Class
+VIC-2024-KA-0689,Widisha Kata,12,Female,"927, Padmanabhan Road, Ramagundam-264312",Ballari,Middle Class
+VIC-2024-KA-0690,Wahab Sodhi,82,Other,"H.No. 43, Goyal Circle, Dewas 728466",Tumakuru,Middle Class
+VIC-2024-KA-0691,Dominic Chakraborty,74,Female,"826, Master Circle, Belgaum 573637",Tumakuru,Lower Class
+VIC-2024-KA-0692,Lipika Contractor,51,Male,"88/34, Vala Nagar, Vijayawada 520575",Belagavi,Lower Class
+VIC-2024-KA-0693,Ikshita Mital,34,Other,"H.No. 842, Dugar Street, Sirsa-882392",Vijayapura,Upper Middle Class
+VIC-2024-KA-0694,Watika Khosla,67,Male,"794, Reddy Ganj, Karawal Nagar 015239",Hassan,Middle Class
+VIC-2024-KA-0695,Abhimanyu Parmer,41,Female,"39/531, Dani Chowk, Loni-915900",Bengaluru Urban,Upper Middle Class
+VIC-2024-KA-0696,Shaurya Kade,59,Female,"12, Kade, Nandyal-192457",Davangere,Middle Class
+VIC-2024-KA-0697,Benjamin Sheth,27,Other,"689, Saraf Marg, Davanagere 271131",Belagavi,Lower Class
+VIC-2024-KA-0698,Harish Palla,43,Male,"29, Sundaram Marg, Agra-415552",Bengaluru Urban,Upper Middle Class
+VIC-2024-KA-0699,Pranit Dua,18,Female,"91/418, Gara Path, Firozabad 133795",Kalaburagi,Upper Middle Class
+VIC-2024-KA-0700,Girik Pradhan,53,Other,"56/30, Doshi Chowk, Jabalpur-096160",Hubballi-Dharwad,Lower Class
+VIC-2024-KA-0701,Andrew Doshi,37,Female,"26/48, Chawla Chowk, Dindigul-389885",Hassan,Lower Class
+VIC-2024-KA-0702,George Dara,60,Female,"03/18, Wadhwa Street, Allahabad 263725",Vijayapura,Upper Middle Class
+VIC-2024-KA-0703,Vidhi Wable,84,Other,"032, Minhas Zila, Moradabad-445824",Chikkamagaluru,Upper Middle Class
+VIC-2024-KA-0704,Yutika Badami,52,Other,"226, Rau Path, Chandrapur-225492",Bengaluru Rural,Lower Class
+VIC-2024-KA-0705,William Singh,71,Male,"H.No. 41, Krishnamurthy Chowk, Bardhaman 206696",Kalaburagi,Upper Middle Class
+VIC-2024-KA-0706,Teerth Borra,37,Other,"09/215, Garde Zila, Eluru-408467",Kalaburagi,Middle Class
+VIC-2024-KA-0707,Janani Narain,20,Female,"772, Palla Street, Ulhasnagar 838044",Bengaluru Urban,Lower Class
+VIC-2024-KA-0708,Irya Venkataraman,68,Male,"85/27, Kalita Ganj, Haldia-183152",Hassan,Lower Class
+VIC-2024-KA-0709,Fitan Dugal,85,Male,"49/176, Patla Path, Arrah-866401",Tumakuru,Upper Middle Class
+VIC-2024-KA-0710,Lajita Khalsa,40,Female,"58/648, Shenoy Ganj, Dharmavaram-344935",Hassan,Middle Class
+VIC-2024-KA-0711,Ojas Rao,29,Other,"H.No. 35, Thakkar, Kolhapur 399264",Bengaluru Rural,Upper Middle Class
+VIC-2024-KA-0712,Vanya Saraf,58,Other,"20/716, Yohannan Circle, Guna-495822",Hassan,Middle Class
+VIC-2024-KA-0713,Chatresh Ramanathan,42,Other,"H.No. 224, Master Ganj, Nagpur 387048",Mangaluru,Lower Class
+VIC-2024-KA-0714,Yahvi Bhavsar,83,Male,"H.No. 837, Bhardwaj Circle, Faridabad 046873",Tumakuru,Middle Class
+VIC-2024-KA-0715,Wishi Buch,6,Female,"H.No. 827, Amble Marg, Surendranagar Dudhrej-177853",Chikkamagaluru,Upper Middle Class
+VIC-2024-KA-0716,Abhimanyu Khanna,21,Other,"64, Sekhon Zila, Anand-620328",Vijayapura,Upper Middle Class
+VIC-2024-KA-0717,Nitara Iyengar,66,Male,"H.No. 843, Bala Zila, Hajipur 656672",Bengaluru Rural,Lower Class
+VIC-2024-KA-0718,Victor Taneja,59,Male,"86/995, Kade Nagar, Sirsa-093879",Mysuru,Upper Middle Class
+VIC-2024-KA-0719,Zarna Singhal,59,Male,"69/627, Bal Zila, Narasaraopet-558629",Mysuru,Middle Class
+VIC-2024-KA-0720,Owen Venkataraman,46,Other,"01, Gill Nagar, Moradabad-184148",Mysuru,Lower Class
+VIC-2024-KA-0721,Zayyan Lanka,77,Male,"58/703, Bhagat Chowk, Karaikudi 763507",Kalaburagi,Middle Class
+VIC-2024-KA-0722,Pahal Pandya,36,Other,"34, Ramanathan Path, Muzaffarpur-216439",Mysuru,Upper Middle Class
+VIC-2024-KA-0723,Banjeet Hari,70,Female,"30/835, Chand Circle, Mahbubnagar-204550",Mangaluru,Upper Middle Class
+VIC-2024-KA-0724,Max Deol,61,Female,"17, Pathak Ganj, Gandhidham-421822",Kalaburagi,Upper Middle Class
+VIC-2024-KA-0725,Forum Radhakrishnan,82,Male,"40/911, Samra Circle, Begusarai-820481",Mysuru,Lower Class
+VIC-2024-KA-0726,Amara Seshadri,76,Male,"77/85, Naik Marg, Phusro 146869",Hubballi-Dharwad,Upper Middle Class
+VIC-2024-KA-0727,Irya Cheema,15,Male,"81/808, Buch Road, Kharagpur 726452",Ballari,Upper Middle Class
+VIC-2024-KA-0728,Varenya Maharaj,21,Female,"20/85, Mammen Path, Durg-804372",Chikkamagaluru,Lower Class
+VIC-2024-KA-0729,Leela Khare,18,Male,"24/248, Morar Chowk, Pali 692942",Vijayapura,Middle Class
+VIC-2024-KA-0730,Dipta Lad,75,Female,"578, Radhakrishnan Ganj, Serampore 555676",Chikkamagaluru,Lower Class
+VIC-2024-KA-0731,Harrison Sabharwal,22,Female,"80/33, Palan Nagar, Barasat 511771",Vijayapura,Middle Class
+VIC-2024-KA-0732,Netra Bassi,57,Female,"261, Behl Chowk, Purnia-917616",Davangere,Lower Class
+VIC-2024-KA-0733,Zansi Acharya,5,Female,"H.No. 649, Parekh, Noida 409683",Davangere,Lower Class
+VIC-2024-KA-0734,Nicholas Ratti,54,Female,"22, Chaudhary, Jorhat-019462",Ballari,Middle Class
+VIC-2024-KA-0735,Yatan Manda,48,Male,"H.No. 878, Dyal Path, Kirari Suleman Nagar-521887",Davangere,Lower Class
+VIC-2024-KA-0736,Girindra Mohanty,28,Other,"H.No. 31, Reddy Chowk, Muzaffarnagar-536310",Hassan,Lower Class
+VIC-2024-KA-0737,Charvi Shenoy,84,Other,"H.No. 824, Koshy, Pune-613974",Davangere,Lower Class
+VIC-2024-KA-0738,Faqid Konda,58,Female,"12/97, Wason Marg, Jehanabad-270978",Shivamogga,Lower Class
+VIC-2024-KA-0739,David Tripathi,29,Female,"15, Swamy Ganj, Chandrapur 650243",Shivamogga,Middle Class
+VIC-2024-KA-0740,Vanya Pingle,36,Male,"40, Natt Street, Ujjain-232509",Tumakuru,Upper Middle Class
+VIC-2024-KA-0741,Ekta Nagi,74,Female,"994, Sibal Nagar, Muzaffarpur 477936",Ballari,Lower Class
+VIC-2024-KA-0742,Manbir Khosla,9,Other,"H.No. 196, Majumdar, Sirsa-087245",Belagavi,Lower Class
+VIC-2024-KA-0743,Arjun Balay,78,Female,"70, Borde Road, Jorhat 007435",Vijayapura,Middle Class
+VIC-2024-KA-0744,Januja Narayan,43,Male,"71, Shroff Path, Kottayam-269377",Ballari,Middle Class
+VIC-2024-KA-0745,Yachana Bawa,39,Female,"544, Singhal Ganj, Gandhinagar 453023",Hassan,Lower Class
+VIC-2024-KA-0746,Ethan Kale,45,Female,"68, Randhawa Circle, Jabalpur-208165",Kalaburagi,Lower Class
+VIC-2024-KA-0747,Niharika Merchant,54,Other,"H.No. 73, Mittal Road, Gandhinagar-823461",Chikkamagaluru,Upper Middle Class
+VIC-2024-KA-0748,Arya Bedi,70,Female,"36/99, Dutta Ganj, Jaipur 243404",Shivamogga,Lower Class
+VIC-2024-KA-0749,Hardik Varghese,16,Female,"50, Sidhu Zila, Eluru 684161",Bengaluru Urban,Upper Middle Class
+VIC-2024-KA-0750,Rajata Gopal,56,Male,"68/911, Pall Zila, Madanapalle-643521",Davangere,Middle Class
+VIC-2024-KA-0751,Jonathan Yadav,67,Female,"61/101, Mani Circle, Vellore 804614",Hubballi-Dharwad,Upper Middle Class
+VIC-2024-KA-0752,Indira Kapur,78,Other,"H.No. 09, Kant Road, Kota 862160",Mangaluru,Middle Class
+VIC-2024-KA-0753,Nandini Dugar,50,Female,"271, Khosla Road, Bulandshahr 139147",Shivamogga,Middle Class
+VIC-2024-KA-0754,Ekaraj Lala,20,Female,"H.No. 919, Bajwa Nagar, Hindupur 443947",Tumakuru,Upper Middle Class
+VIC-2024-KA-0755,Samar Parikh,76,Other,"299, Bail Path, Nagercoil-619005",Bengaluru Urban,Middle Class
+VIC-2024-KA-0756,Arjun Varughese,50,Male,"H.No. 071, Nath Road, Belgaum 001789",Mysuru,Upper Middle Class
+VIC-2024-KA-0757,Darika Narasimhan,16,Male,"482, Memon Path, Udupi 912262",Davangere,Lower Class
+VIC-2024-KA-0758,Hardik Vyas,85,Male,"H.No. 124, Dass Path, Bhopal-075584",Mysuru,Upper Middle Class
+VIC-2024-KA-0759,Shaurya Vala,32,Female,"605, Prashad Zila, Bellary 653040",Vijayapura,Middle Class
+VIC-2024-KA-0760,Kamya Cheema,37,Male,"H.No. 312, Puri Ganj, Jalgaon 093940",Davangere,Middle Class
+VIC-2024-KA-0761,Ojas Dasgupta,59,Female,"46/590, Pandya, Aligarh 384205",Tumakuru,Lower Class
+VIC-2024-KA-0762,Bhavya Rajagopalan,6,Other,"15, Mani Road, Ghaziabad-953299",Vijayapura,Middle Class
+VIC-2024-KA-0763,Aayush Raj,59,Male,"H.No. 81, Johal Nagar, Muzaffarnagar-657676",Shivamogga,Middle Class
+VIC-2024-KA-0764,Advik Merchant,76,Female,"124, Virk Road, Dindigul 689730",Chikkamagaluru,Middle Class
+VIC-2024-KA-0765,Ishita Anand,48,Other,"H.No. 26, Chhabra, Sambalpur-122547",Tumakuru,Upper Middle Class
+VIC-2024-KA-0766,Rayaan Chaudhari,79,Male,"794, Rajan Street, Ghaziabad 011946",Tumakuru,Upper Middle Class
+VIC-2024-KA-0767,Lajita Bhatti,48,Female,"H.No. 512, Seth Zila, Tadipatri-230930",Belagavi,Middle Class
+VIC-2024-KA-0768,Karan Sundaram,28,Other,"45/55, Ramakrishnan Road, Bhiwandi 644629",Chikkamagaluru,Middle Class
+VIC-2024-KA-0769,Yutika Baria,50,Female,"73/525, Kant Marg, Pondicherry 439625",Bengaluru Urban,Middle Class
+VIC-2024-KA-0770,Yatan Chopra,79,Other,"85/59, Parikh Nagar, North Dumdum 963532",Vijayapura,Upper Middle Class
+VIC-2024-KA-0771,Andrew Jha,74,Male,"985, Sami Ganj, Pallavaram-832851",Chikkamagaluru,Middle Class
+VIC-2024-KA-0772,Vedika Issac,78,Male,"54, Sangha Ganj, Haldia 171948",Ballari,Upper Middle Class
+VIC-2024-KA-0773,Falak Mann,54,Female,"H.No. 563, Palan Marg, Sri Ganganagar-823935",Mangaluru,Middle Class
+VIC-2024-KA-0774,Ekantika Prashad,59,Male,"81/311, Biswas Marg, Raichur 323533",Bengaluru Urban,Upper Middle Class
+VIC-2024-KA-0775,Omisha Merchant,30,Male,"731, Manne Road, Jaipur 339937",Chikkamagaluru,Middle Class
+VIC-2024-KA-0776,Sara Issac,52,Other,"20/634, Sami Ganj, Srikakulam 872314",Davangere,Middle Class
+VIC-2024-KA-0777,Mitesh Rajagopal,49,Other,"56/787, Mander, Bhind-013679",Kalaburagi,Upper Middle Class
+VIC-2024-KA-0778,Yagnesh Walla,14,Female,"00, Yohannan Nagar, Pimpri-Chinchwad-306316",Ballari,Lower Class
+VIC-2024-KA-0779,Ikshita Bhakta,40,Male,"652, Shanker Ganj, Hazaribagh 122171",Belagavi,Upper Middle Class
+VIC-2024-KA-0780,Yashasvi Sagar,66,Female,"H.No. 156, Chakrabarti Marg, Hospet 158892",Davangere,Lower Class
+VIC-2024-KA-0781,Xiti Misra,81,Female,"H.No. 81, Trivedi Road, Dehri-526804",Kalaburagi,Lower Class
+VIC-2024-KA-0782,Abha Goswami,84,Other,"30/410, Bhandari Zila, Nagaon 911391",Bengaluru Rural,Middle Class
+VIC-2024-KA-0783,Banjeet Magar,59,Other,"86/425, Rajagopalan Marg, Mira-Bhayandar-455666",Mysuru,Lower Class
+VIC-2024-KA-0784,Vaishnavi Zacharia,28,Other,"59/77, Sekhon, Gudivada-035564",Vijayapura,Middle Class
+VIC-2024-KA-0785,Isaiah Sachdeva,80,Male,"890, Chand Zila, Uluberia 683929",Ballari,Upper Middle Class
+VIC-2024-KA-0786,Jhalak Mander,84,Male,"75/212, Sant, Haridwar-624455",Vijayapura,Middle Class
+VIC-2024-KA-0787,Aryan Borde,29,Male,"H.No. 17, Bose Chowk, Unnao-426678",Ballari,Middle Class
+VIC-2024-KA-0788,Udarsh Bhatti,82,Female,"90/30, Rout Nagar, Shivpuri 551087",Vijayapura,Upper Middle Class
+VIC-2024-KA-0789,Gunbir Sur,77,Other,"018, Barman Street, Bhavnagar 645956",Bengaluru Urban,Upper Middle Class
+VIC-2024-KA-0790,Vaishnavi Nagarajan,54,Other,"78, Kade Nagar, Tumkur 714364",Belagavi,Middle Class
+VIC-2024-KA-0791,Manbir Tella,15,Female,"27, Wagle Marg, Asansol 086059",Shivamogga,Lower Class
+VIC-2024-KA-0792,Bishakha Handa,49,Female,"84/921, Solanki Path, Ujjain-020621",Mysuru,Upper Middle Class
+VIC-2024-KA-0793,Ikbal Dutt,23,Female,"71, Wagle Street, Hospet 137903",Davangere,Upper Middle Class
+VIC-2024-KA-0794,Harrison Shah,8,Other,"36/04, Sundaram Street, Gangtok-479798",Mangaluru,Upper Middle Class
+VIC-2024-KA-0795,Warhi Pant,74,Other,"H.No. 645, Sachdeva Street, Jabalpur 751535",Bengaluru Rural,Lower Class
+VIC-2024-KA-0796,Vidhi Banerjee,82,Other,"719, Amble Chowk, Ludhiana-614207",Davangere,Lower Class
+VIC-2024-KA-0797,Champak Sethi,50,Other,"02/306, Ravel Road, Varanasi-199624",Chikkamagaluru,Lower Class
+VIC-2024-KA-0798,Diya Mistry,25,Male,"51/996, Doshi Street, Medininagar 601671",Mangaluru,Middle Class
+VIC-2024-KA-0799,Manya Bhakta,32,Other,"43, Bhalla Nagar, Kalyan-Dombivli-489213",Bengaluru Urban,Middle Class
+VIC-2024-KA-0800,Kabir Keer,27,Other,"47/782, Buch Street, Guna-116686",Tumakuru,Lower Class
+VIC-2024-KA-0801,Sanaya Dugar,26,Male,"H.No. 225, Verma Street, Jalandhar-369083",Tumakuru,Lower Class
+VIC-2024-KA-0802,Frederick Joshi,7,Other,"73/78, Kamdar Street, Nagpur 436067",Hassan,Lower Class
+VIC-2024-KA-0803,Pushti Buch,41,Female,"61/84, Kanda Nagar, Giridih-980177",Kalaburagi,Lower Class
+VIC-2024-KA-0804,Nimrat Din,79,Other,"271, Sekhon, Ramgarh-186065",Vijayapura,Upper Middle Class
+VIC-2024-KA-0805,Vivaan Basu,71,Female,"66/12, D’Alia Marg, Gangtok 428523",Mysuru,Lower Class
+VIC-2024-KA-0806,Dhriti Borra,45,Female,"22/81, Sura Chowk, Vijayanagaram-873289",Hubballi-Dharwad,Middle Class
+VIC-2024-KA-0807,Zayyan Chandra,23,Female,"H.No. 244, Divan Street, Ujjain-217119",Belagavi,Middle Class
+VIC-2024-KA-0808,Meera Saraf,50,Female,"44, Deep Chowk, Tumkur 249596",Ballari,Middle Class
+VIC-2024-KA-0809,Vedant Grover,19,Other,"H.No. 512, Apte Path, Kishanganj 261063",Tumakuru,Lower Class
+VIC-2024-KA-0810,Vyanjana Padmanabhan,41,Female,"H.No. 20, Ganguly Street, Ghaziabad 311643",Bengaluru Rural,Lower Class
+VIC-2024-KA-0811,Bimala Date,42,Female,"56/312, Reddy Path, Giridih-810080",Hassan,Middle Class
+VIC-2024-KA-0812,Joshua Jayaraman,45,Female,"04/73, Soni Street, Shimla 745196",Davangere,Lower Class
+VIC-2024-KA-0813,Charles Dasgupta,82,Male,"75/79, Pau, Gudivada-885417",Mangaluru,Upper Middle Class
+VIC-2024-KA-0814,Jackson Borde,6,Female,"90/193, Tara Chowk, Mumbai-697472",Kalaburagi,Middle Class
+VIC-2024-KA-0815,Gaurangi Talwar,68,Other,"89, Gola Circle, Avadi 824685",Tumakuru,Upper Middle Class
+VIC-2024-KA-0816,Jonathan Setty,26,Female,"H.No. 011, Bala Circle, Guntur-187992",Bengaluru Rural,Upper Middle Class
+VIC-2024-KA-0817,Bakhshi Chand,69,Female,"60, Kamdar, Jaunpur 965082",Hubballi-Dharwad,Upper Middle Class
+VIC-2024-KA-0818,Zayyan Buch,77,Male,"06, Prabhakar Nagar, Lucknow-807841",Ballari,Upper Middle Class
+VIC-2024-KA-0819,Akshay Mani,74,Female,"03/413, Mand Circle, Jalgaon 148317",Bengaluru Urban,Middle Class
+VIC-2024-KA-0820,Owen Lala,32,Female,"21/53, Sen Marg, Bihar Sharif-290965",Hassan,Lower Class
+VIC-2024-KA-0821,Anay Chaudhary,31,Male,"20/23, Shere, Mahbubnagar 386613",Kalaburagi,Middle Class
+VIC-2024-KA-0822,Nandini Sood,32,Other,"71/300, Sami Ganj, Ramagundam 326294",Hubballi-Dharwad,Lower Class
+VIC-2024-KA-0823,Daniel Khalsa,58,Female,"085, Upadhyay Road, Kumbakonam-339304",Belagavi,Upper Middle Class
+VIC-2024-KA-0824,Rohan Kara,38,Other,"68/274, Nair Path, Warangal 208350",Davangere,Upper Middle Class
+VIC-2024-KA-0825,Aditya Kaul,57,Female,"H.No. 547, Mand Circle, Silchar 898242",Shivamogga,Upper Middle Class
+VIC-2024-KA-0826,Balvan Bal,56,Female,"749, Taneja Street, Sri Ganganagar 151062",Hassan,Lower Class
+VIC-2024-KA-0827,Daksha Pai,40,Female,"H.No. 32, Jaggi Nagar, Yamunanagar 794718",Ballari,Lower Class
+VIC-2024-KA-0828,Raksha Mahal,30,Other,"H.No. 86, Reddy Zila, Rajahmundry 584969",Vijayapura,Middle Class
+VIC-2024-KA-0829,Fiyaz Jha,69,Male,"27/72, Aggarwal Nagar, Kadapa-795824",Bengaluru Rural,Lower Class
+VIC-2024-KA-0830,Frederick Minhas,40,Female,"34/80, Suresh Path, Sambalpur-820739",Shivamogga,Lower Class
+VIC-2024-KA-0831,Ansh Shankar,39,Other,"64, Dani Zila, Kurnool 237301",Chikkamagaluru,Lower Class
+VIC-2024-KA-0832,Om Chauhan,17,Female,"84/01, Srinivasan Marg, Nangloi Jat-730686",Belagavi,Lower Class
+VIC-2024-KA-0833,Ladli Sama,61,Female,"07/661, Sekhon Road, Bijapur-201382",Belagavi,Middle Class
+VIC-2024-KA-0834,Ishanvi Sahota,85,Male,"74/987, Gera Ganj, Mirzapur 224793",Vijayapura,Lower Class
+VIC-2024-KA-0835,Jagvi Rege,70,Other,"10/51, Parmer Ganj, Unnao-436498",Davangere,Upper Middle Class
+VIC-2024-KA-0836,Vrinda Kuruvilla,68,Male,"H.No. 148, Manda Chowk, Vijayawada-981637",Davangere,Upper Middle Class
+VIC-2024-KA-0837,Samarth Kakar,26,Other,"10, Kanda Chowk, Kolkata 000910",Hassan,Middle Class
+VIC-2024-KA-0838,Shravya Subramanian,22,Male,"08, Datta Chowk, Nagpur 041720",Kalaburagi,Lower Class
+VIC-2024-KA-0839,Banjeet Garg,58,Other,"H.No. 35, Ganesan Marg, Indore 317512",Ballari,Lower Class
+VIC-2024-KA-0840,Ayaan Sharaf,15,Other,"40, Rout Zila, Jhansi-867919",Shivamogga,Middle Class
+VIC-2024-KA-0841,Champak Kashyap,68,Male,"24/947, Dewan Circle, Gurgaon 625157",Chikkamagaluru,Upper Middle Class
+VIC-2024-KA-0842,Lakshmi Bail,55,Other,"05, Saxena Road, Kozhikode 378842",Mangaluru,Upper Middle Class
+VIC-2024-KA-0843,Varenya Barad,62,Male,"61/01, Handa Circle, Raiganj 716380",Shivamogga,Upper Middle Class
+VIC-2024-KA-0844,Wyatt Basak,44,Female,"H.No. 411, Wason Marg, Udaipur-794278",Bengaluru Rural,Middle Class
+VIC-2024-KA-0845,Aarini Bajwa,55,Other,"932, Gera Path, Firozabad-863922",Ballari,Upper Middle Class
+VIC-2024-KA-0846,Amrita Banerjee,71,Other,"312, Bhatia Ganj, Bhavnagar 012914",Hassan,Upper Middle Class
+VIC-2024-KA-0847,Sai Hegde,26,Male,"223, Sastry Nagar, Vellore-018663",Mangaluru,Lower Class
+VIC-2024-KA-0848,Fiyaz Doctor,21,Female,"821, Ganesan Road, Gulbarga 328898",Vijayapura,Middle Class
+VIC-2024-KA-0849,Sudiksha Vora,42,Other,"H.No. 005, Walla Ganj, Rohtak-596574",Belagavi,Middle Class
+VIC-2024-KA-0850,Elijah Devi,15,Other,"850, Patla Zila, Durgapur 665268",Ballari,Upper Middle Class
+VIC-2024-KA-0851,Samesh Bhagat,9,Male,"H.No. 664, Prabhu Path, Shahjahanpur-465016",Davangere,Upper Middle Class
+VIC-2024-KA-0852,Brijesh Sharaf,71,Male,"18/948, Basu Street, Raurkela Industrial Township 049194",Mangaluru,Upper Middle Class
+VIC-2024-KA-0853,Zansi Lanka,41,Other,"218, Kalla Circle, Hubli–Dharwad 752651",Chikkamagaluru,Middle Class
+VIC-2024-KA-0854,Aradhana Chaudhary,15,Other,"89/77, Parekh Marg, Ramgarh-956646",Ballari,Lower Class
+VIC-2024-KA-0855,Akshay Kara,57,Other,"56, Sachar Chowk, Mumbai 977828",Chikkamagaluru,Middle Class
+VIC-2024-KA-0856,Jeremiah Joshi,55,Male,"269, Karnik Ganj, Patna-505744",Chikkamagaluru,Lower Class
+VIC-2024-KA-0857,Jagdish Rajan,59,Other,"57, Brahmbhatt Ganj, Guntur 456970",Vijayapura,Upper Middle Class
+VIC-2024-KA-0858,Shravya Chana,70,Female,"H.No. 291, Hayre Circle, Sultan Pur Majra-042206",Hubballi-Dharwad,Lower Class
+VIC-2024-KA-0859,Ayush Dhawan,32,Male,"64/748, Atwal Marg, Shimoga-677764",Chikkamagaluru,Lower Class
+VIC-2024-KA-0860,Tanvi Gola,18,Male,"H.No. 982, Varughese Street, Jhansi-309604",Chikkamagaluru,Middle Class
+VIC-2024-KA-0861,Warinder Sinha,76,Other,"H.No. 739, Gole Road, Shivpuri 255004",Kalaburagi,Upper Middle Class
+VIC-2024-KA-0862,Dalbir Das,44,Male,"00, Krishnan, Saharanpur 187626",Kalaburagi,Middle Class
+VIC-2024-KA-0863,Ranveer Madan,73,Other,"H.No. 866, Narayan Chowk, New Delhi 141473",Tumakuru,Middle Class
+VIC-2024-KA-0864,Anmol Venkataraman,68,Male,"61/77, Bhakta Ganj, Allahabad-819529",Hubballi-Dharwad,Lower Class
+VIC-2024-KA-0865,Tejas Hegde,29,Female,"372, Solanki, Jehanabad 958029",Bengaluru Urban,Lower Class
+VIC-2024-KA-0866,Libni Pall,70,Other,"60/903, Bala Nagar, Malegaon-047447",Chikkamagaluru,Lower Class
+VIC-2024-KA-0867,Veer Chada,77,Other,"30/75, Bera, Hajipur-440185",Mangaluru,Lower Class
+VIC-2024-KA-0868,David Kohli,20,Other,"80, Narasimhan Zila, Adoni-585084",Chikkamagaluru,Lower Class
+VIC-2024-KA-0869,Girish Munshi,15,Male,"H.No. 40, Dhillon, Vadodara-979465",Mysuru,Lower Class
+VIC-2024-KA-0870,Ishanvi Goda,30,Male,"H.No. 469, Shetty, Eluru-252000",Hubballi-Dharwad,Lower Class
+VIC-2024-KA-0871,Ekta Madan,40,Other,"27/527, Date Street, Bilaspur 311498",Mysuru,Middle Class
+VIC-2024-KA-0872,Aachal Raman,80,Male,"40/28, Sidhu Marg, Parbhani 256079",Bengaluru Urban,Middle Class
+VIC-2024-KA-0873,Ryan Om,64,Male,"878, Swamy Chowk, Berhampore 759306",Kalaburagi,Lower Class
+VIC-2024-KA-0874,Tejas Doshi,33,Male,"629, Purohit Ganj, Farrukhabad 418990",Bengaluru Rural,Upper Middle Class
+VIC-2024-KA-0875,Amruta Banerjee,38,Male,"075, Gole Nagar, Raebareli-737190",Tumakuru,Lower Class
+VIC-2024-KA-0876,Hema Uppal,5,Male,"H.No. 71, Dhillon Zila, Malegaon-317925",Hubballi-Dharwad,Lower Class
+VIC-2024-KA-0877,Sarthak Munshi,85,Female,"H.No. 91, Bhatti Circle, Bhavnagar-205832",Mangaluru,Middle Class
+VIC-2024-KA-0878,Widisha Pandit,14,Other,"H.No. 297, Arora, Delhi 268303",Vijayapura,Lower Class
+VIC-2024-KA-0879,Wyatt Sahni,60,Female,"79/851, Pant Circle, Durgapur-283554",Bengaluru Rural,Lower Class
+VIC-2024-KA-0880,Chaitanya Lata,48,Female,"53/13, Chacko Path, Kurnool-955744",Belagavi,Lower Class
+VIC-2024-KA-0881,Lakshmi Chaudhuri,52,Female,"92/346, Aurora Nagar, Bharatpur 452293",Mysuru,Upper Middle Class
+VIC-2024-KA-0882,Anusha Nanda,7,Other,"36/389, Sarin Zila, Thrissur-100808",Shivamogga,Lower Class
+VIC-2024-KA-0883,Pooja Pau,51,Female,"145, Hora Nagar, Parbhani-559470",Shivamogga,Lower Class
+VIC-2024-KA-0884,Hemani Kapur,12,Female,"20/547, Chada Marg, Mira-Bhayandar 058727",Tumakuru,Middle Class
+VIC-2024-KA-0885,Warinder Mitter,28,Male,"80, Dutt Marg, Arrah 913182",Hubballi-Dharwad,Upper Middle Class
+VIC-2024-KA-0886,Adya Nadig,40,Other,"29/832, Dutt, Saharanpur 172259",Bengaluru Urban,Lower Class
+VIC-2024-KA-0887,Vedant Bora,30,Male,"68/896, Deo Path, Gurgaon 374713",Tumakuru,Middle Class
+VIC-2024-KA-0888,Abhiram Dutt,21,Male,"08/76, Dhar Marg, Tumkur-361569",Kalaburagi,Lower Class
+VIC-2024-KA-0889,Omaja Ravi,32,Other,"H.No. 35, Aurora Path, Raebareli 552851",Belagavi,Upper Middle Class
+VIC-2024-KA-0890,Vamakshi Bedi,78,Male,"16/658, Chaudhry Road, Jabalpur 041098",Belagavi,Lower Class
+VIC-2024-KA-0891,Rajeshri Zachariah,17,Other,"H.No. 03, Ganesh Ganj, Berhampur 313987",Shivamogga,Middle Class
+VIC-2024-KA-0892,Oviya Patla,59,Other,"456, Ray Marg, Bhiwandi 005021",Davangere,Upper Middle Class
+VIC-2024-KA-0893,Hemangini Sengupta,22,Male,"89/779, Nath Nagar, Bokaro-740737",Mangaluru,Upper Middle Class
+VIC-2024-KA-0894,Jagat Batta,34,Other,"H.No. 452, Keer Street, Jamshedpur 715378",Ballari,Lower Class
+VIC-2024-KA-0895,Oscar Dalal,16,Female,"79, Balan Road, Tinsukia 165640",Hassan,Upper Middle Class
+VIC-2024-KA-0896,Arunima Mahajan,49,Female,"37/009, Bassi Street, Gurgaon-244719",Davangere,Middle Class
+VIC-2024-KA-0897,Fiyaz Yadav,33,Other,"92/461, Anne Ganj, Pune 866394",Mysuru,Lower Class
+VIC-2024-KA-0898,Eshana Lall,8,Female,"10/983, Bhatt Chowk, Patiala 144688",Shivamogga,Middle Class
+VIC-2024-KA-0899,Lipika Babu,35,Female,"68, Bhalla Marg, Mira-Bhayandar 848868",Kalaburagi,Middle Class
+VIC-2024-KA-0900,Amara Bhardwaj,14,Male,"H.No. 146, Loke Chowk, Chennai 119575",Kalaburagi,Lower Class
+VIC-2024-KA-0901,Abeer Handa,66,Female,"156, Sabharwal Chowk, Chennai 735686",Vijayapura,Upper Middle Class
+VIC-2024-KA-0902,Finn Bansal,77,Male,"28/05, Saini Marg, Nadiad 743013",Chikkamagaluru,Lower Class
+VIC-2024-KA-0903,Veda Dhingra,71,Female,"029, Gade Ganj, Amroha-363765",Hassan,Upper Middle Class
+VIC-2024-KA-0904,Yauvani Ranganathan,16,Female,"H.No. 342, Kothari Zila, Nellore-151210",Tumakuru,Upper Middle Class
+VIC-2024-KA-0905,Daksh Palan,50,Male,"69, Choudhry Street, Nadiad 389063",Mangaluru,Lower Class
+VIC-2024-KA-0906,Jagat Ram,85,Other,"04/27, Pall Nagar, Bhiwani-520210",Mangaluru,Upper Middle Class
+VIC-2024-KA-0907,Owen Nagar,27,Female,"370, Badal Street, Jaunpur-248642",Vijayapura,Upper Middle Class
+VIC-2024-KA-0908,Vasana Varughese,23,Other,"165, Luthra Zila, Gorakhpur-358777",Belagavi,Lower Class
+VIC-2024-KA-0909,Dev Pandey,20,Female,"17, Nayar Circle, Deoghar-102196",Mysuru,Upper Middle Class
+VIC-2024-KA-0910,Manya Bala,36,Male,"00/88, Sanghvi Street, Anantapuram-095002",Hassan,Upper Middle Class
+VIC-2024-KA-0911,Vinaya Misra,18,Male,"907, Madan Path, Nangloi Jat-928590",Davangere,Lower Class
+VIC-2024-KA-0912,Avni Joshi,24,Other,"H.No. 98, Bahl Zila, Navi Mumbai-360756",Bengaluru Urban,Upper Middle Class
+VIC-2024-KA-0913,Daniel Pillay,64,Female,"407, Sant Street, Bhiwani 240247",Davangere,Upper Middle Class
+VIC-2024-KA-0914,Sai Oak,75,Female,"49, Chacko Circle, Jaipur 653058",Ballari,Middle Class
+VIC-2024-KA-0915,Bhavini Jani,65,Other,"66/02, Upadhyay Street, Morena 774897",Chikkamagaluru,Lower Class
+VIC-2024-KA-0916,Hitesh Majumdar,70,Other,"10/913, Hegde Zila, Rajpur Sonarpur 346332",Tumakuru,Lower Class
+VIC-2024-KA-0917,Abdul Ghose,49,Other,"97/865, Bumb Street, Jaunpur-793132",Vijayapura,Lower Class
+VIC-2024-KA-0918,Ishani Thakkar,15,Female,"93/393, Sampath Chowk, Nagaon-685601",Kalaburagi,Lower Class
+VIC-2024-KA-0919,Varsha Singhal,69,Female,"83/412, Anne Nagar, Mango 888645",Ballari,Middle Class
+VIC-2024-KA-0920,Suhani Varghese,84,Female,"H.No. 245, Jain, Sasaram 518896",Vijayapura,Middle Class
+VIC-2024-KA-0921,Ijaya Rege,22,Female,"H.No. 06, Chahal Zila, Buxar-146410",Bengaluru Urban,Middle Class
+VIC-2024-KA-0922,Wyatt Gola,29,Male,"83, Dey Chowk, Gulbarga-924528",Bengaluru Urban,Upper Middle Class
+VIC-2024-KA-0923,Abdul Halder,44,Other,"641, Issac Marg, Jalna 596531",Shivamogga,Upper Middle Class
+VIC-2024-KA-0924,Hamsini Pandey,83,Female,"H.No. 86, Nayak, Kavali 771861",Tumakuru,Lower Class
+VIC-2024-KA-0925,Akshay Subramanian,31,Other,"H.No. 788, Sarma, Kota-085804",Bengaluru Urban,Lower Class
+VIC-2024-KA-0926,Tristan Hora,9,Other,"01, Acharya Circle, Shimla 012983",Hassan,Middle Class
+VIC-2024-KA-0927,Anamika Chokshi,24,Female,"67/316, Som Zila, Siliguri 763241",Ballari,Middle Class
+VIC-2024-KA-0928,Mekhala Narayanan,9,Male,"49/56, Taneja Street, Sultan Pur Majra 104664",Vijayapura,Lower Class
+VIC-2024-KA-0929,Riya Dutt,53,Other,"33/91, Merchant, Jalandhar-328911",Davangere,Lower Class
+VIC-2024-KA-0930,Yochana Bera,7,Other,"H.No. 48, Aggarwal Path, Ujjain-198833",Tumakuru,Lower Class
+VIC-2024-KA-0931,Reva Mall,46,Other,"73/76, Kumar Road, Mau 872921",Mangaluru,Lower Class
+VIC-2024-KA-0932,Zilmil Sodhi,79,Other,"H.No. 412, Bhatnagar Marg, Howrah 840758",Kalaburagi,Upper Middle Class
+VIC-2024-KA-0933,Isaiah Iyer,83,Male,"H.No. 637, Varughese Chowk, Satna 196655",Bengaluru Rural,Upper Middle Class
+VIC-2024-KA-0934,Urmi Mital,81,Male,"H.No. 407, Chander Circle, Aizawl-285016",Hubballi-Dharwad,Middle Class
+VIC-2024-KA-0935,Jason Sharaf,37,Male,"69/429, Amble Path, Bhilai 551563",Hassan,Middle Class
+VIC-2024-KA-0936,Nathaniel Mammen,8,Male,"34/810, Mallick Road, Raebareli 306656",Hubballi-Dharwad,Middle Class
+VIC-2024-KA-0937,Anusha Sandal,83,Male,"39/054, Pal Nagar, Bhusawal 253002",Kalaburagi,Middle Class
+VIC-2024-KA-0938,Baghyawati Sem,17,Other,"H.No. 005, Rastogi Street, Jaipur 557102",Hassan,Middle Class
+VIC-2024-KA-0939,Samesh Naidu,24,Female,"78/190, Bala Street, Bettiah-676374",Ballari,Upper Middle Class
+VIC-2024-KA-0940,Urvashi Bhatia,56,Male,"H.No. 457, Kamdar Nagar, Meerut-786399",Bengaluru Urban,Lower Class
+VIC-2024-KA-0941,Pavani Sem,25,Male,"26, Ravel Chowk, Sonipat 723251",Chikkamagaluru,Upper Middle Class
+VIC-2024-KA-0942,Finn Sachar,58,Female,"570, Dash Marg, Alappuzha-128480",Bengaluru Rural,Middle Class
+VIC-2024-KA-0943,Garima Swamy,40,Male,"79/24, Dubey Zila, Fatehpur 948900",Mangaluru,Lower Class
+VIC-2024-KA-0944,Amrita Aurora,85,Male,"H.No. 08, Lanka Marg, Patiala-262262",Shivamogga,Upper Middle Class
+VIC-2024-KA-0945,Indira Kakar,38,Male,"344, Pandey, Katihar-291233",Hubballi-Dharwad,Upper Middle Class
+VIC-2024-KA-0946,Nathan Rastogi,28,Other,"399, Sharaf Circle, Davanagere-708016",Kalaburagi,Middle Class
+VIC-2024-KA-0947,Nisha Sule,40,Female,"34, Pandya Street, Hindupur-374072",Davangere,Upper Middle Class
+VIC-2024-KA-0948,Warhi Krishnan,5,Male,"50/932, Balasubramanian, Bhimavaram 613834",Mangaluru,Upper Middle Class
+VIC-2024-KA-0949,Nachiket Deshmukh,84,Other,"42, Seth Chowk, Siwan-473133",Vijayapura,Upper Middle Class
+VIC-2024-KA-0950,Mahika Grover,46,Male,"H.No. 55, Dugar Street, Hapur-997541",Vijayapura,Middle Class
+VIC-2024-KA-0951,Leena Guha,46,Female,"96, Sane Ganj, Kolkata-214158",Ballari,Lower Class
+VIC-2024-KA-0952,Omya Murty,51,Female,"H.No. 59, Zacharia Street, Yamunanagar-684164",Davangere,Lower Class
+VIC-2024-KA-0953,Advay Bava,52,Female,"006, Sachdeva Marg, Kurnool-156496",Bengaluru Rural,Upper Middle Class
+VIC-2024-KA-0954,Watika Desai,69,Male,"H.No. 79, Tripathi, Bally 913042",Ballari,Middle Class
+VIC-2024-KA-0955,Ekapad Tandon,63,Female,"77, Mistry, Tinsukia-174295",Hassan,Lower Class
+VIC-2024-KA-0956,Chatresh Rai,68,Female,"94/203, Pandit Street, Sasaram-000444",Chikkamagaluru,Middle Class
+VIC-2024-KA-0957,Sanya Gill,14,Male,"40/73, Jayaraman Path, Jalna 263630",Bengaluru Rural,Upper Middle Class
+VIC-2024-KA-0958,Logan Sethi,31,Female,"H.No. 83, Pant, Khammam 328009",Bengaluru Urban,Middle Class
+VIC-2024-KA-0959,Dayita Bir,51,Female,"463, Dara Chowk, Rewa-561823",Vijayapura,Middle Class
+VIC-2024-KA-0960,Chatura Walla,27,Other,"666, Bhandari Road, Begusarai-299448",Ballari,Middle Class
+VIC-2024-KA-0961,Vedika Muni,27,Other,"H.No. 139, Mohan Circle, Bhilai-639706",Mysuru,Upper Middle Class
+VIC-2024-KA-0962,Mugdha Lata,44,Other,"074, Krish Ganj, Bhatpara 052109",Hassan,Middle Class
+VIC-2024-KA-0963,Faris Sarna,50,Other,"41/833, Pandit Circle, Hosur 004935",Tumakuru,Upper Middle Class
+VIC-2024-KA-0964,Tara Chand,35,Other,"684, Upadhyay Street, Secunderabad-417635",Kalaburagi,Lower Class
+VIC-2024-KA-0965,Warda Devan,45,Other,"49, Thakkar Marg, Medininagar-772124",Hassan,Lower Class
+VIC-2024-KA-0966,Isaiah Pillay,78,Male,"61/59, Das Zila, Agra-742215",Mangaluru,Middle Class
+VIC-2024-KA-0967,Zaitra Magar,53,Male,"51/04, Khalsa Path, Ramagundam 134263",Hassan,Upper Middle Class
+VIC-2024-KA-0968,Ayush Suresh,82,Male,"90, Zacharia Circle, Adoni 373554",Mangaluru,Lower Class
+VIC-2024-KA-0969,Ganga Ghose,60,Male,"83/105, Jayaraman Nagar, Tadepalligudem-574384",Vijayapura,Lower Class
+VIC-2024-KA-0970,Vamakshi Swaminathan,80,Female,"H.No. 483, Morar Chowk, Farrukhabad-285241",Vijayapura,Upper Middle Class
+VIC-2024-KA-0971,Gagan Oak,32,Other,"72/744, Wali Street, Ichalkaranji 512023",Shivamogga,Upper Middle Class
+VIC-2024-KA-0972,Faris Wagle,10,Female,"166, Sachdev Ganj, Erode 508486",Mysuru,Upper Middle Class
+VIC-2024-KA-0973,Vinaya Krishna,75,Female,"17/945, Mody, Mysore 181855",Mysuru,Upper Middle Class
+VIC-2024-KA-0974,Wazir Rajan,17,Other,"H.No. 70, Banik, Belgaum 801456",Hassan,Middle Class
+VIC-2024-KA-0975,Shravya Gala,18,Female,"68, Apte Ganj, Bidar 871336",Shivamogga,Lower Class
+VIC-2024-KA-0976,Veda Mammen,67,Female,"83/09, Pau Path, Bidhannagar-841545",Mysuru,Middle Class
+VIC-2024-KA-0977,Xiti Puri,79,Female,"25, Acharya, Tiruppur 017789",Belagavi,Middle Class
+VIC-2024-KA-0978,Max Majumdar,77,Other,"59/87, Mitter Road, Ambarnath 247148",Mangaluru,Upper Middle Class
+VIC-2024-KA-0979,Nirja Yohannan,66,Male,"43/692, Khare Nagar, Sirsa-507854",Bengaluru Rural,Lower Class
+VIC-2024-KA-0980,Kala Chakrabarti,58,Male,"20/275, Sheth Zila, Nanded-445223",Hubballi-Dharwad,Middle Class
+VIC-2024-KA-0981,Harshil Sampath,76,Male,"H.No. 93, Chauhan Path, Kanpur 527531",Chikkamagaluru,Upper Middle Class
+VIC-2024-KA-0982,Nisha Sarin,27,Male,"74/841, Sarraf Road, Varanasi 071205",Ballari,Middle Class
+VIC-2024-KA-0983,Kabir Puri,83,Female,"72/237, Upadhyay Chowk, Morbi-552045",Ballari,Upper Middle Class
+VIC-2024-KA-0984,Lakshmi Keer,29,Other,"H.No. 569, Dora Zila, Bilaspur-847947",Kalaburagi,Lower Class
+VIC-2024-KA-0985,Panini Bala,73,Other,"42/54, Bajwa Road, Kirari Suleman Nagar-127334",Tumakuru,Upper Middle Class
+VIC-2024-KA-0986,Urishilla Kade,33,Other,"H.No. 56, Bora Path, South Dumdum 996377",Vijayapura,Middle Class
+VIC-2024-KA-0987,Amaira Swamy,26,Other,"660, Dara Street, Baranagar-845067",Kalaburagi,Upper Middle Class
+VIC-2024-KA-0988,Aarnav Kata,50,Female,"47, Gera Zila, Madhyamgram-494259",Hubballi-Dharwad,Middle Class
+VIC-2024-KA-0989,Devika Jayaraman,36,Female,"22/031, Wason Ganj, Unnao-161250",Ballari,Upper Middle Class
+VIC-2024-KA-0990,Jeevika Bir,65,Other,"00, Kanda Road, Bidar-932764",Ballari,Upper Middle Class
+VIC-2024-KA-0991,Ekta Chaudhari,80,Male,"74/13, Gole Circle, Morena-249018",Hubballi-Dharwad,Lower Class
+VIC-2024-KA-0992,Gaurika Sen,28,Female,"74/121, Khanna Marg, Ahmedabad 158233",Kalaburagi,Lower Class
+VIC-2024-KA-0993,Advika Taneja,20,Other,"36, Pandya Road, New Delhi-093504",Hubballi-Dharwad,Upper Middle Class
+VIC-2024-KA-0994,Netra Mitter,79,Male,"08/605, Bhagat Nagar, Kumbakonam-303726",Belagavi,Middle Class
+VIC-2024-KA-0995,Azaan Sachar,50,Other,"661, Kota Ganj, Kamarhati 671225",Vijayapura,Lower Class
+VIC-2024-KA-0996,Kalpit Madan,8,Other,"89/258, Datta Chowk, Tezpur 467708",Hassan,Upper Middle Class
+VIC-2024-KA-0997,Om Sankar,26,Female,"746, Walia Street, Vasai-Virar-072074",Chikkamagaluru,Upper Middle Class
+VIC-2024-KA-0998,Manya Bora,78,Female,"35/86, Choudhary Path, Satna 340444",Mangaluru,Middle Class
+VIC-2024-KA-0999,Kabir Sathe,80,Other,"36, Banerjee Nagar, Varanasi 756378",Belagavi,Middle Class
+VIC-2024-KA-1000,Harish Ganguly,34,Other,"H.No. 01, Sunder Zila, Rewa 511127",Shivamogga,Middle Class
+VIC-2024-KA-1001,Damini Kala,36,Male,"431, Wali Zila, Jhansi 487893",Kalaburagi,Lower Class
+VIC-2024-KA-1002,Lakshit Karnik,5,Other,"H.No. 43, Vala Zila, Giridih 965359",Bengaluru Rural,Middle Class
+VIC-2024-KA-1003,Neelima Bir,73,Female,"H.No. 017, Ramaswamy Ganj, Shivpuri-375285",Davangere,Upper Middle Class
+VIC-2024-KA-1004,Odika Chatterjee,84,Other,"H.No. 05, Hayre Nagar, Raiganj 105778",Bengaluru Urban,Middle Class
+VIC-2024-KA-1005,Kashvi Prabhakar,16,Female,"H.No. 878, Master Ganj, Ghaziabad-365885",Tumakuru,Middle Class
+VIC-2024-KA-1006,Advay Krish,10,Other,"699, Gupta Ganj, Dewas-373580",Bengaluru Urban,Lower Class
+VIC-2024-KA-1007,Bishakha Loyal,40,Other,"H.No. 24, More Nagar, Visakhapatnam-966591",Chikkamagaluru,Lower Class
+VIC-2024-KA-1008,Chandani Chadha,77,Male,"H.No. 10, Bajaj Chowk, Suryapet-640591",Chikkamagaluru,Middle Class
+VIC-2024-KA-1009,Ekta Vasa,57,Female,"91/55, Narayan Circle, Dehri-309942",Hassan,Lower Class
+VIC-2024-KA-1010,Rohan Rao,12,Female,"H.No. 078, Mahajan, Berhampore-319389",Hubballi-Dharwad,Middle Class
+VIC-2024-KA-1011,Bhavya Khatri,8,Other,"17/98, Khatri Zila, Shimla-469649",Tumakuru,Lower Class
+VIC-2024-KA-1012,Bhavika Thakkar,24,Male,"677, Issac, Begusarai-791548",Hubballi-Dharwad,Lower Class
+VIC-2024-KA-1013,Yashodhara Sachdeva,9,Other,"H.No. 26, Puri Zila, Etawah 076111",Mangaluru,Lower Class
+VIC-2024-KA-1014,Leena Trivedi,49,Other,"H.No. 399, Dash Zila, Bihar Sharif 620802",Kalaburagi,Middle Class
+VIC-2024-KA-1015,George Tata,31,Female,"00/785, Manda Circle, Shimoga-778767",Tumakuru,Lower Class
+VIC-2024-KA-1016,Oscar Manne,68,Male,"25/378, Balay Road, Lucknow 995276",Hassan,Upper Middle Class
+VIC-2024-KA-1017,Anamika Garg,37,Other,"285, Loke Ganj, Jodhpur-258695",Kalaburagi,Upper Middle Class
+VIC-2024-KA-1018,Gavin Puri,17,Male,"75/48, Guha Chowk, Ahmednagar 161689",Tumakuru,Middle Class
+VIC-2024-KA-1019,Yashawini Rai,49,Male,"H.No. 546, Ramachandran Marg, Bhalswa Jahangir Pur 162695",Bengaluru Urban,Upper Middle Class
+VIC-2024-KA-1020,Tanish Sastry,51,Other,"37/01, Dayal Street, Hindupur 463452",Mysuru,Upper Middle Class
+VIC-2024-KA-1021,Abeer Sule,27,Male,"99/04, Yadav, Jammu 419361",Shivamogga,Upper Middle Class
+VIC-2024-KA-1022,Jalsa Lal,25,Female,"29/683, Bail Path, Khora  605894",Hassan,Upper Middle Class
+VIC-2024-KA-1023,Arjun Manne,28,Female,"59/933, Chahal Marg, Bhatpara-563270",Bengaluru Urban,Middle Class
+VIC-2024-KA-1024,Irya Hayre,12,Male,"02, Khurana, Jamalpur-893105",Belagavi,Middle Class
+VIC-2024-KA-1025,Shaurya Raval,14,Other,"69/212, Anne Chowk, Navi Mumbai-653438",Vijayapura,Middle Class
+VIC-2024-KA-1026,Manthan Vaidya,52,Female,"336, Lalla Street, Ahmednagar-716682",Bengaluru Rural,Lower Class
+VIC-2024-KA-1027,Vaishnavi Sethi,40,Other,"543, Toor Path, Yamunanagar 235313",Kalaburagi,Lower Class
+VIC-2024-KA-1028,Odika Nigam,59,Female,"01, Bahri Chowk, Nanded 389928",Kalaburagi,Lower Class
+VIC-2024-KA-1029,Pratyush Kala,71,Female,"H.No. 65, Dixit Nagar, Srikakulam 773296",Vijayapura,Lower Class
+VIC-2024-KA-1030,Anya Minhas,71,Female,"H.No. 261, Kurian Road, Miryalaguda-422817",Bengaluru Rural,Middle Class
+VIC-2024-KA-1031,Avni Pradhan,42,Female,"H.No. 136, Baral Chowk, Aligarh 387564",Mysuru,Middle Class
+VIC-2024-KA-1032,Girik Chokshi,44,Other,"19/129, Prakash Path, Rewa 892585",Ballari,Upper Middle Class
+VIC-2024-KA-1033,Anamika Kale,12,Male,"H.No. 995, Dani Chowk, Patna-339052",Bengaluru Urban,Lower Class
+VIC-2024-KA-1034,Zaid Mitter,11,Female,"23/44, Dugal Ganj, Kolhapur-866942",Hassan,Lower Class
+VIC-2024-KA-1035,Anamika Bakshi,24,Other,"H.No. 791, Golla Chowk, Rajkot 821026",Davangere,Upper Middle Class
+VIC-2024-KA-1036,Luke Dube,63,Female,"H.No. 70, Rau Road, Thanjavur-664998",Kalaburagi,Lower Class
+VIC-2024-KA-1037,Damini Date,48,Female,"58/316, Narang Path, Hosur-584829",Shivamogga,Upper Middle Class
+VIC-2024-KA-1038,Sachi Basu,74,Female,"H.No. 122, Chhabra Circle, Raurkela Industrial Township-403693",Mangaluru,Middle Class
+VIC-2024-KA-1039,Libni Dutta,59,Male,"H.No. 398, Sura Zila, Coimbatore-738327",Hassan,Middle Class
+VIC-2024-KA-1040,Amol Chad,79,Male,"06/861, Varma Chowk, Saharsa-791087",Chikkamagaluru,Upper Middle Class
+VIC-2024-KA-1041,Ati Warrior,8,Female,"18/64, Sampath Ganj, Bulandshahr 264930",Vijayapura,Lower Class
+VIC-2024-KA-1042,Quincy Gola,22,Other,"02/476, Sanghvi Path, Jaipur-868395",Shivamogga,Lower Class
+VIC-2024-KA-1043,Charles Iyer,82,Female,"H.No. 71, Deshmukh Path, Meerut 454883",Chikkamagaluru,Middle Class
+VIC-2024-KA-1044,Wridesh Maharaj,79,Male,"57, Dani Circle, Bhilai 460260",Shivamogga,Upper Middle Class
+VIC-2024-KA-1045,Agastya Borra,8,Other,"27, Bhavsar Road, Orai-635474",Hubballi-Dharwad,Upper Middle Class
+VIC-2024-KA-1046,Harini Sarraf,80,Other,"736, Basu, Saharsa-208466",Belagavi,Lower Class
+VIC-2024-KA-1047,Alka Kapoor,58,Female,"H.No. 11, Chopra Zila, Imphal-874198",Chikkamagaluru,Lower Class
+VIC-2024-KA-1048,Meghana Bhavsar,81,Other,"H.No. 28, Lad Nagar, Karimnagar-650689",Davangere,Upper Middle Class
+VIC-2024-KA-1049,Tarak Bedi,80,Female,"H.No. 42, Sagar Nagar, Nagaon 882905",Hubballi-Dharwad,Upper Middle Class
+VIC-2024-KA-1050,Advika More,29,Female,"H.No. 950, Raghavan Zila, Bettiah-234030",Vijayapura,Upper Middle Class
+VIC-2024-KA-1051,Vaishnavi Seshadri,41,Female,"03, Aggarwal Nagar, Tadepalligudem 574728",Bengaluru Urban,Middle Class
+VIC-2024-KA-1052,Hemani Mishra,57,Other,"H.No. 201, Ganguly Chowk, Bhalswa Jahangir Pur 791053",Vijayapura,Middle Class
+VIC-2024-KA-1053,Owen Iyer,64,Other,"58, Dar Chowk, Farrukhabad-953700",Shivamogga,Middle Class
+VIC-2024-KA-1054,Harsh Garde,63,Male,"H.No. 69, Narain Zila, Bettiah-632857",Shivamogga,Middle Class
+VIC-2024-KA-1055,Xalak Deol,32,Male,"85, Patla Path, Cuttack 157974",Davangere,Middle Class
+VIC-2024-KA-1056,Garima Rajagopal,46,Male,"56/72, Banik Ganj, Junagadh-433611",Belagavi,Middle Class
+VIC-2024-KA-1057,Warinder Raj,80,Male,"561, Dhingra Ganj, Haridwar-436961",Davangere,Lower Class
+VIC-2024-KA-1058,Devika Ravel,72,Other,"152, Tata Nagar, Chennai-532958",Chikkamagaluru,Upper Middle Class
+VIC-2024-KA-1059,Leena Mand,54,Male,"H.No. 50, Purohit Street, Cuttack 630037",Bengaluru Urban,Lower Class
+VIC-2024-KA-1060,Indali Nayar,78,Male,"H.No. 164, Sarna Nagar, Ramgarh 109786",Bengaluru Urban,Middle Class
+VIC-2024-KA-1061,Eta Guha,27,Female,"13/09, Dugar Circle, Jorhat 834927",Bengaluru Rural,Middle Class
+VIC-2024-KA-1062,Kevin Varkey,61,Male,"H.No. 81, Lall Street, Tirunelveli 012317",Vijayapura,Lower Class
+VIC-2024-KA-1063,Peter Magar,34,Male,"H.No. 04, Sura Zila, Kadapa 178145",Hassan,Upper Middle Class
+VIC-2024-KA-1064,Edhitha Saini,75,Other,"H.No. 16, Kade, Jammu 138341",Hassan,Middle Class
+VIC-2024-KA-1065,Upma Sur,77,Male,"13, Soni Marg, Bhind-953859",Kalaburagi,Upper Middle Class
+VIC-2024-KA-1066,Mitali Tripathi,67,Male,"19, Sahni Nagar, Durgapur 462465",Bengaluru Urban,Upper Middle Class
+VIC-2024-KA-1067,Chandresh Karnik,8,Other,"95, Contractor Marg, Chapra 718135",Tumakuru,Lower Class
+VIC-2024-KA-1068,Kamya Pandit,12,Other,"046, Bhalla, Amritsar-717166",Bengaluru Rural,Middle Class
+VIC-2024-KA-1069,Jagdish Vora,30,Female,"H.No. 39, Sinha Nagar, Kanpur-196445",Belagavi,Upper Middle Class
+VIC-2024-KA-1070,Widisha D’Alia,63,Male,"99/83, Murthy Street, Parbhani-885818",Hassan,Upper Middle Class
+VIC-2024-KA-1071,Raghav Chopra,36,Female,"90/60, Kohli Road, Bhatpara-193145",Belagavi,Middle Class
+VIC-2024-KA-1072,Urvi Deshpande,30,Male,"11/04, Chacko Circle, Ambarnath-472729",Ballari,Upper Middle Class
+VIC-2024-KA-1073,Udyati Walia,20,Other,"H.No. 95, Rajagopalan Street, Tinsukia 699222",Chikkamagaluru,Upper Middle Class
+VIC-2024-KA-1074,Madhavi Boase,59,Male,"53/65, Loyal, Meerut 517654",Davangere,Middle Class
+VIC-2024-KA-1075,Devansh Singh,30,Other,"59/978, Sarna Ganj, Bangalore-033472",Belagavi,Upper Middle Class
+VIC-2024-KA-1076,Ikbal Oak,19,Other,"H.No. 061, Palla Ganj, Coimbatore 767128",Hubballi-Dharwad,Middle Class
+VIC-2024-KA-1077,Megha Yogi,60,Male,"88/36, Gopal Circle, Nangloi Jat 166413",Tumakuru,Lower Class
+VIC-2024-KA-1078,Aadhya Kannan,80,Male,"H.No. 51, Babu Zila, Mau-950939",Hassan,Upper Middle Class
+VIC-2024-KA-1079,Anmol Puri,69,Female,"H.No. 06, Halder Zila, Gorakhpur 087760",Hubballi-Dharwad,Upper Middle Class
+VIC-2024-KA-1080,Varenya Sabharwal,82,Female,"66/45, Dixit, Khora -398314",Mangaluru,Lower Class
+VIC-2024-KA-1081,Simon Bhagat,40,Male,"37, Mistry Marg, Arrah 063101",Shivamogga,Middle Class
+VIC-2024-KA-1082,Fariq Lall,77,Other,"04/25, Ravel, Amaravati 624013",Mangaluru,Middle Class
+VIC-2024-KA-1083,Nathan Kata,29,Male,"H.No. 799, Chaudhry Road, Ajmer-675886",Bengaluru Rural,Lower Class
+VIC-2024-KA-1084,Janani Manda,68,Female,"33/58, Samra, Medininagar-759961",Bengaluru Urban,Upper Middle Class
+VIC-2024-KA-1085,Caleb Deo,83,Female,"H.No. 69, Mitter Nagar, Rajkot-476335",Davangere,Middle Class
+VIC-2024-KA-1086,Yashasvi Dewan,71,Female,"16/11, Nair Path, Thoothukudi 922751",Vijayapura,Middle Class
+VIC-2024-KA-1087,Dipta Sane,25,Other,"41, Agarwal Zila, Panipat 451659",Tumakuru,Lower Class
+VIC-2024-KA-1088,Anay Deo,53,Other,"19/46, Wagle Marg, Sirsa 753589",Tumakuru,Upper Middle Class
+VIC-2024-KA-1089,Vincent Mandal,52,Female,"H.No. 63, Aggarwal Path, Purnia-762885",Belagavi,Upper Middle Class
+VIC-2024-KA-1090,Hema Mannan,51,Male,"824, Chawla Circle, Thanjavur 249513",Bengaluru Urban,Lower Class
+VIC-2024-KA-1091,Deepa Ratta,51,Female,"43/30, Sahni Road, Bhusawal 334011",Kalaburagi,Lower Class
+VIC-2024-KA-1092,Agastya Narain,85,Female,"80/78, Merchant Chowk, Nadiad-160274",Hassan,Upper Middle Class
+VIC-2024-KA-1093,Timothy Grewal,55,Male,"48/94, Chaudhari, Chennai 823470",Bengaluru Rural,Upper Middle Class
+VIC-2024-KA-1094,Advika Mitra,35,Male,"58/89, Keer Ganj, Muzaffarnagar-814982",Chikkamagaluru,Middle Class
+VIC-2024-KA-1095,Veda Tata,70,Other,"H.No. 70, Srinivas Zila, Katni 873982",Hubballi-Dharwad,Lower Class
+VIC-2024-KA-1096,Leela Upadhyay,12,Other,"H.No. 589, Garde Zila, Sasaram 892018",Bengaluru Rural,Lower Class
+VIC-2024-KA-1097,Forum Chakrabarti,55,Male,"H.No. 686, Mody Road, Jehanabad 279689",Bengaluru Urban,Upper Middle Class
+VIC-2024-KA-1098,Aarush Nadkarni,81,Male,"48, Naidu Road, Siliguri 545604",Mysuru,Lower Class
+VIC-2024-KA-1099,Bachittar Luthra,29,Other,"89/453, Majumdar Ganj, Imphal-433463",Tumakuru,Lower Class
+VIC-2024-KA-1100,Saumya Murty,15,Male,"06, Gill Street, Tirupati 125548",Davangere,Middle Class
+VIC-2024-KA-1101,Ekantika Bahri,73,Male,"89/70, Sami Zila, Jabalpur 448962",Mysuru,Lower Class
+VIC-2024-KA-1102,Vasana Pall,25,Male,"65/23, Dua Zila, Ozhukarai 687279",Hassan,Middle Class
+VIC-2024-KA-1103,Yasti Chahal,10,Other,"64/32, Kala Circle, Gangtok-162832",Ballari,Middle Class
+VIC-2024-KA-1104,Praneel Bumb,81,Female,"H.No. 445, Bava Zila, Chandigarh-434399",Kalaburagi,Middle Class
+VIC-2024-KA-1105,Patrick Vala,26,Male,"904, Roy Circle, Karawal Nagar 315339",Mangaluru,Lower Class
+VIC-2024-KA-1106,Upadhriti Keer,77,Female,"92/86, Narang Road, Kota-917587",Belagavi,Middle Class
+VIC-2024-KA-1107,Wazir Kota,73,Female,"H.No. 119, Pant Zila, Sangli-Miraj & Kupwad 306979",Kalaburagi,Lower Class
+VIC-2024-KA-1108,Falguni Palla,50,Female,"32/719, Ram Road, Rohtak-612602",Davangere,Upper Middle Class
+VIC-2024-KA-1109,Frederick Sodhi,56,Other,"70/260, Dass Chowk, Guntur 381307",Kalaburagi,Upper Middle Class
+VIC-2024-KA-1110,Eesha Gokhale,73,Other,"H.No. 84, Bahl Nagar, Shimla-904834",Hassan,Middle Class
+VIC-2024-KA-1111,Azad Badami,31,Female,"91/75, Upadhyay Zila, Vijayanagaram 837523",Tumakuru,Upper Middle Class
+VIC-2024-KA-1112,Isaac Tiwari,32,Female,"H.No. 54, Saha Zila, Patna 312632",Davangere,Lower Class
+VIC-2024-KA-1113,Gabriel Mohan,79,Male,"H.No. 42, Jani Street, Hosur-635017",Hubballi-Dharwad,Lower Class
+VIC-2024-KA-1114,Yoshita Chawla,49,Female,"743, Golla Path, Unnao 648085",Hubballi-Dharwad,Lower Class
+VIC-2024-KA-1115,Unnati Tella,32,Male,"401, Som Circle, Malegaon 612284",Davangere,Middle Class
+VIC-2024-KA-1116,Divya Kade,67,Female,"10/231, Dewan Street, Gandhidham 846975",Vijayapura,Upper Middle Class
+VIC-2024-KA-1117,Ayush Shan,83,Female,"823, Virk, Howrah-143129",Hubballi-Dharwad,Middle Class
+VIC-2024-KA-1118,Nihal Kannan,14,Male,"66/301, Vala Chowk, Hubli–Dharwad-063956",Tumakuru,Lower Class
+VIC-2024-KA-1119,Tanish Mittal,60,Other,"05/80, Kamdar Circle, Haldia 394583",Mangaluru,Lower Class
+VIC-2024-KA-1120,Dhriti Rastogi,37,Male,"61/369, Luthra Zila, Mumbai-949193",Tumakuru,Lower Class
+VIC-2024-KA-1121,Vedant Krishnan,9,Male,"94/070, Kurian Ganj, Tiruvottiyur-153616",Bengaluru Rural,Middle Class
+VIC-2024-KA-1122,Aadi Virk,52,Male,"08, Sastry Street, Gwalior-489458",Davangere,Lower Class
+VIC-2024-KA-1123,Dominic Shenoy,39,Other,"H.No. 412, Dey, Giridih 193299",Shivamogga,Lower Class
+VIC-2024-KA-1124,Barkha Mane,41,Other,"42/429, Borra, Bathinda-976791",Chikkamagaluru,Middle Class
+VIC-2024-KA-1125,Vedika Thaman,71,Other,"418, Jayaraman Zila, Bhusawal 982513",Ballari,Lower Class
+VIC-2024-KA-1126,Dev Balay,50,Male,"89, Narain Ganj, Begusarai-413291",Mangaluru,Upper Middle Class
+VIC-2024-KA-1127,Simon Sawhney,85,Male,"10, Din Circle, Muzaffarnagar 450752",Ballari,Upper Middle Class
+VIC-2024-KA-1128,Faras Bail,10,Male,"307, Kala Path, Deoghar 533568",Bengaluru Rural,Upper Middle Class
+VIC-2024-KA-1129,Triveni Mander,15,Female,"42/75, Jayaraman Road, Khammam 031651",Vijayapura,Lower Class
+VIC-2024-KA-1130,Wriddhish Borah,61,Male,"H.No. 18, Gopal Marg, Adoni 407880",Chikkamagaluru,Lower Class
+VIC-2024-KA-1131,Dalaja Bal,60,Male,"65/81, Mody Road, Narasaraopet 837579",Belagavi,Upper Middle Class
+VIC-2024-KA-1132,Fitan Agate,64,Female,"56, Subramaniam Street, Morena 892097",Bengaluru Urban,Upper Middle Class
+VIC-2024-KA-1133,Yahvi Modi,63,Male,"11/29, Menon Circle, Shivpuri 399892",Hassan,Upper Middle Class
+VIC-2024-KA-1134,Gaurangi Basak,34,Male,"636, Pau Path, Miryalaguda-056973",Davangere,Lower Class
+VIC-2024-KA-1135,Anya Chandran,56,Female,"69/77, Rau Chowk, Guntur 432585",Belagavi,Upper Middle Class
+VIC-2024-KA-1136,Jhalak Khare,65,Female,"H.No. 313, Balay Path, Jalna 551003",Shivamogga,Middle Class
+VIC-2024-KA-1137,Jai More,40,Male,"H.No. 75, Ahluwalia Ganj, Fatehpur-223819",Hubballi-Dharwad,Middle Class
+VIC-2024-KA-1138,Liam Seshadri,10,Male,"19, Chaudhry Chowk, Medininagar 229313",Ballari,Middle Class
+VIC-2024-KA-1139,Guneet Bail,57,Female,"H.No. 35, Soman Nagar, Kochi-547778",Bengaluru Urban,Upper Middle Class
+VIC-2024-KA-1140,Raksha Prabhakar,49,Female,"11/836, Thakur Street, Ujjain-284033",Hassan,Middle Class
+VIC-2024-KA-1141,Damini Patla,15,Male,"40/404, Dar Street, Jamalpur 828502",Ballari,Middle Class
+VIC-2024-KA-1142,Amaira Sharaf,85,Other,"H.No. 36, Karan Circle, Pali-507882",Davangere,Lower Class
+VIC-2024-KA-1143,Aarini Lanka,43,Other,"82, Kulkarni, Pudukkottai 280302",Mysuru,Upper Middle Class
+VIC-2024-KA-1144,Lakshmi Jayaraman,76,Other,"75/546, Nayar Road, Delhi-473860",Tumakuru,Upper Middle Class
+VIC-2024-KA-1145,Aarav Bera,71,Male,"H.No. 170, Palla Nagar, Dharmavaram 065429",Ballari,Middle Class
+VIC-2024-KA-1146,Aashi Narang,70,Male,"42/72, Bora Road, Eluru-774313",Bengaluru Urban,Lower Class
+VIC-2024-KA-1147,Dhriti Mistry,71,Other,"H.No. 68, Bhagat Street, Mathura 034317",Vijayapura,Middle Class
+VIC-2024-KA-1148,Nicholas Bobal,6,Other,"97, Sood Street, Thanjavur 913437",Bengaluru Rural,Middle Class
+VIC-2024-KA-1149,Ishita Soman,5,Male,"H.No. 855, Date Chowk, Ichalkaranji 263468",Vijayapura,Middle Class
+VIC-2024-KA-1150,Nidhi Chauhan,66,Other,"987, Bali Road, Medininagar 209488",Shivamogga,Upper Middle Class
+VIC-2024-KA-1151,Eta Viswanathan,25,Male,"H.No. 20, Subramaniam Chowk, Pallavaram-861639",Bengaluru Urban,Lower Class
+VIC-2024-KA-1152,Gunbir Kari,81,Other,"727, Pradhan Marg, Nizamabad 397149",Davangere,Upper Middle Class
+VIC-2024-KA-1153,Chakrika Rajagopalan,60,Male,"H.No. 963, Wadhwa Chowk, Khammam-316521",Shivamogga,Lower Class
+VIC-2024-KA-1154,Aachal Ghosh,41,Female,"22/632, Palla Nagar, Coimbatore 015481",Kalaburagi,Lower Class
+VIC-2024-KA-1155,Hiral Sen,55,Female,"85/56, Raj Path, Sikar-645791",Hassan,Upper Middle Class
+VIC-2024-KA-1156,Yoshita Dave,69,Male,"27/082, Chana Nagar, Nagaon 047413",Mysuru,Upper Middle Class
+VIC-2024-KA-1157,Abhimanyu Sarraf,72,Female,"08, Ramakrishnan Chowk, Thoothukudi 490393",Kalaburagi,Middle Class
+VIC-2024-KA-1158,Devansh Shenoy,51,Other,"28/18, Bava Path, Tiruvottiyur 666435",Mangaluru,Middle Class
+VIC-2024-KA-1159,Balhaar Barad,63,Male,"H.No. 43, Toor Nagar, Chinsurah 779801",Mangaluru,Lower Class
+VIC-2024-KA-1160,Brinda Ahluwalia,49,Male,"H.No. 15, Shetty Chowk, Kanpur 160408",Hubballi-Dharwad,Lower Class
+VIC-2024-KA-1161,Fitan Kamdar,16,Other,"43/345, Bajwa Street, Muzaffarpur-518297",Kalaburagi,Upper Middle Class
+VIC-2024-KA-1162,Widisha Kurian,47,Male,"24, Sarma Path, Satara 027970",Mangaluru,Middle Class
+VIC-2024-KA-1163,Daksha Doshi,43,Female,"H.No. 138, Srivastava Chowk, Rampur 384117",Bengaluru Urban,Lower Class
+VIC-2024-KA-1164,Yashvi Brar,58,Male,"99/092, Sarna Street, Dhule-156216",Vijayapura,Middle Class
+VIC-2024-KA-1165,Nilima Singhal,41,Male,"H.No. 474, Shukla, Yamunanagar 937134",Hassan,Middle Class
+VIC-2024-KA-1166,Chakradev Bhattacharyya,74,Female,"020, Borah Street, Bhalswa Jahangir Pur-764029",Hubballi-Dharwad,Lower Class
+VIC-2024-KA-1167,Jagdish Patil,45,Other,"H.No. 261, Badami Nagar, Imphal-115645",Shivamogga,Middle Class
+VIC-2024-KA-1168,Ladli Saran,33,Male,"642, De Chowk, Jamnagar 023657",Mysuru,Middle Class
+VIC-2024-KA-1169,Harini Sandhu,78,Female,"H.No. 827, Savant Ganj, Amritsar 898670",Hubballi-Dharwad,Upper Middle Class
+VIC-2024-KA-1170,Oscar Agrawal,38,Male,"982, Mitter Road, Vadodara 430875",Tumakuru,Middle Class
+VIC-2024-KA-1171,Urvashi Chaudhari,21,Female,"H.No. 508, Suresh Circle, Nadiad-141955",Hassan,Middle Class
+VIC-2024-KA-1172,Zilmil Bhavsar,71,Male,"100, Sha Street, Malda 385689",Shivamogga,Upper Middle Class
+VIC-2024-KA-1173,Krishna Varty,43,Female,"288, Nori Chowk, Machilipatnam 950637",Davangere,Lower Class
+VIC-2024-KA-1174,Guneet Konda,49,Other,"391, Kalita Chowk, Sangli-Miraj & Kupwad-691324",Bengaluru Urban,Middle Class
+VIC-2024-KA-1175,Riya Nigam,38,Other,"H.No. 657, Desai, Pallavaram 322146",Davangere,Upper Middle Class
+VIC-2024-KA-1176,Jairaj Salvi,52,Other,"36/517, Sehgal Nagar, Bellary 115432",Hassan,Middle Class
+VIC-2024-KA-1177,Sara Mammen,37,Female,"062, Guha, Rourkela-015475",Ballari,Middle Class
+VIC-2024-KA-1178,Chandran Krishnan,15,Female,"70, Rao Chowk, Mirzapur-991326",Hubballi-Dharwad,Middle Class
+VIC-2024-KA-1179,Nitara Bera,29,Other,"36/39, Sankar Circle, Saharanpur 570131",Tumakuru,Middle Class
+VIC-2024-KA-1180,Riya Mandal,58,Female,"50/150, Dutt Chowk, Kanpur-054191",Vijayapura,Upper Middle Class
+VIC-2024-KA-1181,Warda Prasad,55,Male,"H.No. 64, Varghese Path, Sambalpur 080337",Mangaluru,Upper Middle Class
+VIC-2024-KA-1182,Bhavani Char,72,Other,"85/543, Contractor Road, Ghaziabad 930379",Tumakuru,Upper Middle Class
+VIC-2024-KA-1183,Samaksh Choudhury,38,Male,"32/73, Luthra Street, Noida-083248",Chikkamagaluru,Lower Class
+VIC-2024-KA-1184,Kashvi Kothari,45,Other,"H.No. 341, Sastry Road, Rewa-544460",Ballari,Upper Middle Class
+VIC-2024-KA-1185,Aashi Din,76,Male,"H.No. 450, Bandi Road, Bettiah 095501",Tumakuru,Middle Class
+VIC-2024-KA-1186,Samuel Parikh,5,Other,"62/482, Rout Marg, Bally 448978",Tumakuru,Lower Class
+VIC-2024-KA-1187,Adweta Jha,77,Other,"93/20, Batta Marg, Sonipat 591084",Tumakuru,Upper Middle Class
+VIC-2024-KA-1188,David Ramachandran,77,Male,"48, Pillai Street, Firozabad 502012",Belagavi,Upper Middle Class
+VIC-2024-KA-1189,Ishaan Rastogi,73,Male,"83/677, Sinha Ganj, Ambarnath-952838",Davangere,Middle Class
+VIC-2024-KA-1190,Tejas Wadhwa,16,Female,"04, Karan Marg, Chittoor-786261",Shivamogga,Lower Class
+VIC-2024-KA-1191,Mohini Mohan,12,Female,"25/16, Mittal Street, Kottayam-396448",Davangere,Middle Class
+VIC-2024-KA-1192,Nicholas Acharya,68,Other,"H.No. 181, Varughese Ganj, Srikakulam-397121",Mysuru,Lower Class
+VIC-2024-KA-1193,Michael Sama,83,Other,"H.No. 88, Lata Ganj, Hajipur-491356",Chikkamagaluru,Lower Class
+VIC-2024-KA-1194,Jagrati Kashyap,27,Other,"76/07, Sura Chowk, Bhopal-894005",Hassan,Lower Class
+VIC-2024-KA-1195,Samar Borde,42,Other,"09, Khanna Marg, Karaikudi 818512",Belagavi,Upper Middle Class
+VIC-2024-KA-1196,Wazir Kashyap,61,Other,"51/56, Mallick Path, Raurkela Industrial Township 246057",Hassan,Lower Class
+VIC-2024-KA-1197,Brinda Bahl,10,Other,"34, Upadhyay Path, Orai 809674",Kalaburagi,Upper Middle Class
+VIC-2024-KA-1198,Umang Dayal,25,Other,"20/59, Badami Street, Suryapet 713277",Shivamogga,Middle Class
+VIC-2024-KA-1199,Bishakha Yadav,53,Male,"H.No. 220, Palan Street, Khammam 900976",Bengaluru Rural,Upper Middle Class
+VIC-2024-KA-1200,Meghana Bhatia,35,Male,"38/286, Parmer Ganj, Mehsana 269925",Hassan,Middle Class
+VIC-2024-KA-1201,Vrishti Sekhon,41,Female,"14, Das Zila, Anand-753402",Chikkamagaluru,Upper Middle Class
+VIC-2024-KA-1202,Panini Divan,30,Male,"10/693, Upadhyay Path, Tiruchirappalli 860188",Chikkamagaluru,Upper Middle Class
+VIC-2024-KA-1203,Shaurya Rau,41,Female,"33/32, Bhasin, Farrukhabad 094530",Tumakuru,Upper Middle Class
+VIC-2024-KA-1204,Gauri Oza,76,Other,"13/89, Nayak Nagar, Orai-574025",Mysuru,Middle Class
+VIC-2024-KA-1205,Ayaan Khalsa,5,Other,"51/22, Halder Zila, Gorakhpur-343069",Ballari,Upper Middle Class
+VIC-2024-KA-1206,Madhav Wali,71,Female,"246, Lanka Circle, Dharmavaram 407511",Chikkamagaluru,Upper Middle Class
+VIC-2024-KA-1207,Maanas Sule,7,Female,"H.No. 039, Gour Road, Arrah-901669",Mysuru,Upper Middle Class
+VIC-2024-KA-1208,Harrison Hayre,20,Female,"H.No. 70, Shah Path, Udaipur 442301",Hassan,Middle Class
+VIC-2024-KA-1209,Ojas Gade,53,Male,"82, Deol Street, Munger-870528",Vijayapura,Middle Class
+VIC-2024-KA-1210,Naksh Malhotra,68,Female,"12/066, Bawa Chowk, Gandhinagar 646707",Mangaluru,Middle Class
+VIC-2024-KA-1211,Hema Bajwa,54,Male,"H.No. 292, Parmar, Aurangabad 109430",Kalaburagi,Lower Class
+VIC-2024-KA-1212,Krishna Sathe,76,Other,"48/40, Natt Road, Alwar 368602",Bengaluru Rural,Upper Middle Class
+VIC-2024-KA-1213,Pallavi Ram,26,Male,"H.No. 33, Loyal Circle, Varanasi 673555",Tumakuru,Upper Middle Class
+VIC-2024-KA-1214,Sathvik Ray,57,Other,"H.No. 753, Thaman Chowk, Vijayawada-001082",Davangere,Upper Middle Class
+VIC-2024-KA-1215,Samesh Devi,63,Female,"H.No. 51, Sama Path, Alappuzha 286508",Chikkamagaluru,Middle Class
+VIC-2024-KA-1216,Manya Date,18,Other,"H.No. 81, Prasad, Naihati 945715",Kalaburagi,Lower Class
+VIC-2024-KA-1217,Damini Kakar,70,Female,"H.No. 399, Vyas, Bhiwani-750984",Tumakuru,Middle Class
+VIC-2024-KA-1218,Samesh Varma,45,Male,"502, Behl Road, Loni 126642",Shivamogga,Middle Class
+VIC-2024-KA-1219,Madhav Khatri,29,Female,"30/17, Kapur Street, Ujjain 356947",Ballari,Lower Class
+VIC-2024-KA-1220,Maanas Prashad,85,Male,"688, Soni Ganj, Allahabad 100557",Shivamogga,Middle Class
+VIC-2024-KA-1221,Krisha Dhingra,69,Female,"93, Bajaj Zila, Kishanganj 113877",Ballari,Upper Middle Class
+VIC-2024-KA-1222,Omisha Bala,38,Male,"H.No. 02, Srivastava Ganj, Erode 047814",Kalaburagi,Upper Middle Class
+VIC-2024-KA-1223,Aarna Bala,64,Male,"H.No. 34, Ghose Zila, Aligarh 832689",Bengaluru Rural,Middle Class
+VIC-2024-KA-1224,Lila Sami,18,Male,"H.No. 77, Sule Road, Surat-499247",Bengaluru Rural,Middle Class
+VIC-2024-KA-1225,Nikita Thaker,27,Male,"H.No. 181, Din Path, Buxar 611700",Belagavi,Middle Class
+VIC-2024-KA-1226,Balvan Sidhu,26,Other,"H.No. 826, Raja Road, Surat-305167",Davangere,Middle Class
+VIC-2024-KA-1227,Advika Thakur,47,Other,"H.No. 487, Lalla Street, Nellore-493301",Kalaburagi,Middle Class
+VIC-2024-KA-1228,Pooja Misra,43,Other,"31/799, Srivastava Circle, Ghaziabad-296318",Kalaburagi,Upper Middle Class
+VIC-2024-KA-1229,Dayamai Barad,31,Other,"65, Nagar Street, Dhule 666357",Belagavi,Lower Class
+VIC-2024-KA-1230,Karan Chowdhury,75,Female,"00/572, Nagi, Maheshtala 066640",Davangere,Lower Class
+VIC-2024-KA-1231,Sai Ganesh,20,Other,"28/29, Mandal Road, Darbhanga-853853",Davangere,Middle Class
+VIC-2024-KA-1232,Leela Thakur,69,Male,"25, Mani, Muzaffarnagar 362071",Vijayapura,Middle Class
+VIC-2024-KA-1233,Ojas Nagi,48,Female,"66/992, Bora Road, Narasaraopet-175449",Chikkamagaluru,Middle Class
+VIC-2024-KA-1234,Samuel Hora,76,Female,"H.No. 30, Kari Zila, Sirsa-253566",Hassan,Upper Middle Class
+VIC-2024-KA-1235,Ojasvi Chokshi,64,Other,"H.No. 454, Chadha Path, Hosur-136449",Vijayapura,Lower Class
+VIC-2024-KA-1236,Isaiah Handa,18,Female,"721, Dave Marg, Dhule-999469",Ballari,Lower Class
+VIC-2024-KA-1237,Faraj Baria,77,Other,"69/606, Kaul, Gulbarga 272330",Ballari,Lower Class
+VIC-2024-KA-1238,Chandresh Atwal,77,Other,"70/285, Date Ganj, Mangalore 771002",Tumakuru,Upper Middle Class
+VIC-2024-KA-1239,Yashoda Balay,26,Other,"594, Bhalla Street, Dehri-234040",Kalaburagi,Upper Middle Class
+VIC-2024-KA-1240,Parth Vyas,76,Other,"96, Issac Zila, Delhi 378400",Mysuru,Lower Class
+VIC-2024-KA-1241,Girik Kumer,84,Female,"H.No. 278, Shukla Ganj, Baranagar-996719",Ballari,Upper Middle Class
+VIC-2024-KA-1242,Falan Narayanan,51,Other,"H.No. 162, Rout Chowk, Guna 438868",Davangere,Middle Class
+VIC-2024-KA-1243,Kabir Grewal,39,Other,"H.No. 52, Krishnan Road, Alappuzha 403619",Tumakuru,Upper Middle Class
+VIC-2024-KA-1244,Nikita Loke,81,Female,"H.No. 15, Jhaveri Chowk, Mirzapur 654296",Ballari,Middle Class
+VIC-2024-KA-1245,Champak Rao,12,Female,"H.No. 55, Choudhury Ganj, Morbi-940375",Hubballi-Dharwad,Lower Class
+VIC-2024-KA-1246,Chasmum Pathak,67,Male,"298, Ghose Chowk, Mau-685687",Ballari,Middle Class
+VIC-2024-KA-1247,Akshay Bhakta,81,Male,"77/32, Mukhopadhyay Zila, Shimoga 225178",Chikkamagaluru,Upper Middle Class
+VIC-2024-KA-1248,Christopher Sekhon,37,Other,"63/46, Soman Road, Maheshtala 566149",Mysuru,Middle Class
+VIC-2024-KA-1249,Kabir Sarkar,44,Female,"H.No. 795, Borra Zila, Gangtok 738498",Bengaluru Urban,Middle Class
+VIC-2024-KA-1250,Tristan Om,78,Female,"027, Balan Path, Jamshedpur 562759",Mysuru,Lower Class
+VIC-2024-KA-1251,Darika Raja,71,Other,"44/793, Shan Street, Dhule-744317",Chikkamagaluru,Middle Class
+VIC-2024-KA-1252,Kamya Madan,36,Male,"089, Prakash Circle, South Dumdum 907713",Ballari,Lower Class
+VIC-2024-KA-1253,Aarna Sabharwal,18,Female,"H.No. 93, Guha Street, Dehradun 711026",Davangere,Middle Class
+VIC-2024-KA-1254,Aachal Kaur,53,Female,"86/406, Om Street, Dehri-187709",Kalaburagi,Lower Class
+VIC-2024-KA-1255,Lajita Datta,35,Female,"H.No. 96, Raj, Nagaon-394118",Bengaluru Rural,Middle Class
+VIC-2024-KA-1256,Farhan Samra,77,Female,"88/66, Bali Chowk, Bhilai-470800",Belagavi,Middle Class
+VIC-2024-KA-1257,Bachittar Gokhale,41,Female,"88/89, Batra, Bijapur-010941",Mysuru,Upper Middle Class
+VIC-2024-KA-1258,Shaurya Parekh,72,Female,"38, Bains Street, Bhatpara 055581",Davangere,Middle Class
+VIC-2024-KA-1259,Ridhi Kadakia,44,Other,"98/62, Nadkarni Ganj, Pali 161021",Mysuru,Middle Class
+VIC-2024-KA-1260,Edhitha Goswami,18,Female,"564, Bhagat Marg, Karawal Nagar 320200",Tumakuru,Upper Middle Class
+VIC-2024-KA-1261,Raghav Chanda,53,Male,"93/90, Das Zila, Tiruvottiyur-614451",Hubballi-Dharwad,Middle Class
+VIC-2024-KA-1262,Waida Sankaran,14,Other,"H.No. 466, Nagy Path, Howrah-836982",Tumakuru,Lower Class
+VIC-2024-KA-1263,Mahika Pradhan,19,Female,"17, Mane Circle, Chinsurah 856316",Bengaluru Urban,Lower Class
+VIC-2024-KA-1264,Aradhana Korpal,10,Female,"44, Borde Ganj, Bhubaneswar-974815",Bengaluru Rural,Middle Class
+VIC-2024-KA-1265,Urvashi Bal,23,Other,"59, Hora Zila, Indore-187939",Bengaluru Urban,Lower Class
+VIC-2024-KA-1266,Zayyan Sarkar,41,Female,"36/125, Ram Path, Surendranagar Dudhrej-610762",Tumakuru,Upper Middle Class
+VIC-2024-KA-1267,Gagan Dave,23,Female,"H.No. 73, Goel, Belgaum-280432",Davangere,Middle Class
+VIC-2024-KA-1268,Dhriti Deo,25,Male,"57/07, Suresh Zila, Sasaram-172652",Hassan,Lower Class
+VIC-2024-KA-1269,Suhani Sunder,9,Female,"58/536, Dash Zila, Jamnagar 674751",Ballari,Upper Middle Class
+VIC-2024-KA-1270,Nitara Vohra,12,Male,"408, Chaudhari Zila, Pali-739331",Vijayapura,Middle Class
+VIC-2024-KA-1271,Yutika Comar,46,Female,"51/736, Shere Circle, Buxar-683467",Shivamogga,Middle Class
+VIC-2024-KA-1272,Odika Pal,56,Female,"47/62, Saini Ganj, Tirupati-527911",Kalaburagi,Upper Middle Class
+VIC-2024-KA-1273,Lavanya Chokshi,6,Other,"27, Chand Ganj, Khammam 451247",Hassan,Upper Middle Class
+VIC-2024-KA-1274,Ishani Viswanathan,45,Male,"63/07, Vohra Road, Jorhat-626911",Tumakuru,Upper Middle Class
+VIC-2024-KA-1275,Pahal Bumb,25,Male,"81/02, Mukhopadhyay, Barasat-600830",Tumakuru,Middle Class
+VIC-2024-KA-1276,Champak Raju,60,Other,"97, Chaudry Chowk, Nandyal 839750",Mysuru,Upper Middle Class
+VIC-2024-KA-1277,Balendra Chakraborty,84,Male,"14, Deep, Guwahati-100824",Hubballi-Dharwad,Middle Class
+VIC-2024-KA-1278,Wahab Rana,70,Other,"H.No. 737, Barman Chowk, Agartala 827654",Ballari,Middle Class
+VIC-2024-KA-1279,Isha Mander,60,Other,"55/007, Kibe Ganj, Pallavaram-955862",Belagavi,Lower Class
+VIC-2024-KA-1280,Benjamin Shroff,15,Female,"H.No. 13, Sachdev Road, Delhi 221197",Belagavi,Upper Middle Class
+VIC-2024-KA-1281,Nilima Bose,58,Female,"937, Om Ganj, Arrah-492273",Davangere,Lower Class
+VIC-2024-KA-1282,Anamika Mangat,17,Other,"22/24, Chandra Zila, Saharanpur-619361",Belagavi,Middle Class
+VIC-2024-KA-1283,Jeevika Dhar,72,Male,"62/98, Ram Street, Bellary 082843",Belagavi,Middle Class
+VIC-2024-KA-1284,Chaitaly Krishnamurthy,85,Female,"98, Chahal Marg, Nangloi Jat-445418",Vijayapura,Middle Class
+VIC-2024-KA-1285,Yatin Doctor,59,Female,"H.No. 38, Bal Circle, Indore-055806",Mysuru,Middle Class
+VIC-2024-KA-1286,Anjali Raja,60,Other,"H.No. 418, Gopal Path, Raebareli-551068",Belagavi,Lower Class
+VIC-2024-KA-1287,Neel Dhaliwal,54,Female,"75/958, Kanda, Khammam 763995",Shivamogga,Upper Middle Class
+VIC-2024-KA-1288,Tanish Khalsa,66,Female,"78/415, Mann Circle, Danapur-973791",Bengaluru Urban,Middle Class
+VIC-2024-KA-1289,Warinder Bains,60,Other,"81, Suresh Zila, Ozhukarai-171731",Davangere,Upper Middle Class
+VIC-2024-KA-1290,Upkaar Ghosh,50,Female,"H.No. 28, Sibal Path, Dharmavaram-382146",Tumakuru,Middle Class
+VIC-2024-KA-1291,Bishakha Dugar,53,Other,"H.No. 85, Sankaran Chowk, Nanded-421488",Vijayapura,Upper Middle Class
+VIC-2024-KA-1292,Joshua Soni,27,Male,"H.No. 94, Bedi Street, Serampore-328112",Vijayapura,Lower Class
+VIC-2024-KA-1293,Triveni Prabhakar,71,Female,"99/486, Loke Circle, Jabalpur-231129",Bengaluru Urban,Upper Middle Class
+VIC-2024-KA-1294,Jhalak Thakur,24,Male,"777, Dayal Ganj, Indore-104711",Kalaburagi,Lower Class
+VIC-2024-KA-1295,Sai Sinha,29,Other,"H.No. 000, Narain Path, Karnal-288622",Bengaluru Rural,Lower Class
+VIC-2024-KA-1296,Vivaan Chand,78,Female,"752, Oommen Circle, Srikakulam 411233",Shivamogga,Upper Middle Class
+VIC-2024-KA-1297,Azaan Kapoor,74,Other,"380, Saini Road, Tinsukia-299037",Hassan,Upper Middle Class
+VIC-2024-KA-1298,Tarak Nigam,70,Male,"H.No. 255, Goel Ganj, Siwan-339824",Hubballi-Dharwad,Lower Class
+VIC-2024-KA-1299,Triveni Tripathi,12,Other,"H.No. 78, Choudhry Zila, Jehanabad 465025",Tumakuru,Upper Middle Class
+VIC-2024-KA-1300,Hredhaan Gupta,63,Other,"H.No. 900, Kapoor Street, Jalna 093001",Vijayapura,Middle Class
+VIC-2024-KA-1301,Jai Naik,39,Other,"H.No. 832, Oommen Zila, Bhimavaram-966815",Bengaluru Urban,Lower Class
+VIC-2024-KA-1302,Jhalak Borah,39,Male,"H.No. 88, Dora Street, Anand-204714",Mangaluru,Middle Class
+VIC-2024-KA-1303,Quincy Sarraf,62,Other,"81, Madan Circle, Kirari Suleman Nagar 074528",Shivamogga,Upper Middle Class
+VIC-2024-KA-1304,Vedant Sanghvi,29,Female,"39/602, Sastry Nagar, Satna 130884",Hubballi-Dharwad,Middle Class
+VIC-2024-KA-1305,Alka Guha,65,Male,"H.No. 476, Pai, Khandwa 839329",Shivamogga,Lower Class
+VIC-2024-KA-1306,Abhimanyu Merchant,64,Other,"127, Malhotra Zila, Gandhinagar-749578",Shivamogga,Middle Class
+VIC-2024-KA-1307,Vihaan Chanda,24,Male,"79, Madan Path, Jodhpur 992909",Bengaluru Urban,Middle Class
+VIC-2024-KA-1308,Rishi Dave,63,Male,"84, Dada Chowk, Gandhinagar-049917",Mangaluru,Lower Class
+VIC-2024-KA-1309,Prisha Kari,33,Male,"56, Bajwa Zila, Bellary-003937",Mysuru,Middle Class
+VIC-2024-KA-1310,Ayush Ganguly,53,Other,"76/49, Bobal Road, Ulhasnagar 450138",Mangaluru,Middle Class
+VIC-2024-KA-1311,Quincy Zacharia,64,Other,"48/46, Sant Ganj, Srikakulam-471664",Kalaburagi,Upper Middle Class
+VIC-2024-KA-1312,Ishwar Chakraborty,50,Female,"H.No. 22, De Nagar, Bahraich 663117",Mangaluru,Middle Class
+VIC-2024-KA-1313,Rachana Nazareth,35,Female,"715, Mannan, Katni 433235",Shivamogga,Middle Class
+VIC-2024-KA-1314,Hamsini Ahluwalia,38,Other,"75/769, Jani Chowk, Kirari Suleman Nagar-780108",Vijayapura,Upper Middle Class
+VIC-2024-KA-1315,Sai Devi,65,Male,"H.No. 85, Sule, Pallavaram-619934",Vijayapura,Lower Class
+VIC-2024-KA-1316,Pushti Kuruvilla,37,Male,"364, Tara Circle, Deoghar 818644",Kalaburagi,Middle Class
+VIC-2024-KA-1317,Brinda Kalita,53,Other,"H.No. 144, Bhagat Nagar, Saharsa 995651",Vijayapura,Upper Middle Class
+VIC-2024-KA-1318,Nitesh Sinha,76,Other,"12/243, Shetty Zila, Karnal-654276",Vijayapura,Lower Class
+VIC-2024-KA-1319,Balvan Sachdeva,24,Female,"H.No. 79, Rama Path, Srikakulam 381249",Hubballi-Dharwad,Lower Class
+VIC-2024-KA-1320,Tarak Vyas,29,Female,"55, Thaker, Saharanpur 099884",Hubballi-Dharwad,Middle Class
+VIC-2024-KA-1321,Yatin Tailor,72,Female,"H.No. 76, Banik Nagar, Moradabad 024697",Kalaburagi,Middle Class
+VIC-2024-KA-1322,William Datta,50,Male,"H.No. 242, Master Circle, Gandhinagar-703391",Bengaluru Rural,Upper Middle Class
+VIC-2024-KA-1323,Nakul Chahal,7,Female,"75, Dora Circle, Burhanpur 725510",Shivamogga,Lower Class
+VIC-2024-KA-1324,Amaira Toor,63,Male,"62/580, Anand Circle, Raichur 300058",Bengaluru Rural,Middle Class
+VIC-2024-KA-1325,Gaurang Gill,84,Male,"71, Sant Ganj, Mirzapur-695812",Bengaluru Rural,Lower Class
+VIC-2024-KA-1326,Anika Singh,7,Other,"H.No. 116, Mukherjee Marg, Nellore 623678",Bengaluru Rural,Lower Class
+VIC-2024-KA-1327,Benjamin Dara,53,Male,"53, Sheth Path, Srikakulam-547788",Hassan,Upper Middle Class
+VIC-2024-KA-1328,Dakshesh Lall,13,Male,"76/519, Kohli, Chapra 678320",Hassan,Middle Class
+VIC-2024-KA-1329,Jagrati Ratti,5,Female,"322, Wali Zila, Rewa 392098",Ballari,Middle Class
+VIC-2024-KA-1330,Yatin Jaggi,53,Female,"324, Sibal, Srikakulam-068926",Mangaluru,Lower Class
+VIC-2024-KA-1331,Gaurangi Sama,14,Female,"42/54, Dutta Ganj, Pallavaram-553091",Hubballi-Dharwad,Upper Middle Class
+VIC-2024-KA-1332,Girish Mistry,62,Female,"H.No. 09, Pall Path, Ranchi 387148",Mysuru,Lower Class
+VIC-2024-KA-1333,Ryan Sule,37,Female,"H.No. 777, Din Zila, Ambala 179064",Vijayapura,Upper Middle Class
+VIC-2024-KA-1334,Ishanvi Kuruvilla,33,Female,"95/40, Nagy Path, Arrah-297115",Vijayapura,Lower Class
+VIC-2024-KA-1335,Vedant Mannan,81,Male,"H.No. 14, Raja Path, Barasat 283109",Mysuru,Upper Middle Class
+VIC-2024-KA-1336,Triya Kaur,77,Male,"H.No. 06, Gandhi Zila, Indore-139304",Davangere,Upper Middle Class
+VIC-2024-KA-1337,Neelima Grover,35,Male,"36/418, Guha Path, Cuttack 733129",Kalaburagi,Middle Class
+VIC-2024-KA-1338,Anamika Panchal,47,Male,"H.No. 290, Hans Street, Rajahmundry-623575",Bengaluru Urban,Upper Middle Class
+VIC-2024-KA-1339,Kevin Purohit,73,Female,"607, Kant Road, Bhilwara 727250",Bengaluru Urban,Upper Middle Class
+VIC-2024-KA-1340,Gaurika Sharaf,63,Female,"H.No. 322, Bora Nagar, Hubli–Dharwad-571057",Mangaluru,Middle Class
+VIC-2024-KA-1341,Shivansh Nagar,31,Female,"37/060, De Zila, Silchar 753809",Tumakuru,Upper Middle Class
+VIC-2024-KA-1342,Atharv Deol,20,Other,"H.No. 993, Deo Chowk, Junagadh-715991",Hubballi-Dharwad,Upper Middle Class
+VIC-2024-KA-1343,David Bera,58,Male,"12/80, Rajagopal Chowk, Phusro 212952",Shivamogga,Lower Class
+VIC-2024-KA-1344,Matthew Saran,14,Male,"H.No. 271, Khare Marg, Guwahati-363117",Bengaluru Rural,Upper Middle Class
+VIC-2024-KA-1345,Jairaj Pingle,27,Other,"12/667, Rege, Bulandshahr 468682",Hassan,Upper Middle Class
+VIC-2024-KA-1346,Ati Kota,78,Other,"559, Bains Circle, Tadipatri 175295",Chikkamagaluru,Lower Class
+VIC-2024-KA-1347,Chaman Ganesan,41,Male,"34/361, Reddy Path, Pune-996887",Mysuru,Lower Class
+VIC-2024-KA-1348,Prisha Char,48,Male,"06/63, Dhawan, Bulandshahr-804675",Ballari,Upper Middle Class
+VIC-2024-KA-1349,Gavin Choudhry,75,Male,"00/24, Mahal Path, Srinagar 691178",Mangaluru,Upper Middle Class
+VIC-2024-KA-1350,Abhimanyu Apte,23,Female,"55/58, Panchal Marg, Kadapa 165953",Ballari,Lower Class
+VIC-2024-KA-1351,Samuel Ratti,32,Other,"H.No. 749, Oak Chowk, New Delhi 493401",Ballari,Lower Class
+VIC-2024-KA-1352,Joshua Karan,58,Other,"45, Sundaram Road, Begusarai-051101",Mysuru,Middle Class
+VIC-2024-KA-1353,Pranav Pillay,49,Male,"H.No. 35, Sahni Path, Faridabad-740401",Hubballi-Dharwad,Lower Class
+VIC-2024-KA-1354,Urvi Tank,30,Male,"H.No. 78, Chana Marg, Bhubaneswar 571927",Hassan,Upper Middle Class
+VIC-2024-KA-1355,Watika Chander,21,Male,"35/69, Raju Circle, Naihati 936701",Bengaluru Rural,Middle Class
+VIC-2024-KA-1356,Karan Kamdar,77,Female,"67, Kala Path, Panipat 068207",Shivamogga,Middle Class
+VIC-2024-KA-1357,Tanay Jaggi,19,Other,"073, Balan Nagar, Mehsana-682957",Bengaluru Rural,Upper Middle Class
+VIC-2024-KA-1358,Anusha Ranganathan,21,Other,"971, Ramanathan Path, Kottayam-360705",Hubballi-Dharwad,Upper Middle Class
+VIC-2024-KA-1359,Ucchal Nair,33,Female,"28/268, Mitra Road, Pune 192963",Mysuru,Middle Class
+VIC-2024-KA-1360,Gabriel Shanker,7,Other,"724, Sha Road, Darbhanga 955020",Ballari,Lower Class
+VIC-2024-KA-1361,Urvashi Bassi,78,Other,"77, Agate Circle, Davanagere-641667",Bengaluru Urban,Middle Class
+VIC-2024-KA-1362,Frado Patla,53,Male,"46/91, Kannan Nagar, Muzaffarnagar-457051",Vijayapura,Lower Class
+VIC-2024-KA-1363,Vansha Kakar,47,Male,"094, Bora Street, Aurangabad-575097",Vijayapura,Lower Class
+VIC-2024-KA-1364,Balhaar Dyal,53,Male,"35/15, Pai Nagar, Panipat-836587",Bengaluru Urban,Lower Class
+VIC-2024-KA-1365,Ekaraj Parsa,74,Other,"40, Kari Ganj, Guna 379046",Davangere,Upper Middle Class
+VIC-2024-KA-1366,Kala Pai,7,Female,"02/022, Jhaveri Nagar, Howrah-720226",Davangere,Upper Middle Class
+VIC-2024-KA-1367,Niharika Seth,21,Other,"96/59, Patel, Nagaon-664685",Hubballi-Dharwad,Middle Class
+VIC-2024-KA-1368,Riya Chaudhari,52,Female,"46, Dugal Marg, Yamunanagar-577232",Vijayapura,Upper Middle Class
+VIC-2024-KA-1369,Sanya Toor,33,Other,"H.No. 833, Chand, Tiruvottiyur 748800",Tumakuru,Lower Class
+VIC-2024-KA-1370,Panini Zachariah,12,Female,"H.No. 281, Tripathi Nagar, Thanjavur 027916",Chikkamagaluru,Lower Class
+VIC-2024-KA-1371,Vihaan Dey,50,Male,"H.No. 12, Gera Ganj, Gandhinagar 088233",Belagavi,Lower Class
+VIC-2024-KA-1372,Maya Garde,78,Male,"274, Malhotra Ganj, Alwar-184626",Hubballi-Dharwad,Lower Class
+VIC-2024-KA-1373,Ishani Kaul,17,Female,"H.No. 371, Sheth Circle, Sangli-Miraj & Kupwad 482812",Chikkamagaluru,Upper Middle Class
+VIC-2024-KA-1374,Rayaan Balasubramanian,29,Other,"13/15, Oak Nagar, Patiala-973954",Hassan,Lower Class
+VIC-2024-KA-1375,Upadhriti Gulati,16,Other,"H.No. 08, Wali Circle, Deoghar 389176",Kalaburagi,Upper Middle Class
+VIC-2024-KA-1376,Tanay Chokshi,67,Other,"37, Dora Road, Medininagar-309283",Ballari,Lower Class
+VIC-2024-KA-1377,Tanvi Krish,39,Male,"H.No. 36, Kapoor Street, Berhampur-512056",Chikkamagaluru,Middle Class
+VIC-2024-KA-1378,Pranav Chadha,45,Male,"H.No. 24, Kuruvilla Circle, Mira-Bhayandar-129140",Davangere,Upper Middle Class
+VIC-2024-KA-1379,Dhriti Mane,23,Other,"195, Ramakrishnan Street, Nanded-319247",Belagavi,Upper Middle Class
+VIC-2024-KA-1380,Ekanta Borde,65,Other,"H.No. 33, Morar Circle, Tiruvottiyur 164888",Belagavi,Upper Middle Class
+VIC-2024-KA-1381,Faqid Chaudhari,9,Female,"H.No. 728, Nanda, Amroha 858085",Bengaluru Rural,Middle Class
+VIC-2024-KA-1382,Viraj Upadhyay,66,Male,"076, Halder Path, Hazaribagh 488191",Chikkamagaluru,Middle Class
+VIC-2024-KA-1383,Andrew Mutti,24,Male,"61/983, Gulati Ganj, Bijapur-843541",Shivamogga,Upper Middle Class
+VIC-2024-KA-1384,Yoshita Tak,37,Male,"471, Sankar Zila, Deoghar-091682",Ballari,Middle Class
+VIC-2024-KA-1385,Harita Ahluwalia,55,Male,"41/897, Sengupta, Khandwa 672597",Kalaburagi,Middle Class
+VIC-2024-KA-1386,Raksha Rajan,8,Other,"75/890, Wali Marg, Darbhanga-701692",Mangaluru,Middle Class
+VIC-2024-KA-1387,Krish Karnik,63,Female,"97/13, Merchant Circle, Gopalpur-225286",Hassan,Upper Middle Class
+VIC-2024-KA-1388,Arjun Kumer,47,Other,"90/270, Roy Street, Bongaigaon-240596",Hubballi-Dharwad,Lower Class
+VIC-2024-KA-1389,Leela Deol,39,Male,"H.No. 428, Bobal Ganj, Sonipat 360690",Tumakuru,Lower Class
+VIC-2024-KA-1390,Lopa Oommen,12,Male,"H.No. 70, Mall, Bhilai 750254",Mysuru,Lower Class
+VIC-2024-KA-1391,Urishilla Warrior,69,Female,"61/14, Sawhney, Purnia-043231",Shivamogga,Middle Class
+VIC-2024-KA-1392,Eiravati Kant,55,Other,"H.No. 595, Kumar Road, Jaipur 604882",Bengaluru Urban,Middle Class
+VIC-2024-KA-1393,Gaurika Singh,41,Other,"H.No. 90, Iyer Path, Imphal-969985",Belagavi,Upper Middle Class
+VIC-2024-KA-1394,Aishani Mani,30,Male,"H.No. 31, Choudhury Chowk, Bareilly-512344",Hassan,Middle Class
+VIC-2024-KA-1395,Sarthak Gara,75,Female,"H.No. 436, Pandey Street, Vellore 840884",Bengaluru Urban,Upper Middle Class
+VIC-2024-KA-1396,Ayaan Barad,21,Male,"41/34, Chaudhari Road, Naihati 633356",Chikkamagaluru,Middle Class
+VIC-2024-KA-1397,Ekaraj Singh,82,Other,"284, Mital Street, Sirsa-578156",Shivamogga,Upper Middle Class
+VIC-2024-KA-1398,Bhavya Zacharia,65,Female,"63/06, Bandi Road, Kishanganj 609240",Hubballi-Dharwad,Middle Class
+VIC-2024-KA-1399,Urvashi Sura,10,Female,"97/389, Tandon Nagar, Bidar 934552",Vijayapura,Upper Middle Class
+VIC-2024-KA-1400,Vedika Ramaswamy,67,Other,"34/48, Singh Road, Tiruchirappalli-231879",Kalaburagi,Upper Middle Class
+VIC-2024-KA-1401,Kamya Brar,17,Male,"75, Cheema, Bhatpara-760341",Bengaluru Rural,Upper Middle Class
+VIC-2024-KA-1402,Tejas Setty,22,Female,"H.No. 19, Yadav Road, Hapur 548178",Davangere,Lower Class
+VIC-2024-KA-1403,Udyati Wali,51,Male,"52/75, Nath Zila, Visakhapatnam-484461",Hubballi-Dharwad,Upper Middle Class
+VIC-2024-KA-1404,Nitesh Kata,73,Other,"229, Vasa Nagar, Burhanpur-972463",Tumakuru,Lower Class
+VIC-2024-KA-1405,Zilmil Pillay,18,Female,"H.No. 898, Doctor Circle, Moradabad-400536",Hassan,Lower Class
+VIC-2024-KA-1406,Chasmum Rama,63,Male,"86/05, Loke Zila, Solapur 429435",Vijayapura,Upper Middle Class
+VIC-2024-KA-1407,Advay Bhatnagar,51,Female,"746, Wadhwa Zila, Madhyamgram 703648",Hassan,Middle Class
+VIC-2024-KA-1408,Nihal Gola,24,Male,"20/84, Balakrishnan Road, Tinsukia 951357",Vijayapura,Upper Middle Class
+VIC-2024-KA-1409,Farhan Saini,18,Other,"09/38, Rajagopal, Bellary-856033",Bengaluru Urban,Lower Class
+VIC-2024-KA-1410,Sachi Ahluwalia,41,Other,"H.No. 34, Sha Marg, Surendranagar Dudhrej 491023",Shivamogga,Upper Middle Class
+VIC-2024-KA-1411,Warinder Deep,63,Other,"16/231, Majumdar Zila, Raipur 262362",Bengaluru Rural,Middle Class
+VIC-2024-KA-1412,Netra Kapadia,69,Male,"H.No. 246, Lata Nagar, Anantapur-855339",Belagavi,Middle Class
+VIC-2024-KA-1413,Vanya Suri,23,Female,"59, Dar Chowk, Nagercoil 124775",Mangaluru,Middle Class
+VIC-2024-KA-1414,Nimrat Mand,27,Other,"091, Narain Marg, Dhule-946705",Bengaluru Urban,Middle Class
+VIC-2024-KA-1415,Manthan Virk,64,Male,"H.No. 87, Lalla Street, Guna-673815",Bengaluru Urban,Middle Class
+VIC-2024-KA-1416,Wyatt Seth,79,Female,"49/75, Saini Marg, Srikakulam 796075",Mysuru,Middle Class
+VIC-2024-KA-1417,Sarthak Oommen,7,Male,"H.No. 652, Swaminathan Circle, Dhule 915881",Davangere,Upper Middle Class
+VIC-2024-KA-1418,Pranit Banerjee,63,Male,"H.No. 750, Murty Path, Khammam 943097",Bengaluru Urban,Middle Class
+VIC-2024-KA-1419,Balendra Seth,70,Other,"H.No. 84, Swamy Path, Bellary-109307",Kalaburagi,Middle Class
+VIC-2024-KA-1420,Vidhi Krishnan,27,Other,"659, Peri Chowk, Muzaffarpur-617988",Davangere,Middle Class
+VIC-2024-KA-1421,Siddharth Mannan,65,Female,"H.No. 40, Rao Zila, Bulandshahr 035159",Hassan,Middle Class
+VIC-2024-KA-1422,Varsha Sethi,56,Other,"11, Borde Street, Panchkula 125060",Vijayapura,Middle Class
+VIC-2024-KA-1423,Vinaya Saini,24,Male,"H.No. 11, Mane, Giridih 013545",Tumakuru,Upper Middle Class
+VIC-2024-KA-1424,Advay Solanki,81,Female,"H.No. 95, Jani Marg, Nadiad 461914",Kalaburagi,Upper Middle Class
+VIC-2024-KA-1425,Nilima Dalal,20,Male,"506, Prakash Nagar, Morena-448164",Bengaluru Urban,Upper Middle Class
+VIC-2024-KA-1426,Netra Sridhar,56,Other,"49, Patla Circle, Gurgaon-672020",Hassan,Upper Middle Class
+VIC-2024-KA-1427,Wriddhish Sharaf,39,Other,"703, Kota Zila, Shivpuri 874884",Mysuru,Lower Class
+VIC-2024-KA-1428,Yashvi Patil,74,Other,"900, Keer Street, Bharatpur 650962",Mysuru,Middle Class
+VIC-2024-KA-1429,Hemangini Dara,69,Female,"040, Nath Street, Kumbakonam 501391",Mangaluru,Lower Class
+VIC-2024-KA-1430,Darika Brar,20,Other,"340, Amble Circle, Bhavnagar 930856",Ballari,Lower Class
+VIC-2024-KA-1431,Shivani Sharaf,63,Female,"H.No. 125, Dugar Street, Danapur-727161",Davangere,Middle Class
+VIC-2024-KA-1432,Veer Borde,84,Other,"H.No. 444, Lad Zila, Ulhasnagar-881885",Belagavi,Middle Class
+VIC-2024-KA-1433,Jatin Parekh,6,Other,"58/78, Menon Zila, Sikar-590001",Kalaburagi,Middle Class
+VIC-2024-KA-1434,Siddharth Wason,38,Female,"91/385, Madan Chowk, Serampore-120578",Bengaluru Rural,Middle Class
+VIC-2024-KA-1435,Oscar Manne,54,Other,"93, Pall Zila, Bidar 941161",Kalaburagi,Lower Class
+VIC-2024-KA-1436,Caleb Bhandari,9,Other,"64/88, Sur Marg, Junagadh-520329",Tumakuru,Upper Middle Class
+VIC-2024-KA-1437,Timothy Sekhon,20,Male,"H.No. 00, Dhillon Zila, Gangtok-830626",Mangaluru,Lower Class
+VIC-2024-KA-1438,Urishilla Buch,43,Female,"37, Balay Marg, Tiruchirappalli-142202",Bengaluru Rural,Middle Class
+VIC-2024-KA-1439,Ishita Murthy,48,Other,"86/50, Kurian Chowk, Udupi 547692",Bengaluru Urban,Middle Class
+VIC-2024-KA-1440,Urmi Sharaf,15,Other,"H.No. 19, Reddy Nagar, Bikaner 114681",Bengaluru Urban,Middle Class
+VIC-2024-KA-1441,George Kapadia,34,Other,"62/15, Kala Path, Phagwara-024187",Mysuru,Middle Class
+VIC-2024-KA-1442,Charita Thaman,28,Female,"44/53, Edwin Circle, Suryapet-912450",Mangaluru,Upper Middle Class
+VIC-2024-KA-1443,Vidhi Shanker,80,Other,"37/49, Sethi Path, Ujjain 380726",Hassan,Lower Class
+VIC-2024-KA-1444,Aarush Varughese,17,Other,"16, Kannan Street, Bangalore-879067",Mangaluru,Lower Class
+VIC-2024-KA-1445,Idika Sodhi,35,Male,"985, Bhalla Zila, Nanded 839174",Hubballi-Dharwad,Upper Middle Class
+VIC-2024-KA-1446,Umang Chokshi,65,Other,"86/26, Karan Zila, Ujjain-331796",Belagavi,Upper Middle Class
+VIC-2024-KA-1447,Chanakya Puri,46,Female,"H.No. 82, Parsa Path, Sonipat-339271",Hubballi-Dharwad,Middle Class
+VIC-2024-KA-1448,Fariq Anand,33,Other,"90, Garde Road, Saharanpur-753827",Hubballi-Dharwad,Lower Class
+VIC-2024-KA-1449,Vrishti Mittal,58,Other,"50, Goyal Street, Dhanbad-270728",Mangaluru,Lower Class
+VIC-2024-KA-1450,Chameli Mukhopadhyay,7,Male,"H.No. 01, Taneja Path, Unnao 249798",Mangaluru,Upper Middle Class
+VIC-2024-KA-1451,Rushil Chhabra,46,Female,"H.No. 49, Bal Circle, Ramgarh 103063",Bengaluru Rural,Middle Class
+VIC-2024-KA-1452,Amrita Parmar,70,Female,"H.No. 46, Palan Nagar, Avadi 648030",Ballari,Upper Middle Class
+VIC-2024-KA-1453,Jacob Prabhu,81,Other,"69/54, Borra Marg, Maheshtala-798938",Mangaluru,Upper Middle Class
+VIC-2024-KA-1454,Ayaan Shankar,82,Female,"12/313, Agrawal Ganj, Imphal 137393",Davangere,Middle Class
+VIC-2024-KA-1455,Tanish Narayanan,43,Other,"26, Kade Chowk, Jalgaon 342791",Tumakuru,Upper Middle Class
+VIC-2024-KA-1456,Vidhi Nadig,73,Female,"25, Majumdar Zila, Adoni-974455",Hubballi-Dharwad,Lower Class
+VIC-2024-KA-1457,Anirudh Dubey,45,Male,"068, Kohli Path, Mehsana 284803",Hassan,Lower Class
+VIC-2024-KA-1458,Azaan Deshmukh,64,Other,"569, Divan Ganj, Thoothukudi 029845",Belagavi,Upper Middle Class
+VIC-2024-KA-1459,Raagini Jhaveri,27,Other,"32, Mammen, Bokaro 634219",Mysuru,Upper Middle Class
+VIC-2024-KA-1460,Quincy Balakrishnan,76,Female,"87, Bhalla Nagar, Jamalpur-353032",Mysuru,Lower Class
+VIC-2024-KA-1461,Rishi Bera,17,Other,"24, Sani Street, Dhanbad-013562",Davangere,Middle Class
+VIC-2024-KA-1462,Ubika Balakrishnan,57,Other,"H.No. 761, Chaudhry Marg, Muzaffarnagar 957001",Tumakuru,Middle Class
+VIC-2024-KA-1463,Lohit Dutt,34,Female,"44/80, Sastry Zila, Mau-692427",Vijayapura,Upper Middle Class
+VIC-2024-KA-1464,Lopa Sha,61,Female,"10/069, Misra Circle, Purnia 145498",Vijayapura,Lower Class
+VIC-2024-KA-1465,Avni Barad,63,Other,"914, Bajaj Nagar, Amravati-504825",Mangaluru,Middle Class
+VIC-2024-KA-1466,Manthan Thakkar,22,Male,"193, Shan Zila, Bhopal 307359",Mangaluru,Upper Middle Class
+VIC-2024-KA-1467,Yadavi Raghavan,81,Male,"46/46, Lala Road, Kottayam-176809",Davangere,Middle Class
+VIC-2024-KA-1468,Akshay Bhatti,5,Male,"72, Butala Road, Asansol 596497",Bengaluru Urban,Lower Class
+VIC-2024-KA-1469,Baghyawati Gulati,34,Other,"04/92, Mall Ganj, Pallavaram 269450",Ballari,Lower Class
+VIC-2024-KA-1470,Nilima Dhaliwal,11,Female,"H.No. 300, Wagle, Giridih-583690",Shivamogga,Upper Middle Class
+VIC-2024-KA-1471,Bhavya Bedi,75,Male,"H.No. 79, Sama Path, Chinsurah 095010",Vijayapura,Upper Middle Class
+VIC-2024-KA-1472,Girish Shere,48,Female,"38, Purohit Path, Fatehpur 900624",Ballari,Lower Class
+VIC-2024-KA-1473,David Warrior,33,Female,"650, Tella Marg, Pondicherry 122371",Ballari,Upper Middle Class
+VIC-2024-KA-1474,Fitan Narain,43,Male,"H.No. 63, Chawla Ganj, Imphal-675354",Mysuru,Upper Middle Class
+VIC-2024-KA-1475,Kevin Ramakrishnan,51,Male,"53, Mallick Circle, Guna 346990",Mangaluru,Middle Class
+VIC-2024-KA-1476,Bhavya Chada,5,Female,"67/32, Bail Nagar, Danapur-361953",Shivamogga,Middle Class
+VIC-2024-KA-1477,Yashasvi Datta,39,Male,"041, Dash Nagar, Agartala 280634",Mysuru,Lower Class
+VIC-2024-KA-1478,Harsh Master,50,Other,"07/597, Dube Street, Gurgaon 213876",Mangaluru,Middle Class
+VIC-2024-KA-1479,Lakshit Ahuja,10,Other,"H.No. 517, Malhotra Chowk, Thane-575051",Hassan,Upper Middle Class
+VIC-2024-KA-1480,Nitara Chad,41,Male,"86/22, Hayer Road, Solapur 477585",Tumakuru,Middle Class
+VIC-2024-KA-1481,Frado Pau,71,Male,"44/476, Basu Zila, North Dumdum 643246",Bengaluru Rural,Lower Class
+VIC-2024-KA-1482,Lavanya Dhingra,5,Male,"78/221, Bakshi Path, Mahbubnagar-432229",Hubballi-Dharwad,Upper Middle Class
+VIC-2024-KA-1483,Gayathri Babu,27,Other,"162, Chaudhuri Circle, Guntur-197996",Belagavi,Lower Class
+VIC-2024-KA-1484,Faqid Raman,22,Other,"H.No. 029, Anne Nagar, Ghaziabad-315808",Chikkamagaluru,Upper Middle Class
+VIC-2024-KA-1485,Manya Sangha,78,Other,"H.No. 59, Dani Path, Tiruppur-558378",Shivamogga,Middle Class
+VIC-2024-KA-1486,Vihaan Guha,82,Other,"454, Sankaran Path, South Dumdum 266574",Ballari,Lower Class
+VIC-2024-KA-1487,Upasna Bobal,49,Male,"61/98, Raval Chowk, Bidar-302715",Shivamogga,Middle Class
+VIC-2024-KA-1488,Yatin Ganesh,45,Other,"15/975, Prakash Chowk, Dharmavaram 669448",Belagavi,Middle Class
+VIC-2024-KA-1489,Nachiket Pandey,25,Male,"H.No. 294, Sunder Road, Bellary-057980",Bengaluru Urban,Upper Middle Class
+VIC-2024-KA-1490,Qushi Viswanathan,13,Other,"H.No. 345, Krishna Marg, Sasaram-298618",Mysuru,Lower Class
+VIC-2024-KA-1491,Panini Palan,8,Female,"831, Nagar, Rohtak-721926",Kalaburagi,Upper Middle Class
+VIC-2024-KA-1492,Libni Dara,80,Male,"H.No. 55, Sinha Path, Phusro 860209",Belagavi,Upper Middle Class
+VIC-2024-KA-1493,Aarav Dugar,68,Female,"H.No. 885, Chokshi Circle, Ajmer 037159",Hubballi-Dharwad,Lower Class
+VIC-2024-KA-1494,Aashi Gupta,32,Male,"039, Lanka, Miryalaguda 665119",Mysuru,Middle Class
+VIC-2024-KA-1495,Forum Mukherjee,53,Female,"H.No. 05, Bhat Zila, Gandhidham-488276",Tumakuru,Upper Middle Class
+VIC-2024-KA-1496,Kiaan Sheth,5,Female,"69, Contractor Chowk, Sasaram-869434",Ballari,Lower Class
+VIC-2024-KA-1497,Jhalak Choudhury,18,Female,"945, Karnik Marg, Shimla 924705",Kalaburagi,Middle Class
+VIC-2024-KA-1498,Ekavir Rama,53,Other,"70/37, Padmanabhan Chowk, Bally-325161",Kalaburagi,Lower Class
+VIC-2024-KA-1499,Wyatt Thaker,17,Female,"H.No. 519, Sunder Circle, Ambala 170941",Hubballi-Dharwad,Lower Class
+VIC-2024-KA-1500,Dayamai Bali,53,Male,"97/275, Banik Zila, Kozhikode 125777",Hassan,Upper Middle Class

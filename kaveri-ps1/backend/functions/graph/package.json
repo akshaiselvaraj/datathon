@@ -1,0 +1,10 @@
+{
+  "name": "graph",
+  "version": "1.0.0",
+  "description": "Neo4j queries for KAVERI criminal network graphs",
+  "main": "index.js",
+  "dependencies": {
+    "neo4j-driver": "^5.15.0",
+    "dotenv": "^16.0.3"
+  }
+}

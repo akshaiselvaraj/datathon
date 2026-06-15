@@ -1,0 +1,11 @@
+{
+  "name": "translate",
+  "version": "1.0.0",
+  "description": "Translate Kannada to English using Gemini API",
+  "main": "index.js",
+  "dependencies": {
+    "node-fetch": "^2.6.9",
+    "catalyst-node-cleanup": "^1.0.0",
+    "dotenv": "^16.0.3"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "RAG pipeline + LLM call using Groq and Gemini APIs",
+  "main": "index.js",
+  "dependencies": {
+    "node-fetch": "^2.6.9",
+    "dotenv": "^16.0.3",
+    "@xenova/transformers": "^2.6.0",
+    "@pinecone-database/pinecone": "^2.0.1"
+  }
+}
