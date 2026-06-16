@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useSearchParams } from 'react-router-dom';
 import { 
   LayoutDashboard, MessageSquare, Network, BarChart3, Users, 
   Bell, FileText, Settings, Shield, LogOut, Search, MapPin, 
@@ -18,8 +18,17 @@ const API_BASE = window.location.hostname === 'localhost' ? 'http://localhost:30
 
 function Dashboard() {
   const navigate = useNavigate();
+  const [searchParams, setSearchParams] = useSearchParams();
   const [sessionUser, setSessionUser] = useState(null);
-  const [activeTab, setActiveTab] = useState('Dashboard');
+  
+  const activeTab = searchParams.get('tab') || 'Dashboard';
+  const setActiveTab = (newTab) => {
+    setSearchParams(prev => {
+      prev.set('tab', newTab);
+      prev.delete('search');
+      return prev;
+    });
+  };
   
   // Dashboard Analytics States
   const [kpiData, setKpiData] = useState({
@@ -43,11 +52,41 @@ function Dashboard() {
 
   // Offenders Registry States
   const [offenders, setOffenders] = useState([]);
-  const [offenderSearch, setOffenderSearch] = useState('');
   
   // Case Reports Registry States
   const [cases, setCases] = useState([]);
-  const [caseSearch, setCaseSearch] = useState('');
+
+  const tabSearch = searchParams.get('search') || '';
+  const setTabSearch = (val) => {
+    setSearchParams(prev => {
+      if (val) {
+        prev.set('search', val);
+      } else {
+        prev.delete('search');
+      }
+      return prev;
+    });
+  };
+
+  const renderFirLinks = (str) => {
+    if (!str) return 'None';
+    const regex = /(FIR-[A-Z0-9-]+)/g;
+    const parts = str.split(regex);
+    return parts.map((part, index) => {
+      if (part.match(regex)) {
+        return (
+          <span 
+            key={index} 
+            className="chat-entity-link" 
+            onClick={() => navigate(`/case/${part}`)}
+          >
+            {part}
+          </span>
+        );
+      }
+      return part;
+    });
+  };
 
   useEffect(() => {
     // 1. Session check
@@ -205,15 +244,16 @@ function Dashboard() {
   ];
 
   const filteredOffenders = offenders.filter(o => 
-    o.name.toLowerCase().includes(offenderSearch.toLowerCase()) || 
-    o.accused_id.toLowerCase().includes(offenderSearch.toLowerCase()) ||
-    o.modus_operandi.toLowerCase().includes(offenderSearch.toLowerCase())
+    o.name.toLowerCase().includes(tabSearch.toLowerCase()) || 
+    o.accused_id.toLowerCase().includes(tabSearch.toLowerCase()) ||
+    o.modus_operandi.toLowerCase().includes(tabSearch.toLowerCase())
   );
 
   const filteredCases = cases.filter(c => 
-    c.fir_id.toLowerCase().includes(caseSearch.toLowerCase()) || 
-    c.crime_type.toLowerCase().includes(caseSearch.toLowerCase()) ||
-    c.district.toLowerCase().includes(caseSearch.toLowerCase())
+    c.fir_id.toLowerCase().includes(tabSearch.toLowerCase()) || 
+    c.crime_type.toLowerCase().includes(tabSearch.toLowerCase()) ||
+    c.district.toLowerCase().includes(tabSearch.toLowerCase()) ||
+    c.investigation_status.toLowerCase().includes(tabSearch.toLowerCase())
   );
 
   return (
@@ -243,15 +283,7 @@ function Dashboard() {
                 {item.icon}
                 <span>{item.name}</span>
                 {item.name === 'Alerts & Warnings' && unreadAlertsCount > 0 && (
-                  <span style={{
-                    marginLeft: 'auto',
-                    backgroundColor: '#9B1C1C',
-                    color: '#FFFFFF',
-                    fontSize: '10px',
-                    fontWeight: 'bold',
-                    padding: '2px 6px',
-                    borderRadius: '10px'
-                  }}>{unreadAlertsCount}</span>
+                  <span className="sidebar-badge">{unreadAlertsCount}</span>
                 )}
               </div>
             );
@@ -291,26 +323,26 @@ function Dashboard() {
           {activeTab === 'Dashboard' && (
             <div>
               {/* KPIs Grid */}
-              <div className="grid-container grid-4" style={{ marginBottom: '20px' }}>
-                <div className="card metric-card">
+              <div className="grid-container grid-4" style={{ marginBottom: '24px' }}>
+                <div className="card metric-card active-total" onClick={() => setActiveTab('Case Reports')}>
                   <div className="metric-label">Total Crime Files (FIRs)</div>
                   <div className="metric-value">{kpiData.totalFirs}</div>
-                  <div style={{ fontSize: '11px', color: '#4A5568' }}>Loaded in RAG database</div>
+                  <div style={{ fontSize: '11px', color: 'var(--color-text-secondary)' }}>Loaded in RAG database</div>
                 </div>
-                <div className="card metric-card">
+                <div className="card metric-card active-open" onClick={() => { setSearchParams({ tab: 'Case Reports', search: 'Open' }); }}>
                   <div className="metric-label">Active / Open Investigations</div>
-                  <div className="metric-value" style={{ color: '#9B1C1C' }}>{kpiData.openFirs}</div>
-                  <div style={{ fontSize: '11px', color: '#4A5568' }}>Under investigation status</div>
+                  <div className="metric-value" style={{ color: 'var(--color-danger)' }}>{kpiData.openFirs}</div>
+                  <div style={{ fontSize: '11px', color: 'var(--color-text-secondary)' }}>Under investigation status</div>
                 </div>
-                <div className="card metric-card">
-                  <div className="metric-label">Monitored Accused Profile Database</div>
+                <div className="card metric-card active-accused" onClick={() => setActiveTab('Offender Profiles')}>
+                  <div className="metric-label">Monitored Accused Database</div>
                   <div className="metric-value">{kpiData.totalAccused}</div>
-                  <div style={{ fontSize: '11px', color: '#4A5568' }}>Predictive risk profiles</div>
+                  <div style={{ fontSize: '11px', color: 'var(--color-text-secondary)' }}>Predictive risk profiles</div>
                 </div>
-                <div className="card metric-card">
+                <div className="card metric-card active-financial" onClick={() => setActiveTab('Criminal Networks')}>
                   <div className="metric-label">Flagged Financial Transactions</div>
-                  <div className="metric-value" style={{ color: '#C8922A' }}>{kpiData.totalTransactions}</div>
-                  <div style={{ fontSize: '11px', color: '#4A5568' }}>Illicit funding audits</div>
+                  <div className="metric-value" style={{ color: 'var(--color-success)' }}>{kpiData.totalTransactions}</div>
+                  <div style={{ fontSize: '11px', color: 'var(--color-text-secondary)' }}>Illicit funding audits</div>
                 </div>
               </div>
 
@@ -327,27 +359,37 @@ function Dashboard() {
 
                 <div>
                   {/* Planted Pattern Quick Indicators */}
-                  <div className="card" style={{ borderLeft: '4px solid #C8922A' }}>
+                  <div className="card" style={{ borderLeft: '4px solid var(--color-secondary)' }}>
                     <div className="card-header">
                       <span className="card-title"><Shield size={18} /> High-Risk Offender Alerts</span>
                     </div>
                     
                     <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
-                      <div style={{ padding: '8px', background: '#FFF5F5', border: '1px solid #FED7D7' }}>
+                      <div 
+                        className="highlight-panel critical"
+                        onClick={() => {
+                          setSearchParams({ tab: 'Offender Profiles', search: 'Ravi Shankar Gowda' });
+                        }}
+                      >
                         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                           <strong>Ravi Shankar Gowda</strong>
-                          <span style={{ color: '#9B1C1C', fontWeight: 'bold', fontSize: '12px' }}>94% Risk</span>
+                          <span style={{ color: 'var(--color-danger)', fontWeight: 'bold', fontSize: '12px' }}>94% Risk</span>
                         </div>
-                        <div style={{ fontSize: '11px', color: '#4A5568', marginTop: '2px' }}>
+                        <div style={{ fontSize: '11.5px', color: 'var(--color-text-secondary)', marginTop: '4px' }}>
                           9 Priors. Escalating IPC 307 (Attempted Murder). Out on bail.
                         </div>
                       </div>
-                      <div style={{ padding: '8px', background: '#FFFDF5', border: '1px solid #FEFCBF' }}>
+                      <div 
+                        className="highlight-panel warning"
+                        onClick={() => {
+                          setActiveTab('Criminal Networks');
+                        }}
+                      >
                         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                           <strong>Shadow Gang Network</strong>
-                          <span style={{ color: '#C8922A', fontWeight: 'bold', fontSize: '12px' }}>Active</span>
+                          <span style={{ color: 'var(--color-secondary)', fontWeight: 'bold', fontSize: '12px' }}>Active</span>
                         </div>
-                        <div style={{ fontSize: '11px', color: '#4A5568', marginTop: '2px' }}>
+                        <div style={{ fontSize: '11.5px', color: 'var(--color-text-secondary)', marginTop: '4px' }}>
                           5 connected nodes. 8 cross-district burglary FIRs. 2 shared accounts.
                         </div>
                       </div>
@@ -358,14 +400,20 @@ function Dashboard() {
                     <div className="card-header">
                       <span className="card-title"><Bell size={18} /> Active System Bulletins</span>
                     </div>
-                    <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
+                    <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
                       {alerts.slice(0, 3).map(a => (
-                        <div key={a.alert_id} style={{ borderBottom: '1px solid #E2E8F0', paddingBottom: '8px' }}>
-                          <div style={{ display: 'flex', justifyContent: 'space-between' }}>
-                            <span style={{ fontWeight: 'bold', color: a.severity === 'Critical' ? '#9B1C1C' : '#C8922A' }}>{a.alert_type}</span>
-                            <span style={{ fontSize: '10px', color: '#718096' }}>{a.created_at}</span>
+                        <div 
+                          key={a.alert_id} 
+                          className={`highlight-panel ${a.severity === 'Critical' ? 'critical' : 'warning'}`}
+                          onClick={() => {
+                            setActiveTab('Alerts & Warnings');
+                          }}
+                        >
+                          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                            <span style={{ fontWeight: 'bold', color: a.severity === 'Critical' ? 'var(--color-danger)' : 'var(--color-warning)', fontSize: '12.5px' }}>{a.alert_type}</span>
+                            <span style={{ fontSize: '10px', color: 'var(--color-text-secondary)' }}>{a.created_at}</span>
                           </div>
-                          <p style={{ fontSize: '11px', color: '#2D3748', marginTop: '4px', lineClamp: '2', display: '-webkit-box', WebkitLineClamp: '2', WebkitBoxOrient: 'vertical', overflow: 'hidden' }}>{a.description}</p>
+                          <p style={{ fontSize: '11.5px', color: 'var(--color-text-primary)', marginTop: '6px', display: '-webkit-box', WebkitLineClamp: '2', WebkitBoxOrient: 'vertical', overflow: 'hidden' }}>{a.description}</p>
                         </div>
                       ))}
                     </div>
@@ -457,8 +505,8 @@ function Dashboard() {
                     type="text" 
                     placeholder="Search name, ID or modus operandi..." 
                     className="form-control" 
-                    value={offenderSearch}
-                    onChange={(e) => setOffenderSearch(e.target.value)}
+                    value={tabSearch}
+                    onChange={(e) => setTabSearch(e.target.value)}
                     style={{ paddingLeft: '32px', width: '280px', height: '34px', fontSize: '12px' }}
                   />
                 </div>
@@ -554,7 +602,7 @@ function Dashboard() {
                     <p style={{ color: '#1A1A2E', fontSize: '13px', lineHeight: '1.5', marginBottom: '12px' }}>{a.description}</p>
                     
                     <div style={{ display: 'flex', justifyItems: 'center', justifyContent: 'space-between', fontSize: '11px', color: '#718096' }}>
-                      <span>Source Files: <code>{a.source_fir_ids}</code></span>
+                      <span>Source Files: {renderFirLinks(a.source_fir_ids || a.description)}</span>
                       {String(a.acknowledged) === 'False' ? (
                         <button 
                           className="btn btn-secondary btn-accent" 
@@ -586,8 +634,8 @@ function Dashboard() {
                     type="text" 
                     placeholder="Search FIR files or district..." 
                     className="form-control" 
-                    value={caseSearch}
-                    onChange={(e) => setCaseSearch(e.target.value)}
+                    value={tabSearch}
+                    onChange={(e) => setTabSearch(e.target.value)}
                     style={{ paddingLeft: '32px', width: '280px', height: '34px', fontSize: '12px' }}
                   />
                 </div>

@@ -84,44 +84,46 @@ function CaseView() {
   }
 
   return (
-    <div style={{ minHeight: '100vh', backgroundColor: '#F5F6F8' }}>
+    <div style={{ minHeight: '100vh', backgroundColor: 'var(--color-bg)' }}>
       {/* Top Header */}
       <div style={{
-        backgroundColor: '#1B2A4A',
+        background: 'linear-gradient(135deg, var(--color-sidebar-bg) 0%, var(--color-primary) 100%)',
         color: '#FFFFFF',
-        padding: '16px 24px',
+        padding: '16px 32px',
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'space-between',
-        borderBottom: '4px solid #C8922A'
+        borderBottom: '3px solid var(--color-secondary)',
+        boxShadow: 'var(--shadow-md)'
       }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
-          <Shield style={{ color: '#C8922A' }} />
+          <Shield style={{ color: 'var(--color-secondary-light)' }} />
           <div>
-            <h1 style={{ fontSize: '18px', margin: 0, color: '#FFFFFF' }}>KAVERI Case Dossier</h1>
-            <p style={{ fontSize: '10px', color: '#C8922A', margin: 0, textTransform: 'uppercase' }}>
+            <h1 style={{ fontSize: '18px', margin: 0, color: '#FFFFFF', letterSpacing: '0.5px' }}>KAVERI Case Dossier</h1>
+            <p style={{ fontSize: '10px', color: 'var(--color-secondary-light)', margin: 0, textTransform: 'uppercase', letterSpacing: '1px', fontWeight: '600' }}>
               Karnataka State Police | CONFIDENTIAL RECORD
             </p>
           </div>
         </div>
-        <button onClick={() => navigate('/dashboard')} className="btn btn-secondary" style={{ color: '#FFFFFF', borderColor: '#FFFFFF' }}>
-          <ArrowLeft size={16} /> Return to Dashboard
+        <button onClick={() => navigate('/dashboard?tab=Case Reports')} className="btn btn-secondary" style={{ color: '#FFFFFF', borderColor: 'rgba(255,255,255,0.4)', backgroundColor: 'transparent' }}>
+          <ArrowLeft size={16} /> Return to Case Archives
         </button>
       </div>
 
-      <div style={{ padding: '24px', maxWidth: '1200px', margin: '0 auto' }}>
+      <div style={{ padding: '32px', maxWidth: '1200px', margin: '0 auto' }}>
         {/* Warning Banner */}
         <div style={{
-          backgroundColor: '#FFF5F5',
-          border: '1px solid #FED7D7',
-          color: '#C53030',
-          padding: '12px 16px',
-          borderRadius: '4px',
-          marginBottom: '20px',
+          backgroundColor: '#FEF2F2',
+          border: '1px solid #FEE2E2',
+          color: 'var(--color-danger)',
+          padding: '14px 20px',
+          borderRadius: 'var(--radius-md)',
+          marginBottom: '24px',
           display: 'flex',
           alignItems: 'center',
           gap: '12px',
-          fontSize: '12px'
+          fontSize: '12.5px',
+          boxShadow: 'var(--shadow-sm)'
         }}>
           <AlertTriangle size={18} />
           <span><strong>RESTRICTED INFORMATION:</strong> Access to this dossier is audited under user <strong>{sessionUser?.name}</strong>. Unauthorized sharing of this data violates the Government Security Protocol.</span>
@@ -134,53 +136,54 @@ function CaseView() {
               <div className="card-header">
                 <span className="card-title"><FileText size={18} /> Case Details: {caseData.fir_id}</span>
                 <span style={{
-                  backgroundColor: caseData.investigation_status === 'Open' ? '#FFF5F5' : '#F0FFF4',
-                  color: caseData.investigation_status === 'Open' ? '#C53030' : '#22543D',
-                  padding: '4px 8px',
+                  backgroundColor: caseData.investigation_status === 'Open' ? '#FFF5F5' : '#ECFDF5',
+                  color: caseData.investigation_status === 'Open' ? 'var(--color-danger)' : 'var(--color-success)',
+                  padding: '6px 12px',
                   fontWeight: 'bold',
                   fontSize: '12px',
-                  borderRadius: '4px'
+                  borderRadius: 'var(--radius-sm)',
+                  border: `1px solid ${caseData.investigation_status === 'Open' ? '#FEE2E2' : '#D1FAE5'}`
                 }}>
                   Status: {caseData.investigation_status.toUpperCase()}
                 </span>
               </div>
 
-              <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px', marginBottom: '20px' }}>
+              <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '20px', marginBottom: '24px' }}>
                 <div>
-                  <div style={{ fontSize: '11px', color: '#4A5568', textTransform: 'uppercase' }}>Crime Category</div>
-                  <strong style={{ fontSize: '15px' }}>{caseData.crime_type}</strong>
+                  <div style={{ fontSize: '11px', color: 'var(--color-text-secondary)', textTransform: 'uppercase', fontWeight: '600', letterSpacing: '0.5px' }}>Crime Category</div>
+                  <strong style={{ fontSize: '16px', color: 'var(--color-primary)' }}>{caseData.crime_type}</strong>
                 </div>
                 <div>
-                  <div style={{ fontSize: '11px', color: '#4A5568', textTransform: 'uppercase' }}>IPC Sections</div>
-                  <strong style={{ fontSize: '15px' }}>IPC Section {caseData.ipc_section}</strong>
+                  <div style={{ fontSize: '11px', color: 'var(--color-text-secondary)', textTransform: 'uppercase', fontWeight: '600', letterSpacing: '0.5px' }}>IPC Sections</div>
+                  <strong style={{ fontSize: '16px', color: 'var(--color-primary)' }}>IPC Section {caseData.ipc_section}</strong>
                 </div>
               </div>
 
-              <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px', marginBottom: '20px' }}>
+              <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '20px', marginBottom: '24px' }}>
                 <div>
-                  <div style={{ display: 'flex', alignItems: 'center', gap: '6px', fontSize: '11px', color: '#4A5568', textTransform: 'uppercase' }}>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '6px', fontSize: '11px', color: 'var(--color-text-secondary)', textTransform: 'uppercase', fontWeight: '600', letterSpacing: '0.5px' }}>
                     <Calendar size={12} /> Date of Incident
                   </div>
-                  <strong>{caseData.date_of_incident}</strong>
+                  <strong style={{ fontSize: '14px', color: 'var(--color-text-primary)' }}>{caseData.date_of_incident}</strong>
                 </div>
                 <div>
-                  <div style={{ display: 'flex', alignItems: 'center', gap: '6px', fontSize: '11px', color: '#4A5568', textTransform: 'uppercase' }}>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '6px', fontSize: '11px', color: 'var(--color-text-secondary)', textTransform: 'uppercase', fontWeight: '600', letterSpacing: '0.5px' }}>
                     <MapPin size={12} /> Police Jurisdiction
                   </div>
-                  <strong>{caseData.police_station} ({caseData.district})</strong>
+                  <strong style={{ fontSize: '14px', color: 'var(--color-text-primary)' }}>{caseData.police_station} ({caseData.district})</strong>
                 </div>
               </div>
 
-              <div style={{ marginBottom: '20px' }}>
-                <div style={{ fontSize: '11px', color: '#4A5568', textTransform: 'uppercase' }}>Modus Operandi (MO)</div>
-                <div style={{ backgroundColor: '#F8FAFC', padding: '12px', borderLeft: '3px solid #C8922A', fontStyle: 'italic' }}>
+              <div style={{ marginBottom: '24px' }}>
+                <div style={{ fontSize: '11px', color: 'var(--color-text-secondary)', textTransform: 'uppercase', fontWeight: '600', letterSpacing: '0.5px', marginBottom: '6px' }}>Modus Operandi (MO)</div>
+                <div style={{ backgroundColor: '#F8FAFC', padding: '14px', borderLeft: '3px solid var(--color-secondary)', fontStyle: 'italic', borderRadius: '0 var(--radius-md) var(--radius-md) 0' }}>
                   "{caseData.modus_operandi}"
                 </div>
               </div>
 
               <div style={{ marginBottom: '10px' }}>
-                <div style={{ fontSize: '11px', color: '#4A5568', textTransform: 'uppercase' }}>Full Narrative / FIR Text</div>
-                <p style={{ lineHeight: '1.6', color: '#1A1A2E', whiteSpace: 'pre-line' }}>{caseData.fir_text}</p>
+                <div style={{ fontSize: '11px', color: 'var(--color-text-secondary)', textTransform: 'uppercase', fontWeight: '600', letterSpacing: '0.5px', marginBottom: '6px' }}>Full Narrative / FIR Text</div>
+                <p style={{ lineHeight: '1.7', color: 'var(--color-text-primary)', whiteSpace: 'pre-line', fontSize: '13.5px' }}>{caseData.fir_text}</p>
               </div>
             </div>
           </div>
@@ -193,13 +196,23 @@ function CaseView() {
                 <span className="card-title"><User size={18} /> Linked Accused ({caseData.accused.length})</span>
               </div>
               {caseData.accused.map(acc => (
-                <div key={acc.accused_id} style={{ borderBottom: '1px solid #E2E8F0', paddingBottom: '12px', marginBottom: '12px' }}>
+                <div 
+                  key={acc.accused_id} 
+                  className="highlight-panel" 
+                  style={{ marginBottom: '12px' }}
+                  onClick={() => {
+                    navigate(`/dashboard?tab=Offender Profiles&search=${acc.accused_id}`);
+                  }}
+                >
                   <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-                    <strong>{acc.name}</strong>
+                    <strong style={{ color: 'var(--color-primary)' }}>{acc.name}</strong>
                     <RiskScoreBadge score={acc.risk_score} />
                   </div>
-                  <div style={{ fontSize: '11px', color: '#4A5568', marginTop: '4px' }}>
+                  <div style={{ fontSize: '11px', color: 'var(--color-text-secondary)', marginTop: '4px' }}>
                     ID: {acc.accused_id} | Age: {acc.age} | Status: {acc.status}
+                  </div>
+                  <div style={{ fontSize: '11px', color: 'var(--color-accent-blue)', marginTop: '6px', fontWeight: 'bold' }}>
+                    Inspect Offender Profile &rarr;
                   </div>
                 </div>
               ))}
@@ -211,12 +224,12 @@ function CaseView() {
                 <span className="card-title">Victim Profiles ({caseData.victims.length})</span>
               </div>
               {caseData.victims.map(vic => (
-                <div key={vic.victim_id} style={{ fontSize: '13px' }}>
-                  <strong>{vic.name}</strong>
-                  <div style={{ fontSize: '11px', color: '#4A5568', marginTop: '2px' }}>
+                <div key={vic.victim_id} style={{ fontSize: '13.5px', marginBottom: '12px', borderBottom: '1px solid var(--color-border)', paddingBottom: '12px' }}>
+                  <strong style={{ color: 'var(--color-primary)' }}>{vic.name}</strong>
+                  <div style={{ fontSize: '11px', color: 'var(--color-text-secondary)', marginTop: '2px' }}>
                     ID: {vic.victim_id} | Age: {vic.age} | Gender: {vic.gender}
                   </div>
-                  <div style={{ fontSize: '11px', color: '#4A5568', marginTop: '2px' }}>
+                  <div style={{ fontSize: '11px', color: 'var(--color-text-secondary)', marginTop: '2px' }}>
                     Address: {vic.address}
                   </div>
                 </div>
@@ -228,14 +241,16 @@ function CaseView() {
               <div className="card-header">
                 <span className="card-title"><MapPin size={18} /> Location Details</span>
               </div>
-              <div style={{ fontSize: '12px', color: '#4A5568' }}>
-                <p><strong>Description:</strong> {caseData.location_description}</p>
+              <div style={{ fontSize: '13px', color: 'var(--color-text-primary)' }}>
+                <p style={{ marginBottom: '10px' }}><strong>Description:</strong> {caseData.location_description}</p>
                 <div style={{
                   backgroundColor: '#F8FAFC',
-                  padding: '10px',
-                  border: '1px solid #E2E8F0',
-                  marginTop: '10px',
-                  fontFamily: 'monospace'
+                  padding: '12px',
+                  border: '1px solid var(--color-border)',
+                  borderRadius: 'var(--radius-md)',
+                  fontFamily: 'var(--font-mono)',
+                  fontSize: '12px',
+                  lineHeight: '1.6'
                 }}>
                   Latitude: {caseData.latitude}<br />
                   Longitude: {caseData.longitude}

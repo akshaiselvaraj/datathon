@@ -1,8 +1,47 @@
 import React from 'react';
+import { useNavigate, useSearchParams } from 'react-router-dom';
 
 function MessageBubble({ message }) {
   const { role, text, citations = [] } = message;
   const isUser = role === 'user';
+  const navigate = useNavigate();
+  const [searchParams, setSearchParams] = useSearchParams();
+
+  const parseEntityLinks = (str) => {
+    if (typeof str !== 'string') return str;
+    
+    const regex = /(FIR-[A-Z0-9-]+|ACC-[A-Z0-9-]+)/g;
+    const parts = str.split(regex);
+    if (parts.length === 1) return str;
+    
+    return parts.map((part, index) => {
+      if (part.match(/^FIR-[A-Z0-9-]+$/)) {
+        return (
+          <span 
+            key={index} 
+            className="chat-entity-link" 
+            onClick={() => navigate(`/case/${part}`)}
+          >
+            {part}
+          </span>
+        );
+      }
+      if (part.match(/^ACC-[A-Z0-9-]+$/)) {
+        return (
+          <span 
+            key={index} 
+            className="chat-entity-link" 
+            onClick={() => {
+              setSearchParams({ tab: 'Offender Profiles', search: part });
+            }}
+          >
+            {part}
+          </span>
+        );
+      }
+      return part;
+    });
+  };
 
   // Format text into HTML paragraphs and bold patterns
   const formatMessageText = (rawText) => {
@@ -52,8 +91,6 @@ function MessageBubble({ message }) {
 
   // Helper to parse **bold** text in lines
   const parseBoldText = (str) => {
-    // Check if line contains PATTERN DETECTED
-    let highlightedStr = str;
     const parts = [];
     const regex = /\*\*(.*?)\*\*/g;
     
@@ -76,18 +113,30 @@ function MessageBubble({ message }) {
 
     const finalParts = parts.length > 0 ? parts : [str];
 
+    // Wrap elements with entity links
+    const linkedParts = finalParts.flatMap((part, idx) => {
+      if (typeof part === 'string') {
+        return parseEntityLinks(part);
+      }
+      if (React.isValidElement(part) && typeof part.props.children === 'string') {
+        const parsedChildren = parseEntityLinks(part.props.children);
+        return React.cloneElement(part, { key: idx }, parsedChildren);
+      }
+      return part;
+    });
+
     // Highlighting PATTERN DETECTED:
-    if (typeof finalParts[0] === 'string' && finalParts[0].startsWith('PATTERN DETECTED:')) {
+    if (linkedParts.length > 0 && typeof linkedParts[0] === 'string' && linkedParts[0].startsWith('PATTERN DETECTED:')) {
       return (
         <span style={{ display: 'block', backgroundColor: '#FFFDF5', borderLeft: '3px solid #C8922A', padding: '6px 10px', margin: '8px 0', fontWeight: '500' }}>
           <span style={{ color: '#C8922A', fontWeight: 'bold' }}>PATTERN DETECTED:</span>
-          {finalParts[0].replace('PATTERN DETECTED:', '')}
-          {finalParts.slice(1)}
+          {linkedParts[0].replace('PATTERN DETECTED:', '')}
+          {linkedParts.slice(1)}
         </span>
       );
     }
 
-    return finalParts;
+    return linkedParts;
   };
 
   return (
@@ -114,7 +163,13 @@ function MessageBubble({ message }) {
         <div className="citations-box">
           <strong>Based on FIR files: </strong>
           {citations.map(cit => (
-            <span key={cit} className="citation-tag">{cit}</span>
+            <span 
+              key={cit} 
+              className="citation-tag"
+              onClick={() => navigate(`/case/${cit}`)}
+            >
+              {cit}
+            </span>
           ))}
         </div>
       )}

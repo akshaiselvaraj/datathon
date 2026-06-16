@@ -2,10 +2,13 @@ import React, { useEffect, useRef, useState } from 'react';
 import * as d3 from 'd3';
 import { useGraph } from '../hooks/useGraph';
 import { RefreshCw, ZoomIn, ZoomOut, Maximize } from 'lucide-react';
+import { useNavigate, useSearchParams } from 'react-router-dom';
 
 function NetworkGraph() {
   const svgRef = useRef(null);
   const containerRef = useRef(null);
+  const navigate = useNavigate();
+  const [searchParams, setSearchParams] = useSearchParams();
   const { data, loading, fetchGraph } = useGraph();
   const [selectedNode, setSelectedNode] = useState(null);
   const [activeNetwork, setActiveNetwork] = useState('gang_networks'); // 'gang_networks' | 'accused_connections' | 'repeat_offenders'
@@ -49,11 +52,11 @@ function NetworkGraph() {
 
     // Color definitions
     const colors = {
-      Accused: '#1B2A4A',
-      FIR: '#C8922A',
-      Victim: '#276749',
-      BankAccount: '#4A5568',
-      Location: '#3182CE'
+      Accused: '#0F172A',
+      FIR: '#D97706',
+      Victim: '#10B981',
+      BankAccount: '#64748B',
+      Location: '#3B82F6'
     };
 
     // Node sizes
@@ -116,9 +119,21 @@ function NetworkGraph() {
       .attr('fill', d => {
         // High risk accused color code to red
         if (d.type === 'Accused' && d.riskScore && d.riskScore >= 80) {
-          return '#9B1C1C'; // Critical Red
+          return '#EF4444'; // Critical Red
         }
         return colors[d.type] || '#CBD5E0';
+      })
+      .style('cursor', 'pointer')
+      .style('transition', 'all 0.2s ease')
+      .on('mouseover', function(event, d) {
+        d3.select(this)
+          .attr('r', (radius[d.type] || 8) + 4)
+          .style('filter', 'drop-shadow(0px 0px 8px rgba(217, 119, 6, 0.5))');
+      })
+      .on('mouseout', function(event, d) {
+        d3.select(this)
+          .attr('r', radius[d.type] || 8)
+          .style('filter', 'none');
       });
 
     // Node Labels
@@ -271,6 +286,28 @@ function NetworkGraph() {
                       {selectedNode.id.includes('SHADOW') ? "Breaks rear window latch between 2am-4am" : "Assaults victim with weapon after snatching bag"}
                     </p>
                   </div>
+                )}
+
+                {selectedNode.type === 'FIR' && (
+                  <button 
+                    className="btn btn-secondary" 
+                    style={{ marginTop: '16px', width: '100%', fontSize: '12px', height: '36px' }}
+                    onClick={() => navigate(`/case/${selectedNode.id}`)}
+                  >
+                    View Case Dossier
+                  </button>
+                )}
+
+                {selectedNode.type === 'Accused' && (
+                  <button 
+                    className="btn btn-secondary" 
+                    style={{ marginTop: '16px', width: '100%', fontSize: '12px', height: '36px' }}
+                    onClick={() => {
+                      setSearchParams({ tab: 'Offender Profiles', search: selectedNode.label });
+                    }}
+                  >
+                    Inspect Profile
+                  </button>
                 )}
               </div>
             ) : (
