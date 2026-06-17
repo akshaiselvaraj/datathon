@@ -43,7 +43,31 @@ function TrendChart({ data = [], type = 'bar' }) {
     );
   }
 
-  // Default Bar Chart for trends
+  if (type === 'horizontal-bar') {
+    return (
+      <div style={{ width: '100%', height: 280 }}>
+        <ResponsiveContainer>
+          <BarChart
+            data={data}
+            layout="vertical"
+            margin={{ top: 10, right: 20, left: 30, bottom: 0 }}
+          >
+            <CartesianGrid strokeDasharray="3 3" vertical={false} horizontal={true} />
+            <XAxis type="number" tick={{ fontSize: 11, fill: '#4A5568' }} />
+            <YAxis dataKey="name" type="category" tick={{ fontSize: 11, fill: '#4A5568' }} width={120} />
+            <Tooltip contentStyle={{ fontSize: 12 }} />
+            <Bar dataKey="count" fill="#1B2A4A" radius={[0, 4, 4, 0]} maxBarSize={30}>
+              {data.map((entry, index) => (
+                <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
+              ))}
+            </Bar>
+          </BarChart>
+        </ResponsiveContainer>
+      </div>
+    );
+  }
+
+  // Default Bar Chart for trends & forecasting
   return (
     <div style={{ width: '100%', height: 280 }}>
       <ResponsiveContainer>
@@ -56,12 +80,15 @@ function TrendChart({ data = [], type = 'bar' }) {
           <YAxis tick={{ fontSize: 11, fill: '#4A5568' }} />
           <Tooltip contentStyle={{ fontSize: 12 }} />
           <Bar dataKey="incidents" fill="#1B2A4A" name="Recorded FIRs" maxBarSize={45}>
-            {data.map((entry, index) => (
-              <Cell 
-                key={`cell-${index}`} 
-                fill={entry.month === '2026-06' || entry.name === 'Critical (81-100)' ? '#9B1C1C' : '#1B2A4A'} 
-              />
-            ))}
+            {data.map((entry, index) => {
+              const isForecast = entry.isForecast || (entry.month && entry.month.includes('Proj'));
+              return (
+                <Cell 
+                  key={`cell-${index}`} 
+                  fill={isForecast ? '#D97706' : (entry.month === '2026-06' || entry.name === 'Critical (81-100)' ? '#9B1C1C' : '#1B2A4A')} 
+                />
+              );
+            })}
           </Bar>
         </BarChart>
       </ResponsiveContainer>

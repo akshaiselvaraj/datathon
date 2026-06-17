@@ -139,7 +139,106 @@ module.exports = async (context, basicIO) => {
             { name: 'Critical (81-100)', value: riskBands.Critical, color: '#9B1C1C' }
         ];
 
-        // 6. Crime Hotspots (filter for recent/demo relevant coordinates, e.g. Bengaluru city center cluster)
+        // 6. Socio-demographics Aggregations
+        const offenderDemographics = {
+            ageGroups: [
+                { name: '18-30 (Youth)', count: 0 },
+                { name: '31-50 (Adult)', count: 0 },
+                { name: '51+ (Senior)', count: 0 }
+            ],
+            gender: [
+                { name: 'Male', count: 0 },
+                { name: 'Female', count: 0 },
+                { name: 'Other', count: 0 }
+            ],
+            socioEconomic: [
+                { name: 'Lower Class', count: 0 },
+                { name: 'Middle Class', count: 0 },
+                { name: 'Upper Middle Class', count: 0 }
+            ],
+            education: [
+                { name: 'Illiterate', count: 0 },
+                { name: 'Primary School', count: 0 },
+                { name: 'High School', count: 0 },
+                { name: 'Graduate', count: 0 },
+                { name: 'Post Graduate', count: 0 }
+            ],
+            occupation: [
+                { name: 'Laborer', count: 0 },
+                { name: 'Driver', count: 0 },
+                { name: 'Business Owner', count: 0 },
+                { name: 'Unemployed', count: 0 },
+                { name: 'Private Employee', count: 0 },
+                { name: 'Government Employee', count: 0 }
+            ]
+        };
+
+        accused.forEach(a => {
+            const age = parseInt(a.age) || 0;
+            if (age >= 18 && age <= 30) offenderDemographics.ageGroups[0].count++;
+            else if (age >= 31 && age <= 50) offenderDemographics.ageGroups[1].count++;
+            else if (age > 50) offenderDemographics.ageGroups[2].count++;
+
+            const genIdx = offenderDemographics.gender.findIndex(g => g.name === a.gender);
+            if (genIdx !== -1) offenderDemographics.gender[genIdx].count++;
+
+            const seIdx = offenderDemographics.socioEconomic.findIndex(s => s.name === a.socio_economic_status);
+            if (seIdx !== -1) offenderDemographics.socioEconomic[seIdx].count++;
+
+            const edIdx = offenderDemographics.education.findIndex(e => e.name === a.education_level);
+            if (edIdx !== -1) offenderDemographics.education[edIdx].count++;
+
+            const ocIdx = offenderDemographics.occupation.findIndex(o => o.name === a.occupation);
+            if (ocIdx !== -1) offenderDemographics.occupation[ocIdx].count++;
+        });
+
+        const victimDemographics = {
+            ageGroups: [
+                { name: '0-17 (Child)', count: 0 },
+                { name: '18-30 (Youth)', count: 0 },
+                { name: '31-50 (Adult)', count: 0 },
+                { name: '51+ (Senior)', count: 0 }
+            ],
+            gender: [
+                { name: 'Male', count: 0 },
+                { name: 'Female', count: 0 },
+                { name: 'Other', count: 0 }
+            ],
+            socioEconomic: [
+                { name: 'Lower Class', count: 0 },
+                { name: 'Middle Class', count: 0 },
+                { name: 'Upper Middle Class', count: 0 }
+            ]
+        };
+
+        victims.forEach(v => {
+            const age = parseInt(v.age) || 0;
+            if (age < 18) victimDemographics.ageGroups[0].count++;
+            else if (age >= 18 && age <= 30) victimDemographics.ageGroups[1].count++;
+            else if (age >= 31 && age <= 50) victimDemographics.ageGroups[2].count++;
+            else if (age > 50) victimDemographics.ageGroups[3].count++;
+
+            const genIdx = victimDemographics.gender.findIndex(g => g.name === v.gender);
+            if (genIdx !== -1) victimDemographics.gender[genIdx].count++;
+
+            const seIdx = victimDemographics.socioEconomic.findIndex(s => s.name === v.socio_economic_status);
+            if (seIdx !== -1) victimDemographics.socioEconomic[seIdx].count++;
+        });
+
+        // 7. Forecast Crime volume for next 3 months
+        const forecastData = trendData.map(t => ({ ...t, isForecast: false }));
+        if (trendData.length > 0) {
+            const lastVal = trendData[trendData.length - 1].incidents;
+            const m1 = Math.round(lastVal * 1.02);
+            const m2 = Math.round(m1 * 1.015);
+            const m3 = Math.round(m2 * 1.03);
+
+            forecastData.push({ month: '2026-07 (Proj)', incidents: m1, isForecast: true });
+            forecastData.push({ month: '2026-08 (Proj)', incidents: m2, isForecast: true });
+            forecastData.push({ month: '2026-09 (Proj)', incidents: m3, isForecast: true });
+        }
+
+        // 8. Crime Hotspots
         const hotspots = firs
             .filter(f => f.district === 'Bengaluru Urban' && f.latitude && f.longitude)
             .slice(0, 100)
@@ -164,9 +263,12 @@ module.exports = async (context, basicIO) => {
                 totalTransactions: transactions.length
             },
             trendData,
+            forecastData,
             districtData,
             crimeTypeData,
             riskDistribution,
+            offenderDemographics,
+            victimDemographics,
             hotspots
         }));
 
