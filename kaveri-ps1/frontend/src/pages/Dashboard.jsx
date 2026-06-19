@@ -3,7 +3,8 @@ import { useNavigate, useSearchParams } from 'react-router-dom';
 import { 
   LayoutDashboard, MessageSquare, Network, BarChart3, Users, 
   Bell, FileText, Settings, Shield, LogOut, Search, MapPin, 
-  AlertOctagon, CheckCircle2, ChevronRight 
+  AlertOctagon, CheckCircle2, ChevronRight, Menu, ChevronLeft, Plus,
+  Sparkles, ShieldAlert, History
 } from 'lucide-react';
 import axios from 'axios';
 
@@ -20,8 +21,24 @@ function Dashboard() {
   const navigate = useNavigate();
   const [searchParams, setSearchParams] = useSearchParams();
   const [sessionUser, setSessionUser] = useState(null);
+  const [sidebarCollapsed, setSidebarCollapsed] = useState(false);
+  const [theme, setTheme] = useState(() => localStorage.getItem('kaveri_theme') || 'dark');
+
+  // Propagate theme changes to body class list
+  useEffect(() => {
+    if (theme === 'light') {
+      document.body.classList.add('light-theme');
+    } else {
+      document.body.classList.remove('light-theme');
+    }
+    localStorage.setItem('kaveri_theme', theme);
+  }, [theme]);
+
+  const toggleTheme = () => {
+    setTheme(prev => prev === 'light' ? 'dark' : 'light');
+  };
   
-  const activeTab = searchParams.get('tab') || 'Dashboard';
+  const activeTab = searchParams.get('tab') || 'Crime Intelligence Chat';
   const setActiveTab = (newTab) => {
     setSearchParams(prev => {
       prev.set('tab', newTab);
@@ -312,8 +329,8 @@ function Dashboard() {
 
   // Sidebar items definition
   const sidebarItems = [
-    { name: 'Dashboard', icon: <LayoutDashboard size={18} /> },
     { name: 'Crime Intelligence Chat', icon: <MessageSquare size={18} /> },
+    { name: 'Dashboard', icon: <LayoutDashboard size={18} /> },
     { name: 'Criminal Networks', icon: <Network size={18} /> },
     { name: 'Crime Analytics', icon: <BarChart3 size={18} /> },
     { name: 'Offender Profiles', icon: <Users size={18} />, roles: ['Investigator', 'Analyst'] },
@@ -337,17 +354,65 @@ function Dashboard() {
 
   return (
     <div className="app-container">
+      {/* Background Orbs */}
+      <div className="background-canvas">
+        <div className="gradient-orb orb-1"></div>
+        <div className="gradient-orb orb-2"></div>
+        <div className="gradient-orb orb-3"></div>
+      </div>
+
       {/* Sidebar navigation */}
-      <div className="sidebar">
-        <div className="sidebar-header">
-          <div className="emblem-placeholder">🛡️</div>
-          <div>
-            <div className="sidebar-title">KAVERI</div>
-            <div className="sidebar-subtitle">KSP Intelligence</div>
+      <div className={`sidebar ${sidebarCollapsed ? 'collapsed' : ''}`}>
+        <div className="sidebar-header" style={{ justifyContent: sidebarCollapsed ? 'center' : 'space-between' }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+            <div className="emblem-placeholder">🛡️</div>
+            {!sidebarCollapsed && (
+              <div className="sidebar-title-container">
+                <div className="sidebar-title">KAVERI</div>
+                <div className="sidebar-subtitle">KSP Intelligence</div>
+              </div>
+            )}
           </div>
+          <button 
+            onClick={() => setSidebarCollapsed(!sidebarCollapsed)}
+            style={{
+              background: 'none',
+              border: 'none',
+              color: 'var(--color-text-secondary)',
+              cursor: 'pointer',
+              display: sidebarCollapsed ? 'none' : 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              padding: '4px'
+            }}
+          >
+            <ChevronLeft size={16} />
+          </button>
         </div>
 
         <div className="sidebar-menu">
+          {/* New Investigation Button */}
+          <button
+            onClick={() => {
+              setActiveTab('Crime Intelligence Chat');
+              window.dispatchEvent(new CustomEvent('clear-chat-session'));
+            }}
+            className="btn btn-accent"
+            style={{
+              marginBottom: '16px',
+              width: '100%',
+              height: '38px',
+              fontSize: '11.5px',
+              gap: '6px',
+              padding: sidebarCollapsed ? '0' : '0 16px',
+              justifyContent: 'center',
+              borderRadius: '10px'
+            }}
+          >
+            <Plus size={16} />
+            {!sidebarCollapsed && <span>New Investigation</span>}
+          </button>
+
           {sidebarItems.map(item => {
             // Check role permissions
             if (item.roles && sessionUser && !item.roles.includes(sessionUser.role)) {
@@ -360,7 +425,7 @@ function Dashboard() {
                 onClick={() => setActiveTab(item.name)}
               >
                 {item.icon}
-                <span>{item.name}</span>
+                {!sidebarCollapsed && <span>{item.name}</span>}
                 {item.name === 'Alerts & Warnings' && unreadAlertsCount > 0 && (
                   <span className="sidebar-badge">{unreadAlertsCount}</span>
                 )}
@@ -369,26 +434,133 @@ function Dashboard() {
           })}
         </div>
 
-        <div className="sidebar-footer" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '16px 20px' }}>
-          <div>
-            <div style={{ color: '#FFFFFF', fontWeight: 'bold' }}>{sessionUser?.name}</div>
-            <div style={{ fontSize: '10px', color: '#C8922A' }}>ID: {sessionUser?.id}</div>
-          </div>
-          <button onClick={handleLogout} style={{ background: 'none', border: 'none', color: '#A0AEC0', cursor: 'pointer' }}>
-            <LogOut size={16} />
-          </button>
+        <div className="sidebar-footer" style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
+          {!sidebarCollapsed ? (
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+              <div>
+                <div style={{ color: '#FFFFFF', fontWeight: 'bold', fontSize: '12.5px' }}>{sessionUser?.name}</div>
+                <div style={{ fontSize: '9px', color: 'var(--color-secondary-light)' }}>ID: {sessionUser?.id}</div>
+              </div>
+              <button onClick={handleLogout} style={{ background: 'none', border: 'none', color: '#A0AEC0', cursor: 'pointer' }}>
+                <LogOut size={16} />
+              </button>
+            </div>
+          ) : (
+            <button onClick={handleLogout} style={{ background: 'none', border: 'none', color: '#A0AEC0', cursor: 'pointer', display: 'flex', justifyContent: 'center', width: '100%' }}>
+              <LogOut size={16} />
+            </button>
+          )}
         </div>
       </div>
 
       {/* Main Workspace */}
       <div className="workspace">
         <div className="header">
-          <div className="header-brand">
-            <h1 className="header-title">KAVERI — Crime Analytics & Intelligence Platform</h1>
-            <div className="header-subtitle">Karnataka State Police | State Crime Records Bureau</div>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '16px' }}>
+            {sidebarCollapsed && (
+              <button 
+                onClick={() => setSidebarCollapsed(false)}
+                style={{ background: 'none', border: 'none', color: '#FFFFFF', cursor: 'pointer', display: 'flex', alignItems: 'center' }}
+              >
+                <Menu size={20} />
+              </button>
+            )}
+            <div className="header-brand">
+              <h1 className="header-title" style={{ fontSize: '15px', fontWeight: '700', display: 'flex', alignItems: 'center', gap: '6px' }}>
+                <Sparkles size={16} color="var(--color-accent-blue)" /> KAVERI Crime Analytics Platform
+              </h1>
+              <div className="header-subtitle">Karnataka State Police | Intelligence Department</div>
+            </div>
           </div>
-          <div className="header-user">
-            <span className="user-role-badge">{sessionUser?.role}</span>
+
+          {/* Top Control Header Section */}
+          <div style={{ display: 'flex', alignItems: 'center', gap: '20px' }}>
+            {/* Live Records Search */}
+            <div style={{ position: 'relative', display: 'flex', alignItems: 'center' }}>
+              <Search size={14} style={{ position: 'absolute', left: '10px', color: 'var(--color-text-secondary)' }} />
+              <input 
+                type="text" 
+                placeholder="Global records search..." 
+                className="form-control" 
+                value={tabSearch}
+                onChange={(e) => setTabSearch(e.target.value)}
+                style={{ 
+                  paddingLeft: '32px', 
+                  width: '220px', 
+                  height: '34px', 
+                  fontSize: '11px',
+                  backgroundColor: 'rgba(255,255,255,0.03)',
+                  borderColor: 'var(--color-border)'
+                }}
+              />
+            </div>
+
+            {/* Notification triggers alerts view */}
+            <div style={{ position: 'relative', cursor: 'pointer', padding: '6px', borderRadius: '50%', background: 'rgba(255,255,255,0.03)' }} onClick={() => setActiveTab('Alerts & Warnings')}>
+              <Bell size={16} color="var(--color-text-secondary)" />
+              {unreadAlertsCount > 0 && (
+                <span style={{
+                  position: 'absolute',
+                  top: '-2px',
+                  right: '-2px',
+                  backgroundColor: 'var(--color-danger)',
+                  color: '#FFFFFF',
+                  fontSize: '8px',
+                  borderRadius: '50%',
+                  width: '14px',
+                  height: '14px',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  fontWeight: 'bold'
+                }}>
+                  {unreadAlertsCount}
+                </span>
+              )}
+            </div>
+
+            {/* Profile badge info */}
+            <div style={{ display: 'flex', alignItems: 'center', gap: '8px', borderLeft: '1px solid var(--color-border)', paddingLeft: '16px' }}>
+              <div style={{
+                width: '30px',
+                height: '30px',
+                borderRadius: '50%',
+                background: 'linear-gradient(135deg, var(--color-secondary) 0%, var(--color-accent-purple) 100%)',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                fontWeight: 'bold',
+                fontSize: '11px',
+                color: '#FFFFFF'
+              }}>
+                {sessionUser?.name ? sessionUser.name.charAt(0) : 'I'}
+              </div>
+              <div style={{ display: 'flex', flexDirection: 'column' }}>
+                <span style={{ fontSize: '11px', fontWeight: 'bold' }}>{sessionUser?.name}</span>
+                <span style={{ fontSize: '8px', color: 'var(--color-text-secondary)', textTransform: 'uppercase' }}>{sessionUser?.role}</span>
+              </div>
+            </div>
+
+            {/* Theme Toggle Button */}
+            <button 
+              onClick={toggleTheme}
+              style={{
+                backgroundColor: 'rgba(99, 102, 241, 0.15)',
+                border: '1px solid rgba(99, 102, 241, 0.3)',
+                color: 'var(--color-secondary-light)',
+                padding: '6px 12px',
+                fontSize: '10px',
+                fontWeight: 'bold',
+                borderRadius: '8px',
+                cursor: 'pointer',
+                display: 'flex',
+                alignItems: 'center',
+                gap: '4px',
+                transition: 'var(--transition-smooth)'
+              }}
+            >
+              <span>{theme === 'light' ? '☀️ Light Mode' : '🌙 Dark Mode'}</span>
+            </button>
           </div>
         </div>
 

@@ -8,18 +8,26 @@ function TrendChart({ data = [], type = 'bar' }) {
   
   if (!data || data.length === 0) {
     return (
-      <div style={{ height: '240px', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#718096' }}>
+      <div style={{ height: '240px', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'var(--color-text-secondary)' }}>
         Awaiting statistical aggregation data...
       </div>
     );
   }
 
-  // Color palette for charts
-  const COLORS = ['#1B2A4A', '#C8922A', '#4A5568', '#276749', '#9B1C1C', '#3182CE', '#805AD5', '#319795'];
+  // Futuristic visual colors palette
+  const COLORS = ['#6366F1', '#38BDF8', '#D946EF', '#10B981', '#F59E0B', '#EF4444', '#06B6D4', '#8B5CF6'];
+
+  const customTooltipStyle = {
+    backgroundColor: 'rgba(9, 13, 26, 0.9)',
+    border: '1px solid rgba(255, 255, 255, 0.1)',
+    borderRadius: '8px',
+    fontSize: '11px',
+    color: '#FFFFFF'
+  };
 
   if (type === 'pie') {
     return (
-      <div style={{ width: '100%', height: 280 }}>
+      <div style={{ width: '100%', height: 260 }}>
         <ResponsiveContainer>
           <PieChart>
             <Pie
@@ -28,7 +36,7 @@ function TrendChart({ data = [], type = 'bar' }) {
               cy="50%"
               labelLine={false}
               label={({ name, percent }) => `${name} (${(percent * 100).toFixed(0)}%)`}
-              outerRadius={80}
+              outerRadius={70}
               fill="#8884d8"
               dataKey="count"
             >
@@ -36,7 +44,7 @@ function TrendChart({ data = [], type = 'bar' }) {
                 <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
               ))}
             </Pie>
-            <Tooltip />
+            <Tooltip contentStyle={customTooltipStyle} />
           </PieChart>
         </ResponsiveContainer>
       </div>
@@ -45,18 +53,18 @@ function TrendChart({ data = [], type = 'bar' }) {
 
   if (type === 'horizontal-bar') {
     return (
-      <div style={{ width: '100%', height: 280 }}>
+      <div style={{ width: '100%', height: 260 }}>
         <ResponsiveContainer>
           <BarChart
             data={data}
             layout="vertical"
-            margin={{ top: 10, right: 20, left: 30, bottom: 0 }}
+            margin={{ top: 10, right: 20, left: 10, bottom: 0 }}
           >
-            <CartesianGrid strokeDasharray="3 3" vertical={false} horizontal={true} />
-            <XAxis type="number" tick={{ fontSize: 11, fill: '#4A5568' }} />
-            <YAxis dataKey="name" type="category" tick={{ fontSize: 11, fill: '#4A5568' }} width={120} />
-            <Tooltip contentStyle={{ fontSize: 12 }} />
-            <Bar dataKey="count" fill="#1B2A4A" radius={[0, 4, 4, 0]} maxBarSize={30}>
+            <CartesianGrid stroke="rgba(255,255,255,0.03)" strokeDasharray="3 3" vertical={false} horizontal={true} />
+            <XAxis type="number" tick={{ fontSize: 10, fill: 'var(--color-text-secondary)' }} axisLine={{ stroke: 'rgba(255,255,255,0.08)' }} />
+            <YAxis dataKey="name" type="category" tick={{ fontSize: 10, fill: 'var(--color-text-secondary)' }} width={90} axisLine={{ stroke: 'rgba(255,255,255,0.08)' }} />
+            <Tooltip contentStyle={customTooltipStyle} cursor={{ fill: 'rgba(255,255,255,0.02)' }} />
+            <Bar dataKey="count" fill="var(--color-secondary)" radius={[0, 4, 4, 0]} maxBarSize={20}>
               {data.map((entry, index) => (
                 <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
               ))}
@@ -69,23 +77,23 @@ function TrendChart({ data = [], type = 'bar' }) {
 
   // Default Bar Chart for trends & forecasting
   return (
-    <div style={{ width: '100%', height: 280 }}>
+    <div style={{ width: '100%', height: 260 }}>
       <ResponsiveContainer>
         <BarChart
           data={data}
-          margin={{ top: 10, right: 10, left: -20, bottom: 0 }}
+          margin={{ top: 10, right: 10, left: -25, bottom: 0 }}
         >
-          <CartesianGrid strokeDasharray="3 3" vertical={false} />
-          <XAxis dataKey="month" tick={{ fontSize: 11, fill: '#4A5568' }} />
-          <YAxis tick={{ fontSize: 11, fill: '#4A5568' }} />
-          <Tooltip contentStyle={{ fontSize: 12 }} />
-          <Bar dataKey="incidents" fill="#1B2A4A" name="Recorded FIRs" maxBarSize={45}>
+          <CartesianGrid stroke="rgba(255,255,255,0.03)" strokeDasharray="3 3" vertical={false} />
+          <XAxis dataKey="month" tick={{ fontSize: 10, fill: 'var(--color-text-secondary)' }} axisLine={{ stroke: 'rgba(255,255,255,0.08)' }} />
+          <YAxis tick={{ fontSize: 10, fill: 'var(--color-text-secondary)' }} axisLine={{ stroke: 'rgba(255,255,255,0.08)' }} />
+          <Tooltip contentStyle={customTooltipStyle} cursor={{ fill: 'rgba(255,255,255,0.02)' }} />
+          <Bar dataKey="incidents" fill="var(--color-secondary)" name="Recorded FIRs" maxBarSize={30} radius={[4, 4, 0, 0]}>
             {data.map((entry, index) => {
               const isForecast = entry.isForecast || (entry.month && entry.month.includes('Proj'));
               return (
                 <Cell 
                   key={`cell-${index}`} 
-                  fill={isForecast ? '#D97706' : (entry.month === '2026-06' || entry.name === 'Critical (81-100)' ? '#9B1C1C' : '#1B2A4A')} 
+                  fill={isForecast ? '#F59E0B' : (entry.month === '2026-06' || entry.name === 'Critical (81-100)' ? '#EF4444' : '#6366F1')} 
                 />
               );
             })}

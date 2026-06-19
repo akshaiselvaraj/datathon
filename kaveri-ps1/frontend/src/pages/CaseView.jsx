@@ -10,6 +10,16 @@ function CaseView() {
   const [caseData, setCaseData] = useState(null);
   const [loading, setLoading] = useState(true);
 
+  // Apply theme settings on page load
+  useEffect(() => {
+    const savedTheme = localStorage.getItem('kaveri_theme') || 'dark';
+    if (savedTheme === 'light') {
+      document.body.classList.add('light-theme');
+    } else {
+      document.body.classList.remove('light-theme');
+    }
+  }, []);
+
   useEffect(() => {
     // Get session
     const savedUser = localStorage.getItem('ksp_user_session');
@@ -87,7 +97,7 @@ function CaseView() {
     <div style={{ minHeight: '100vh', backgroundColor: 'var(--color-bg)' }}>
       {/* Top Header */}
       <div style={{
-        background: 'linear-gradient(135deg, var(--color-sidebar-bg) 0%, var(--color-primary) 100%)',
+        background: 'linear-gradient(135deg, var(--color-sidebar-bg) 0%, rgba(99, 102, 241, 0.25) 100%)',
         color: '#FFFFFF',
         padding: '16px 32px',
         display: 'flex',
@@ -113,8 +123,8 @@ function CaseView() {
       <div style={{ padding: '32px', maxWidth: '1200px', margin: '0 auto' }}>
         {/* Warning Banner */}
         <div style={{
-          backgroundColor: '#FEF2F2',
-          border: '1px solid #FEE2E2',
+          backgroundColor: 'rgba(239, 68, 68, 0.08)',
+          border: '1px solid rgba(239, 68, 68, 0.15)',
           color: 'var(--color-danger)',
           padding: '14px 20px',
           borderRadius: 'var(--radius-md)',
@@ -136,13 +146,13 @@ function CaseView() {
               <div className="card-header">
                 <span className="card-title"><FileText size={18} /> Case Details: {caseData.fir_id}</span>
                 <span style={{
-                  backgroundColor: caseData.investigation_status === 'Open' ? '#FFF5F5' : '#ECFDF5',
-                  color: caseData.investigation_status === 'Open' ? 'var(--color-danger)' : 'var(--color-success)',
+                  backgroundColor: caseData.investigation_status === 'Open' ? 'rgba(239, 68, 68, 0.15)' : 'rgba(16, 185, 129, 0.15)',
+                  color: caseData.investigation_status === 'Open' ? '#EF4444' : '#10B981',
                   padding: '6px 12px',
                   fontWeight: 'bold',
                   fontSize: '12px',
                   borderRadius: 'var(--radius-sm)',
-                  border: `1px solid ${caseData.investigation_status === 'Open' ? '#FEE2E2' : '#D1FAE5'}`
+                  border: `1px solid ${caseData.investigation_status === 'Open' ? 'rgba(239, 68, 68, 0.25)' : 'rgba(16, 185, 129, 0.25)'}`
                 }}>
                   Status: {caseData.investigation_status.toUpperCase()}
                 </span>
@@ -179,7 +189,7 @@ function CaseView() {
                 <div style={{ fontSize: '11px', color: 'var(--color-text-secondary)', textTransform: 'uppercase', fontWeight: '600', letterSpacing: '0.5px', marginBottom: '12px' }}>Automated Case Timeline & Audit Trail</div>
                 <div style={{ display: 'flex', justifyContent: 'space-between', position: 'relative', padding: '10px 0' }}>
                   {/* Background line */}
-                  <div style={{ position: 'absolute', top: '22px', left: '20px', right: '20px', height: '2px', backgroundColor: '#E2E8F0', zIndex: 1 }}></div>
+                  <div style={{ position: 'absolute', top: '22px', left: '20px', right: '20px', height: '2px', backgroundColor: 'rgba(255, 255, 255, 0.08)', zIndex: 1 }}></div>
                   
                   {/* Steps */}
                   {[
@@ -194,7 +204,7 @@ function CaseView() {
                         width: '24px',
                         height: '24px',
                         borderRadius: '50%',
-                        backgroundColor: step.active ? (caseData.investigation_status === 'Open' ? 'var(--color-secondary)' : 'var(--color-success)') : 'var(--color-primary)',
+                        backgroundColor: step.active ? (caseData.investigation_status === 'Open' ? 'var(--color-secondary)' : 'var(--color-success)') : 'rgba(255, 255, 255, 0.08)',
                         color: '#FFFFFF',
                         display: 'flex',
                         alignItems: 'center',
@@ -205,7 +215,7 @@ function CaseView() {
                       }}>
                         {idx + 1}
                       </div>
-                      <span style={{ fontSize: '11px', fontWeight: '600', marginTop: '6px', color: 'var(--color-primary)', textAlign: 'center' }}>{step.title}</span>
+                      <span style={{ fontSize: '11px', fontWeight: '600', marginTop: '6px', color: '#FFFFFF', textAlign: 'center' }}>{step.title}</span>
                       <span style={{ fontSize: '9px', color: 'var(--color-text-secondary)', marginTop: '2px' }}>{step.date}</span>
                     </div>
                   ))}
@@ -214,7 +224,7 @@ function CaseView() {
 
               <div style={{ marginBottom: '24px' }}>
                 <div style={{ fontSize: '11px', color: 'var(--color-text-secondary)', textTransform: 'uppercase', fontWeight: '600', letterSpacing: '0.5px', marginBottom: '6px' }}>Modus Operandi (MO)</div>
-                <div style={{ backgroundColor: '#F8FAFC', padding: '14px', borderLeft: '3px solid var(--color-secondary)', fontStyle: 'italic', borderRadius: '0 var(--radius-md) var(--radius-md) 0' }}>
+                <div style={{ backgroundColor: 'rgba(255, 255, 255, 0.02)', padding: '14px', borderLeft: '3px solid var(--color-secondary-light)', fontStyle: 'italic', borderRadius: '0 var(--radius-md) var(--radius-md) 0' }}>
                   "{caseData.modus_operandi}"
                 </div>
               </div>

@@ -1,11 +1,22 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { Sparkles, Shield, User } from 'lucide-react';
 
 function Login() {
   const [username, setUsername] = useState('ksp_officer_admin');
   const [role, setRole] = useState('Investigator');
   const [password, setPassword] = useState('••••••••••••');
   const navigate = useNavigate();
+
+  // Apply theme settings on page load
+  useEffect(() => {
+    const savedTheme = localStorage.getItem('kaveri_theme') || 'dark';
+    if (savedTheme === 'light') {
+      document.body.classList.add('light-theme');
+    } else {
+      document.body.classList.remove('light-theme');
+    }
+  }, []);
 
   const handleLogin = (e) => {
     e.preventDefault();
@@ -19,7 +30,7 @@ function Login() {
     };
     
     localStorage.setItem('ksp_user_session', JSON.stringify(sessionUser));
-    navigate('/dashboard');
+    navigate('/dashboard?tab=Crime Intelligence Chat');
   };
 
   return (
@@ -28,42 +39,54 @@ function Login() {
       alignItems: 'center',
       justifyContent: 'center',
       height: '100vh',
-      backgroundColor: '#F5F6F8'
+      backgroundColor: 'var(--color-bg)',
+      position: 'relative'
     }}>
+      {/* Background Orbs */}
+      <div className="background-canvas">
+        <div className="gradient-orb orb-1"></div>
+        <div className="gradient-orb orb-2"></div>
+        <div className="gradient-orb orb-3"></div>
+      </div>
+
       <div style={{
         width: '420px',
-        backgroundColor: '#FFFFFF',
-        border: '1px solid #D1D5DB',
-        borderRadius: '4px',
-        boxShadow: '0 4px 6px rgba(0, 0, 0, 0.05)',
-        overflow: 'hidden'
+        backgroundColor: 'var(--color-surface)',
+        backdropFilter: 'blur(16px)',
+        WebkitBackdropFilter: 'blur(16px)',
+        border: '1px solid var(--color-border)',
+        borderRadius: '20px',
+        boxShadow: 'var(--shadow-lg)',
+        overflow: 'hidden',
+        zIndex: 1
       }}>
         {/* Top Header Bar */}
         <div style={{
-          backgroundColor: '#1B2A4A',
-          padding: '24px',
+          background: 'linear-gradient(135deg, rgba(99, 102, 241, 0.15) 0%, rgba(217, 70, 239, 0.05) 100%)',
+          padding: '28px 24px',
           textAlign: 'center',
-          color: '#FFFFFF',
-          borderBottom: '4px solid #C8922A'
+          color: 'var(--color-text-primary)',
+          borderBottom: '1px solid var(--color-border)'
         }}>
-          {/* Emblem Gold Block */}
+          {/* Emblem Block */}
           <div style={{
-            width: '60px',
-            height: '60px',
-            backgroundColor: '#C8922A',
-            color: '#1B2A4A',
+            width: '56px',
+            height: '56px',
+            background: 'linear-gradient(135deg, var(--color-secondary) 0%, var(--color-accent-purple) 100%)',
+            color: '#FFFFFF',
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
             fontSize: '24px',
             fontWeight: 'bold',
             margin: '0 auto 12px auto',
-            borderRadius: '4px'
+            borderRadius: '14px',
+            boxShadow: '0 0 15px rgba(99, 102, 241, 0.3)'
           }}>
             🛡️
           </div>
           <h2 style={{ fontSize: '18px', fontWeight: '700', letterSpacing: '0.5px', margin: '0' }}>KAVERI Platform</h2>
-          <div style={{ fontSize: '11px', color: '#C8922A', textTransform: 'uppercase', marginTop: '4px', fontWeight: '600' }}>
+          <div style={{ fontSize: '10px', color: 'var(--color-secondary-light)', textTransform: 'uppercase', marginTop: '4px', fontWeight: '600', letterSpacing: '1px' }}>
             Karnataka State Police | Intelligence Portal
           </div>
         </div>
@@ -98,7 +121,7 @@ function Login() {
               className="form-control" 
               value={role} 
               onChange={(e) => setRole(e.target.value)}
-              style={{ height: '38px' }}
+              style={{ height: '38px', backgroundColor: 'var(--color-surface)', border: '1px solid var(--color-border)' }}
             >
               <option value="Investigator">Investigator (Full Case & Suspect Profiles)</option>
               <option value="Analyst">Intelligence Analyst (Trend Charting & Networks)</option>
@@ -108,11 +131,12 @@ function Login() {
 
           {/* Role Access Information */}
           <div style={{
-            backgroundColor: '#F8FAFC',
-            border: '1px solid #E2E8F0',
+            backgroundColor: 'rgba(255, 255, 255, 0.02)',
+            border: '1px solid var(--color-border)',
+            borderRadius: '10px',
             padding: '12px',
             fontSize: '11px',
-            color: '#4A5568',
+            color: 'var(--color-text-secondary)',
             marginBottom: '20px',
             lineHeight: '1.4'
           }}>
@@ -125,7 +149,7 @@ function Login() {
           <button 
             type="submit" 
             className="btn btn-accent" 
-            style={{ width: '100%', justifyContent: 'center', height: '40px' }}
+            style={{ width: '100%', justifyContent: 'center', height: '40px', borderRadius: '10px' }}
           >
             Authenticate & Log In
           </button>
@@ -133,11 +157,11 @@ function Login() {
 
         {/* Security Warning Footer */}
         <div style={{
-          backgroundColor: '#FFF5F5',
-          borderTop: '1px solid #FED7D7',
+          backgroundColor: 'rgba(239, 68, 68, 0.08)',
+          borderTop: '1px solid rgba(239, 68, 68, 0.15)',
           padding: '12px 24px',
           fontSize: '10px',
-          color: '#C53030',
+          color: '#EF4444',
           textAlign: 'center',
           fontWeight: '500'
         }}>

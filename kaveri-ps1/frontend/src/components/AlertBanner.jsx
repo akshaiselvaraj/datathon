@@ -18,11 +18,11 @@ function AlertBanner({ alerts = [], onAcknowledge }) {
             <span className={`alert-severity-badge ${isCritical ? '' : 'high'}`}>
               {activeAlert.severity}
             </span>
-            <strong style={{ color: isCritical ? '#9B1C1C' : '#744210' }}>
+            <strong style={{ color: isCritical ? 'var(--color-danger)' : 'var(--color-warning)' }}>
               Anomaly Detected: {activeAlert.alert_type} ({activeAlert.district})
             </strong>
           </div>
-          <p style={{ fontSize: '12.5px', color: '#1A1A2E', marginTop: '4px', lineHeight: '1.4' }}>
+          <p style={{ fontSize: '12.5px', color: 'var(--color-text-primary)', marginTop: '4px', lineHeight: '1.4' }}>
             {activeAlert.description}
           </p>
         </div>
